@@ -117,16 +117,45 @@ npm run build && npm run start
 
 1. `.github/workflows/update_events.yml` が **毎日 05:00 JST（20:00 UTC）** に起動
    （`workflow_dispatch` で手動実行も可能）
-2. `scripts/scrape_events.py` が以下を収集し、住所を geopy + Nominatim で緯度経度へ変換
-   - じゃらんnet イベント（埼玉県）
-   - さいたま市観光国際協会
-   - 埼玉県観光情報
+2. `scripts/scrape_events.py` が以下を収集
+   - **Walkerplus 埼玉県イベント一覧**（`ar0311`）… 県南中央交通圏の10市町に絞り込み、
+     会場をジオコーディング、**詳細ページから開催時刻も取得**
+   - **さいたまスーパーアリーナ予定表**（`/schedule/`）… コンサート・スポーツのみ抽出
+     （フリマ・展示会等は除外）
+   - **`data/fixtures.json`（手動）** … 自動取得できない高需要イベント
+     （浦和レッズ/RB大宮の試合など）を手動で追記する分
 3. `data/events.json` が変化していれば auto-commit して `main` へ push
 4. push をトリガーに **Vercel が自動で再デプロイ** → 最新データが反映
 
-> エラーの出たサイトはスキップし、取得できた分だけ更新します。
-> サイトのHTML構造変更でセレクタが合わなくなった場合は `scrape_events.py` の
-> `scrape_*` 関数内のCSSセレクタを調整してください。
+> 取得失敗時はスキップし、前回の自動データを温存します（空表示にしない）。
+> 当初想定の「じゃらん／観光協会」は URL 変更・接続不可のため Walkerplus に変更しました。
+> サイト構造が変わってセレクタが合わなくなった場合は、`scrape_events.py` の
+> `.m-mainlist-item*` 等のセレクタを調整してください。
+
+### 試合・大型公演を手動で追加する（fixtures.json）
+
+浦和レッズ・RB大宮の試合や、アリーナの確定公演は最大級のタクシー需要ですが、
+公式サイトは自動取得をブロック（403/JS描画）しているため、`data/fixtures.json` に
+**手動で1件追記**します（記入例は `data/fixtures.example.json`）。
+
+```jsonc
+// data/fixtures.json
+{ "events": [
+  {
+    "id": "manual-reds-20260621",       // manual- で始めると毎日のスクレイプでも消えません
+    "title": "浦和レッズ vs ○○（J1）",
+    "date": "2026-06-21", "time_start": "19:00", "time_end": "21:00",
+    "venue": "埼玉スタジアム2002（さいたま市緑区）",
+    "lat": 35.9035, "lng": 139.7174,
+    "category": "サッカー", "demand_level": "high",
+    "demand_comment": "試合終了後、浦和美園駅方面に需要集中。終了10分前に向かうと有利。",
+    "source_url": "https://www.urawa-reds.co.jp/"
+  }
+] }
+```
+
+主要会場の緯度経度は `fixtures.example.json` の `_venues` に記載しています。
+日付が「今日〜14日以内」のものだけ自動的に地図へ表示されます（古いものは放置でOK）。
 
 ### ローカルでスクレイパーを試す
 

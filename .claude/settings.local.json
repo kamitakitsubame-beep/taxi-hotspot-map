@@ -22,7 +22,9 @@
       "Bash(python -c ' *)",
       "Bash(rm -f _inspect.json _scrape_test.json)",
       "Bash(python scripts/scrape_events.py)",
-      "Bash(echo \"EXIT: $?\")"
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(echo \"EXIT $?\")",
+      "Bash(git commit -q -m ' *)"
     ]
   }
 }

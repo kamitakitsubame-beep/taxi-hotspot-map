@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T11:57:51+09:00",
+  "updated_at": "2026-06-13T12:21:30+09:00",
   "events": [
     {
       "id": "wp-e598282",
@@ -14,22 +14,9 @@
       "lat": 35.91709,
       "lng": 139.63122,
       "_geo_key_place": "そごう大宮店",
-      "_geo_key_city": "さいたま市大宮区"
-    },
-    {
-      "id": "wp-e596003",
-      "title": "大宴会フェスティバル～飲んで笑って歌でも歌って騒ごうよ～",
-      "date": "2026-06-13",
-      "date_end": "2026-06-13",
-      "venue": "清龍酒造 清水亭（蓮田市）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e596003/",
-      "lat": 35.99409,
-      "lng": 139.66325,
-      "_geo_key_place": "清龍酒造 清水亭",
-      "_geo_key_city": "蓮田市"
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "10:00",
+      "time_end": "20:00"
     },
     {
       "id": "wp-e600181",
@@ -44,7 +31,9 @@
       "lat": 35.88787,
       "lng": 139.63639,
       "_geo_key_place": "伊勢丹浦和店 6階 ザ・ステージ#6アート",
-      "_geo_key_city": "さいたま市浦和区"
+      "_geo_key_city": "さいたま市浦和区",
+      "time_start": "10:00",
+      "time_end": "19:00"
     },
     {
       "id": "wp-e599033",
@@ -59,7 +48,26 @@
       "lat": 35.91709,
       "lng": 139.63122,
       "_geo_key_place": "大宮アルシェ　2F特設会場マクドナルド隣",
-      "_geo_key_city": "さいたま市大宮区"
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "10:00",
+      "time_end": "21:00"
+    },
+    {
+      "id": "wp-e596003",
+      "title": "大宴会フェスティバル～飲んで笑って歌でも歌って騒ごうよ～",
+      "date": "2026-06-13",
+      "date_end": "2026-06-13",
+      "venue": "清龍酒造 清水亭（蓮田市）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e596003/",
+      "lat": 35.99409,
+      "lng": 139.66325,
+      "_geo_key_place": "清龍酒造 清水亭",
+      "_geo_key_city": "蓮田市",
+      "time_start": "12:30",
+      "time_end": "15:30"
     },
     {
       "id": "wp-e595684",
@@ -89,7 +97,9 @@
       "lat": 36.00289,
       "lng": 139.55834,
       "_geo_key_place": "明星院",
-      "_geo_key_city": "桶川市"
+      "_geo_key_city": "桶川市",
+      "time_start": "10:00",
+      "time_end": "14:00"
     },
     {
       "id": "wp-e587318",
@@ -104,7 +114,26 @@
       "lat": 35.82676,
       "lng": 139.69106,
       "_geo_key_place": "蕨市立文化ホール くるる",
-      "_geo_key_city": "蕨市"
+      "_geo_key_city": "蕨市",
+      "time_start": "13:30",
+      "time_end": "15:30"
+    },
+    {
+      "id": "wp-e590612",
+      "title": "気軽に♪ミュージック〜光と水のきらめきコンサート〜",
+      "date": "2026-06-14",
+      "date_end": "2026-06-14",
+      "venue": "戸田市文化会館　多目的ルームA（戸田市）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "最寄り：戸田駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e590612/",
+      "lat": 35.81759,
+      "lng": 139.67789,
+      "_geo_key_place": "戸田市文化会館　多目的ルームA",
+      "_geo_key_city": "戸田市",
+      "time_start": "14:00",
+      "time_end": "15:00"
     },
     {
       "id": "wp-e591476",
@@ -122,19 +151,17 @@
       "_geo_key_city": "さいたま市北区"
     },
     {
-      "id": "wp-e590612",
-      "title": "気軽に♪ミュージック〜光と水のきらめきコンサート〜",
-      "date": "2026-06-14",
-      "date_end": "2026-06-14",
-      "venue": "戸田市文化会館　多目的ルームA（戸田市）",
-      "category": "",
+      "id": "arena-6983731",
+      "title": "第1音楽隊　火曜コンサート",
+      "date": "2026-06-16",
+      "date_end": "2026-06-16",
+      "venue": "けやきひろば（さいたま市中央区）",
+      "category": "コンサート・スポーツ",
       "demand_level": "medium",
-      "demand_comment": "最寄り：戸田駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e590612/",
-      "lat": 35.81759,
-      "lng": 139.67789,
-      "_geo_key_place": "戸田市文化会館　多目的ルームA",
-      "_geo_key_city": "戸田市"
+      "demand_comment": "けやきひろば等での催し。来場者の行き帰りで新都心駅周辺に需要が見込まれます。",
+      "source_url": "https://www.saitama-arena.co.jp/schedule/",
+      "lat": 35.8966,
+      "lng": 139.631
     },
     {
       "id": "wp-e595610",
@@ -149,7 +176,9 @@
       "lat": 35.91709,
       "lng": 139.63122,
       "_geo_key_place": "ソニックシティ　国際会議室",
-      "_geo_key_city": "さいたま市大宮区"
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "14:00",
+      "time_end": "15:40"
     },
     {
       "id": "wp-e596215",
@@ -167,19 +196,21 @@
       "_geo_key_city": "さいたま市中央区"
     },
     {
-      "id": "wp-e592546",
-      "title": "REICH90 『2 x 4 x 6』",
+      "id": "wp-e590006",
+      "title": "第45回UP RUN彩湖マラソン",
       "date": "2026-06-20",
       "date_end": "2026-06-20",
-      "venue": "彩の国さいたま芸術劇場音楽ホール（さいたま市中央区）",
+      "venue": "彩湖道満グリーンパーク（戸田市）",
       "category": "",
-      "demand_level": "medium",
-      "demand_comment": "最寄り：与野本町駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e592546/",
-      "lat": 35.89918,
-      "lng": 139.62231,
-      "_geo_key_place": "彩の国さいたま芸術劇場音楽ホール",
-      "_geo_key_city": "さいたま市中央区"
+      "demand_level": "high",
+      "demand_comment": "大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e590006/",
+      "lat": 35.82501,
+      "lng": 139.6308,
+      "_geo_key_place": "彩湖道満グリーンパーク",
+      "_geo_key_city": "戸田市",
+      "time_start": "08:30",
+      "time_end": "16:00"
     },
     {
       "id": "wp-e588435",
@@ -194,7 +225,26 @@
       "lat": 35.89918,
       "lng": 139.62231,
       "_geo_key_place": "たまアリ△タウン けやきひろば1階プラザ",
-      "_geo_key_city": "さいたま市中央区"
+      "_geo_key_city": "さいたま市中央区",
+      "time_start": "10:00",
+      "time_end": "16:00"
+    },
+    {
+      "id": "wp-e601061",
+      "title": "音楽×おやつ作りで日常をリセット　役割で遊ぶ大人のサードプレイス＠川口（6月）",
+      "date": "2026-06-20",
+      "date_end": "2026-06-20",
+      "venue": "レンタルスペースRhythmNeko（リズム・ねこ）（川口市）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "最寄り：蕨駅(埼玉県)。小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e601061/",
+      "lat": 35.80782,
+      "lng": 139.72411,
+      "_geo_key_place": "レンタルスペースRhythmNeko（リズム・ねこ）",
+      "_geo_key_city": "川口市",
+      "time_start": "14:00",
+      "time_end": "21:30"
     },
     {
       "id": "wp-e600359",
@@ -209,7 +259,26 @@
       "lat": 35.93902,
       "lng": 139.68745,
       "_geo_key_place": "岩槻駅東口クレセントモール",
-      "_geo_key_city": "さいたま市岩槻区"
+      "_geo_key_city": "さいたま市岩槻区",
+      "time_start": "15:00",
+      "time_end": "20:30"
+    },
+    {
+      "id": "wp-e592546",
+      "title": "REICH90 『2 x 4 x 6』",
+      "date": "2026-06-20",
+      "date_end": "2026-06-20",
+      "venue": "彩の国さいたま芸術劇場音楽ホール（さいたま市中央区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "最寄り：与野本町駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e592546/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "彩の国さいたま芸術劇場音楽ホール",
+      "_geo_key_city": "さいたま市中央区",
+      "time_start": "16:00",
+      "time_end": "17:30"
     },
     {
       "id": "wp-e599814",
@@ -227,34 +296,21 @@
       "_geo_key_city": "桶川市"
     },
     {
-      "id": "wp-e590006",
-      "title": "第45回UP RUN彩湖マラソン",
-      "date": "2026-06-20",
-      "date_end": "2026-06-20",
-      "venue": "彩湖道満グリーンパーク（戸田市）",
+      "id": "wp-e598603",
+      "title": "オペラ「王さまの耳はロバの耳！」＆ミニコンサート（川口市鳩ヶ谷）",
+      "date": "2026-06-21",
+      "date_end": "2026-06-21",
+      "venue": "鳩ヶ谷駅市民センター（川口市）",
       "category": "",
-      "demand_level": "high",
-      "demand_comment": "大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e590006/",
-      "lat": 35.82501,
-      "lng": 139.6308,
-      "_geo_key_place": "彩湖道満グリーンパーク",
-      "_geo_key_city": "戸田市"
-    },
-    {
-      "id": "wp-e601061",
-      "title": "音楽×おやつ作りで日常をリセット　役割で遊ぶ大人のサードプレイス＠川口（6月）",
-      "date": "2026-06-20",
-      "date_end": "2026-06-20",
-      "venue": "レンタルスペースRhythmNeko（リズム・ねこ）（川口市）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "最寄り：蕨駅(埼玉県)。小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e601061/",
+      "demand_level": "medium",
+      "demand_comment": "最寄り：鳩ヶ谷駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e598603/",
       "lat": 35.80782,
       "lng": 139.72411,
-      "_geo_key_place": "レンタルスペースRhythmNeko（リズム・ねこ）",
-      "_geo_key_city": "川口市"
+      "_geo_key_place": "鳩ヶ谷駅市民センター",
+      "_geo_key_city": "川口市",
+      "time_start": "10:30",
+      "time_end": "14:20"
     },
     {
       "id": "wp-e591932",
@@ -269,22 +325,9 @@
       "lat": 35.81759,
       "lng": 139.67789,
       "_geo_key_place": "BOATRACE戸田　イベントホール",
-      "_geo_key_city": "戸田市"
-    },
-    {
-      "id": "wp-e598603",
-      "title": "オペラ「王さまの耳はロバの耳！」＆ミニコンサート（川口市鳩ヶ谷）",
-      "date": "2026-06-21",
-      "date_end": "2026-06-21",
-      "venue": "鳩ヶ谷駅市民センター（川口市）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "最寄り：鳩ヶ谷駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e598603/",
-      "lat": 35.80782,
-      "lng": 139.72411,
-      "_geo_key_place": "鳩ヶ谷駅市民センター",
-      "_geo_key_city": "川口市"
+      "_geo_key_city": "戸田市",
+      "time_start": "11:00",
+      "time_end": "16:00"
     },
     {
       "id": "wp-e591474",
@@ -299,7 +342,9 @@
       "lat": 35.92528,
       "lng": 139.61097,
       "_geo_key_place": "プラザノース　ユーモアスクエア映写室",
-      "_geo_key_city": "さいたま市北区"
+      "_geo_key_city": "さいたま市北区",
+      "time_start": "11:00",
+      "time_end": "11:30"
     },
     {
       "id": "wp-e600273",
@@ -314,7 +359,9 @@
       "lat": 35.88687,
       "lng": 139.66605,
       "_geo_key_place": "さいたま市地域中核施設　プラザイースト",
-      "_geo_key_city": "さいたま市緑区"
+      "_geo_key_city": "さいたま市緑区",
+      "time_start": "11:30",
+      "time_end": "12:40"
     },
     {
       "id": "wp-e592705",
@@ -329,22 +376,9 @@
       "lat": 35.88787,
       "lng": 139.63639,
       "_geo_key_place": "埼玉会館　大ホール",
-      "_geo_key_city": "さいたま市浦和区"
-    },
-    {
-      "id": "wp-e600713",
-      "title": "SKIPシティ映像ホールリニューアル記念上映会　映画『８番出口』",
-      "date": "2026-06-27",
-      "date_end": "2026-06-27",
-      "venue": "SKIPシティ 彩の国ビジュアルプラザ 映像ホール（川口市）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e600713/",
-      "lat": 35.80782,
-      "lng": 139.72411,
-      "_geo_key_place": "SKIPシティ 彩の国ビジュアルプラザ 映像ホール",
-      "_geo_key_city": "川口市"
+      "_geo_key_city": "さいたま市浦和区",
+      "time_start": "12:10",
+      "time_end": "13:00"
     },
     {
       "id": "wp-e600712",
@@ -359,7 +393,26 @@
       "lat": 35.80782,
       "lng": 139.72411,
       "_geo_key_place": "SKIPシティ 彩の国ビジュアルプラザ 映像ホール",
-      "_geo_key_city": "川口市"
+      "_geo_key_city": "川口市",
+      "time_start": "11:00",
+      "time_end": "12:50"
+    },
+    {
+      "id": "wp-e600713",
+      "title": "SKIPシティ映像ホールリニューアル記念上映会　映画『８番出口』",
+      "date": "2026-06-27",
+      "date_end": "2026-06-27",
+      "venue": "SKIPシティ 彩の国ビジュアルプラザ 映像ホール（川口市）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e600713/",
+      "lat": 35.80782,
+      "lng": 139.72411,
+      "_geo_key_place": "SKIPシティ 彩の国ビジュアルプラザ 映像ホール",
+      "_geo_key_city": "川口市",
+      "time_start": "14:00",
+      "time_end": "15:35"
     }
   ]
 }
