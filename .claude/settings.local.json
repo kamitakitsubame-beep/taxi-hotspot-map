@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la)",
+      "Bash(npm --version)",
+      "Bash(npm install *)",
+      "Bash(npm ls *)",
+      "Bash(npm run *)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(powershell -Command 'Get-NetTCPConnection -LocalPort 3000 -State Listen -ErrorAction SilentlyContinue | Select-Object -ExpandProperty OwningProcess -Unique | ForEach-Object { Stop-Process -Id $_ -Force }')",
+      "Bash(python -m py_compile scripts/scrape_events.py)",
+      "Bash(python -c \"import json; d=json.load\\(open\\('data/events.json',encoding='utf-8'\\)\\); print\\('JSON_OK:', len\\(d['events']\\), 'events'\\)\")",
+      "Bash(python -c 'import sys,re; *)",
+      "Bash(pip install *)",
+      "Bash(python -c \"import yaml; yaml.safe_load\\(open\\('.github/workflows/update_events.yml',encoding='utf-8'\\)\\); print\\('YAML_OK: workflow is valid'\\)\")"
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+"use client";
+
+import { useEffect, useRef } from "react";
+import L from "leaflet";
+import type { TaxiEvent } from "@/lib/types";
+import {
+  DEMAND_LABEL,
+  formatDateLabel,
+  formatTimeRange,
+  googleMapsDirUrl,
+  isPast,
+  type LatLng,
+} from "@/lib/utils";
+
+// 県南中央交通圏（さいたま市・川口・蕨・戸田周辺）のおおよその中心
+const DEFAULT_CENTER: [number, number] = [35.86, 139.63];
+const DEFAULT_ZOOM = 11;
+
+interface MapViewProps {
+  events: TaxiEvent[];
+  /** 一覧から選択されたイベントID（ピンを開く） */
+  selectedId: string | null;
+  /** 取得済みなら現在地マーカーを表示 */
+  userLoc?: LatLng | null;
+}
+
+function markerHtml(level: TaxiEvent["demand_level"]): L.DivIcon {
+  return L.divIcon({
+    className: "",
+    html: `<span class="demand-marker ${level}"></span>`,
+    iconSize: [24, 24],
+    iconAnchor: [12, 24],
+    popupAnchor: [0, -24],
+  });
+}
+
+function escapeHtml(s: string): string {
+  return s
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function popupHtml(ev: TaxiEvent): string {
+  const sourceLink = ev.source_url
+    ? `<div style="margin-top:8px"><a href="${escapeHtml(
+        ev.source_url
+      )}" target="_blank" rel="noopener" style="color:#2563eb">詳細リンク ↗</a></div>`
+    : "";
+  return `
+    <div style="min-width:200px">
+      <div style="font-weight:700;font-size:15px;margin-bottom:4px;color:#0f172a">${escapeHtml(
+        ev.title
+      )}</div>
+      <div style="color:#475569">📅 ${formatDateLabel(
+        ev.date
+      )} ${formatTimeRange(ev)}</div>
+      <div style="color:#475569">📍 ${escapeHtml(ev.venue)}</div>
+      <div style="margin-top:6px;padding:6px 8px;background:rgba(148,163,184,0.18);border-radius:8px;color:#334155">
+        💡 ${escapeHtml(ev.demand_comment)}
+      </div>
+      <div style="margin-top:6px;font-size:12px;color:#64748b">需要レベル：${
+        DEMAND_LABEL[ev.demand_level]
+      }${ev.category ? `／${escapeHtml(ev.category)}` : ""}</div>
+      <a href="${googleMapsDirUrl(ev.lat, ev.lng)}" target="_blank"
+         rel="noopener noreferrer"
+         style="display:block;margin-top:8px;padding:7px 10px;background:#2563eb;color:#fff;border-radius:8px;font-weight:700;text-align:center;text-decoration:none">ここへ向かう ▶</a>
+      ${sourceLink}
+    </div>`;
+}
+
+export default function MapView({
+  events,
+  selectedId,
+  userLoc,
+}: MapViewProps) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const mapRef = useRef<L.Map | null>(null);
+  const markersRef = useRef<Map<string, L.Marker>>(new Map());
+  const userMarkerRef = useRef<L.CircleMarker | null>(null);
+
+  // 地図の初期化（マウント時に一度だけ）
+  useEffect(() => {
+    if (!containerRef.current || mapRef.current) return;
+
+    const map = L.map(containerRef.current, {
+      center: DEFAULT_CENTER,
+      zoom: DEFAULT_ZOOM,
+      zoomControl: true,
+    });
+
+    L.tileLayer(
+      "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+      {
+        attribution:
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        maxZoom: 19,
+      }
+    ).addTo(map);
+
+    mapRef.current = map;
+
+    return () => {
+      map.remove();
+      mapRef.current = null;
+      markersRef.current.clear();
+    };
+  }, []);
+
+  // マーカーの描画（events変更時）
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+
+    markersRef.current.forEach((m) => m.remove());
+    markersRef.current.clear();
+
+    const bounds: [number, number][] = [];
+
+    events.forEach((ev) => {
+      if (typeof ev.lat !== "number" || typeof ev.lng !== "number") return;
+      const marker = L.marker([ev.lat, ev.lng], {
+        icon: markerHtml(ev.demand_level),
+        opacity: isPast(ev) ? 0.45 : 1,
+      })
+        .addTo(map)
+        .bindPopup(popupHtml(ev));
+      markersRef.current.set(ev.id, marker);
+      bounds.push([ev.lat, ev.lng]);
+    });
+
+    if (bounds.length > 0) {
+      map.fitBounds(bounds, { padding: [40, 40], maxZoom: 13 });
+    }
+  }, [events]);
+
+  // 現在地マーカー（青い丸）の表示・更新
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+    if (!userLoc) {
+      userMarkerRef.current?.remove();
+      userMarkerRef.current = null;
+      return;
+    }
+    const latlng: [number, number] = [userLoc.lat, userLoc.lng];
+    if (userMarkerRef.current) {
+      userMarkerRef.current.setLatLng(latlng);
+    } else {
+      userMarkerRef.current = L.circleMarker(latlng, {
+        radius: 8,
+        color: "#ffffff",
+        weight: 2,
+        fillColor: "#2563eb",
+        fillOpacity: 1,
+      })
+        .addTo(map)
+        .bindPopup("現在地");
+    }
+  }, [userLoc]);
+
+  // 一覧から選択されたピンを開いて中心に移動
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !selectedId) return;
+    const marker = markersRef.current.get(selectedId);
+    if (!marker) return;
+    map.flyTo(marker.getLatLng(), Math.max(map.getZoom(), 14), {
+      duration: 0.6,
+    });
+    marker.openPopup();
+  }, [selectedId]);
+
+  return <div ref={containerRef} className="h-full w-full" />;
+}

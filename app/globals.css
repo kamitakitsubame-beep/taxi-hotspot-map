@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #1e293b;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", "Noto Sans JP", Meiryo, sans-serif;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Leaflet のポップアップを白基調に合わせる */
+.leaflet-popup-content-wrapper {
+  background-color: #ffffff;
+  color: #1e293b;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.18);
+}
+
+.leaflet-popup-tip {
+  background-color: #ffffff;
+}
+
+.leaflet-popup-content {
+  margin: 12px 14px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  color: #64748b;
+  padding: 6px 6px 0 0;
+}
+
+/* タイル属性表示を小さく */
+.leaflet-control-attribution {
+  font-size: 10px;
+  background: rgba(255, 255, 255, 0.8) !important;
+  color: #475569 !important;
+}
+
+.leaflet-control-attribution a {
+  color: #1d4ed8 !important;
+}
+
+/* カスタムマーカー（色付き円ピン） */
+.demand-marker {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  border: 2px solid #ffffff;
+  box-shadow: 0 2px 5px rgba(15, 23, 42, 0.35);
+}
+
+.demand-marker.high {
+  background-color: #ef4444;
+}
+.demand-marker.medium {
+  background-color: #eab308;
+}
+.demand-marker.low {
+  background-color: #16a34a;
+}
