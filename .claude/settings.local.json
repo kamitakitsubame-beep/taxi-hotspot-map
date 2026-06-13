@@ -12,7 +12,11 @@
       "Bash(python -c \"import json; d=json.load\\(open\\('data/events.json',encoding='utf-8'\\)\\); print\\('JSON_OK:', len\\(d['events']\\), 'events'\\)\")",
       "Bash(python -c 'import sys,re; *)",
       "Bash(pip install *)",
-      "Bash(python -c \"import yaml; yaml.safe_load\\(open\\('.github/workflows/update_events.yml',encoding='utf-8'\\)\\); print\\('YAML_OK: workflow is valid'\\)\")"
+      "Bash(python -c \"import yaml; yaml.safe_load\\(open\\('.github/workflows/update_events.yml',encoding='utf-8'\\)\\); print\\('YAML_OK: workflow is valid'\\)\")",
+      "Bash(curl -s -o /dev/null -w \"HTTP status: %{http_code}\\\\n\" http://localhost:3000)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }

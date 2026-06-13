@@ -91,95 +91,92 @@ export default function HotspotApp({ data }: HotspotAppProps) {
       : "直近のイベント情報はありません";
 
   return (
-    <main className="mx-auto flex h-[100dvh] max-w-screen-sm flex-col bg-white">
-      {/* ヘッダー */}
-      <header className="shrink-0 border-b border-slate-200 bg-white px-4 py-3">
-        <div className="flex items-center justify-between gap-2">
-          <h1 className="text-lg font-bold text-slate-900">
+    <main className="mx-auto max-w-screen-sm bg-white pb-8">
+      {/* ヘッダー（スクロールしても上に固定。コンパクト化） */}
+      <header className="sticky top-0 z-[1001] border-b border-slate-200 bg-white/95 px-4 py-2.5 backdrop-blur">
+        <div className="flex items-baseline justify-between gap-2">
+          <h1 className="shrink-0 whitespace-nowrap text-lg font-bold text-slate-900">
             🚕 需要ホットスポット
           </h1>
-          <span className="text-xs text-slate-500">
-            最終更新：{formatUpdatedAt(data.updated_at)}
+          <span className="min-w-0 truncate text-right text-[11px] text-slate-500">
+            更新 {formatUpdatedAt(data.updated_at)}
           </span>
         </div>
-        <p className="mt-1 text-sm font-semibold text-amber-600">{summary}</p>
+        <p className="mt-0.5 text-sm font-semibold text-amber-600">{summary}</p>
         {today.length > 0 && (
-          <p className="mt-0.5 truncate text-xs text-slate-500">
+          <p className="truncate text-xs text-slate-500">
             {today
               .map((e) => `${e.title}（${formatTimeRange(e)}）`)
               .join("・")}
           </p>
         )}
-
-        {/* ① 天気連動バナー（Open-Meteo・無料） */}
-        <WeatherBanner />
-
-        {/* ④ ごとおび／給料日バナー */}
-        {gotoubi && (
-          <div className="mt-2 rounded-lg bg-rose-50 px-3 py-1.5 text-sm font-semibold text-rose-700 ring-1 ring-inset ring-rose-200">
-            🗓 {gotoubi.label}
-            <span className="ml-1 font-normal text-rose-500">{gotoubi.sub}</span>
-          </div>
-        )}
-
-        {/* ② 現在地 → 最寄りスポット */}
-        <div className="mt-2">
-          {locStatus !== "ok" ? (
-            <button
-              type="button"
-              onClick={requestLocation}
-              disabled={locStatus === "loading"}
-              className="w-full rounded-lg bg-slate-100 px-3 py-2 text-sm font-semibold text-slate-700 ring-1 ring-inset ring-slate-200 active:bg-slate-200 disabled:opacity-60"
+        {/* ①天気・④ごとおびを小さなチップ1行にまとめる */}
+        <div className="mt-1.5 flex flex-wrap items-center gap-1.5">
+          <WeatherBanner />
+          {gotoubi && (
+            <span
+              title={gotoubi.sub}
+              className="inline-flex items-center rounded-full bg-rose-100 px-2.5 py-1 text-xs font-bold text-rose-700 ring-1 ring-inset ring-rose-200"
             >
-              {locStatus === "loading"
-                ? "現在地を取得中…"
-                : locStatus === "denied"
-                ? "📍 位置情報が取得できませんでした（タップで再試行）"
-                : "📍 現在地から最寄りスポットを探す"}
-            </button>
-          ) : nearest ? (
-            <div className="flex items-center gap-2 rounded-lg bg-blue-50 px-3 py-2 ring-1 ring-inset ring-blue-200">
-              <div className="min-w-0 flex-1">
-                <p className="text-xs text-blue-600">現在地から最寄り</p>
-                <button
-                  type="button"
-                  onClick={() => setSelectedId(nearest.ev.id)}
-                  className="block truncate text-left text-sm font-bold text-blue-900"
-                >
-                  {nearest.ev.title}
-                  <span className="ml-1 font-normal text-blue-700">
-                    （{formatDistance(nearest.km)}）
-                  </span>
-                </button>
-              </div>
-              <a
-                href={googleMapsDirUrl(nearest.ev.lat, nearest.ev.lng)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="shrink-0 rounded-lg bg-blue-600 px-3 py-1.5 text-sm font-bold text-white active:bg-blue-700"
-              >
-                向かう ▶
-              </a>
-            </div>
-          ) : (
-            <p className="rounded-lg bg-slate-100 px-3 py-2 text-sm text-slate-500">
-              現在地は取得しましたが、近くの対象イベントがありません。
-            </p>
+              🗓 {gotoubi.label}
+            </span>
           )}
         </div>
       </header>
 
-      {/* マップ（画面の約55%。要素が増えても潰れないよう shrink を許可） */}
-      <section className="min-h-[200px] shrink basis-[55%]">
+      {/* マップ：画面の主役として大きく表示（高さ60vh） */}
+      <section className="relative h-[60vh] min-h-[340px]">
         <MapView
           events={data.events}
           selectedId={selectedId}
           userLoc={userLoc}
         />
+        {/* ②現在地ボタンを地図の上にフローティング配置（Googleマップ風） */}
+        {locStatus !== "ok" && (
+          <button
+            type="button"
+            onClick={requestLocation}
+            disabled={locStatus === "loading"}
+            className="absolute bottom-3 right-3 z-[1000] rounded-full bg-white px-4 py-2.5 text-sm font-bold text-slate-700 shadow-lg ring-1 ring-slate-300 active:bg-slate-100 disabled:opacity-60"
+          >
+            {locStatus === "loading"
+              ? "取得中…"
+              : locStatus === "denied"
+              ? "📍 再試行"
+              : "📍 現在地"}
+          </button>
+        )}
       </section>
 
+      {/* ②最寄りスポット（現在地取得後に地図直下へ表示） */}
+      {locStatus === "ok" && nearest && (
+        <div className="flex items-center gap-2 border-b border-blue-200 bg-blue-50 px-4 py-2">
+          <div className="min-w-0 flex-1">
+            <p className="text-[11px] text-blue-600">現在地から最寄り</p>
+            <button
+              type="button"
+              onClick={() => setSelectedId(nearest.ev.id)}
+              className="block truncate text-left text-sm font-bold text-blue-900"
+            >
+              {nearest.ev.title}
+              <span className="ml-1 font-normal text-blue-700">
+                （{formatDistance(nearest.km)}）
+              </span>
+            </button>
+          </div>
+          <a
+            href={googleMapsDirUrl(nearest.ev.lat, nearest.ev.lng)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="shrink-0 rounded-lg bg-blue-600 px-3 py-1.5 text-sm font-bold text-white active:bg-blue-700"
+          >
+            向かう ▶
+          </a>
+        </div>
+      )}
+
       {/* 凡例 */}
-      <div className="flex shrink-0 items-center gap-4 border-y border-slate-200 bg-slate-50 px-4 py-2 text-xs text-slate-600">
+      <div className="flex items-center gap-4 border-b border-slate-200 bg-slate-50 px-4 py-2 text-xs text-slate-600">
         <span className="flex items-center gap-1">
           <span className="h-3 w-3 rounded-full bg-demand-high" />大需要
         </span>
@@ -191,21 +188,19 @@ export default function HotspotApp({ data }: HotspotAppProps) {
         </span>
       </div>
 
-      {/* ③ 稼ぎどきタイムライン（今日のイベントがある時だけ） */}
+      {/* ③稼ぎどきタイムライン（今日のイベントを大→中→小で表示） */}
       <EarningsTimeline events={timeline} onSelect={setSelectedId} />
 
-      {/* イベント一覧（スクロール） */}
-      <section className="min-h-0 flex-1 overflow-y-auto bg-white">
-        <div className="sticky top-0 z-[1] bg-white/95 px-4 py-2 text-xs font-bold text-slate-500 backdrop-blur">
-          直近7日間のイベント（{list.length}件）
-        </div>
-        <EventList
-          events={list}
-          selectedId={selectedId}
-          onSelect={setSelectedId}
-          userLoc={userLoc}
-        />
-      </section>
+      {/* イベント一覧 */}
+      <div className="px-4 py-2 text-xs font-bold text-slate-500">
+        直近7日間のイベント（{list.length}件）
+      </div>
+      <EventList
+        events={list}
+        selectedId={selectedId}
+        onSelect={setSelectedId}
+        userLoc={userLoc}
+      />
     </main>
   );
 }

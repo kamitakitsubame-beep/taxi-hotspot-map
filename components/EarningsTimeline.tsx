@@ -3,6 +3,7 @@
 import type { TaxiEvent } from "@/lib/types";
 import {
   DEMAND_COLOR,
+  DEMAND_LABEL,
   formatTimeRange,
   googleMapsDirUrl,
 } from "@/lib/utils";
@@ -22,7 +23,7 @@ export default function EarningsTimeline({
   return (
     <div className="shrink-0 border-b border-slate-200 bg-amber-50/60 px-3 py-2">
       <p className="mb-1 px-1 text-xs font-bold text-amber-700">
-        ⏱ 今日の稼ぎどき（終了時刻順）
+        ⏱ 今日の稼ぎどき（大→中→小の需要順）
       </p>
       <div className="flex gap-2 overflow-x-auto pb-1">
         {events.map((ev) => {
@@ -39,9 +40,11 @@ export default function EarningsTimeline({
               >
                 <div className="flex items-center gap-1.5">
                   <span
-                    className="inline-block h-2.5 w-2.5 shrink-0 rounded-full"
+                    className="rounded px-1 py-0.5 text-[10px] font-bold text-slate-900"
                     style={{ backgroundColor: DEMAND_COLOR[ev.demand_level] }}
-                  />
+                  >
+                    {DEMAND_LABEL[ev.demand_level]}
+                  </span>
                   <span className="text-base font-bold tabular-nums text-slate-900">
                     {endTime}
                     <span className="ml-0.5 text-[10px] font-normal text-slate-400">

@@ -27,7 +27,10 @@ export function isPast(ev: TaxiEvent, today = jstDateString()): boolean {
   return diffDays(today, ev.date) < 0;
 }
 
-/** 今日〜rangeDays日以内のイベントを日付・開始時刻順で返す */
+/** 需要レベルの並び順（大→中→小） */
+const DEMAND_ORDER: Record<DemandLevel, number> = { high: 0, medium: 1, low: 2 };
+
+/** 今日〜rangeDays日以内のイベントを「日付 → 需要レベル（大→小）→ 開始時刻」順で返す */
 export function upcomingEvents(
   events: TaxiEvent[],
   rangeDays = 7,
@@ -40,6 +43,8 @@ export function upcomingEvents(
     })
     .sort((a, b) => {
       if (a.date !== b.date) return a.date < b.date ? -1 : 1;
+      const d = DEMAND_ORDER[a.demand_level] - DEMAND_ORDER[b.demand_level];
+      if (d !== 0) return d;
       return (a.time_start ?? "99:99").localeCompare(b.time_start ?? "99:99");
     });
 }
@@ -129,7 +134,7 @@ export function gotoubiInfo(d: Date = nowJst()): GotoubiInfo | null {
   };
 }
 
-/** 終了時刻（なければ開始時刻）順に並べた今日のイベント。タイムライン用。 */
+/** 今日のイベントを需要レベル（大→中→小）→終了時刻の順に並べる。タイムライン用。 */
 export function timelineEvents(
   events: TaxiEvent[],
   today = jstDateString()
@@ -137,6 +142,8 @@ export function timelineEvents(
   return events
     .filter((ev) => ev.date === today)
     .sort((a, b) => {
+      const d = DEMAND_ORDER[a.demand_level] - DEMAND_ORDER[b.demand_level];
+      if (d !== 0) return d;
       const ka = a.time_end ?? a.time_start ?? "99:99";
       const kb = b.time_end ?? b.time_start ?? "99:99";
       return ka.localeCompare(kb);

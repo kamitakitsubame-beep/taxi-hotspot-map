@@ -81,24 +81,22 @@ export default function WeatherBanner() {
 
   if (!weather) return null;
 
+  // ヘッダーをコンパクトに保つため、チップ（丸いタグ）1個で表示する
   if (weather.wet) {
     const msg = weather.rainFrom
-      ? `${weather.nowIcon} ${weather.rainFrom}頃から雨・需要増の可能性`
-      : `${weather.nowIcon} ${weather.nowLabel}・需要増の可能性`;
+      ? `☔ ${weather.rainFrom}〜雨・需要増`
+      : `☔ ${weather.nowLabel}・需要増`;
     return (
-      <div className="mt-2 rounded-lg bg-sky-50 px-3 py-1.5 text-sm font-semibold text-sky-800 ring-1 ring-inset ring-sky-200">
+      <span className="inline-flex items-center rounded-full bg-sky-100 px-2.5 py-1 text-xs font-bold text-sky-800 ring-1 ring-inset ring-sky-200">
         {msg}
-        <span className="ml-1 font-normal text-sky-600">
-          雨天は早めの駅・繁華街待機が狙い目。
-        </span>
-      </div>
+      </span>
     );
   }
 
-  // 晴れ／くもりは控えめに現況だけ表示
+  // 晴れ／くもりは控えめなチップ
   return (
-    <p className="mt-1 text-xs text-slate-500">
-      {weather.nowIcon} 今日の天気：{weather.nowLabel}
-    </p>
+    <span className="inline-flex items-center rounded-full bg-slate-100 px-2.5 py-1 text-xs text-slate-500">
+      {weather.nowIcon} {weather.nowLabel}
+    </span>
   );
 }
