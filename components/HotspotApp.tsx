@@ -94,6 +94,10 @@ export default function HotspotApp({ data }: HotspotAppProps) {
     <main className="mx-auto max-w-screen-sm bg-white pb-8">
       {/* ヘッダー（スクロールしても上に固定。コンパクト化） */}
       <header className="sticky top-0 z-[1001] border-b border-slate-200 bg-white/95 px-4 py-2.5 backdrop-blur">
+        {/* デモ版であることの注意バナー（実データ本稼働までの暫定表示） */}
+        <div className="-mx-4 -mt-2.5 mb-2 bg-amber-400 px-4 py-1.5 text-center text-[12px] font-bold leading-snug text-amber-950">
+          🚧 現在はデモ版です。表示中のイベントは見本データで、実際の開催情報ではありません（実データでの本稼働は近日開始予定）。
+        </div>
         <div className="flex items-baseline justify-between gap-2">
           <h1 className="shrink-0 whitespace-nowrap text-lg font-bold text-slate-900">
             🚕 需要ホットスポット
