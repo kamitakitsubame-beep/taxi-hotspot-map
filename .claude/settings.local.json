@@ -18,7 +18,11 @@
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
       "Bash(git push *)",
-      "Bash(curl -s https://taxi-hotspot-map.vercel.app)"
+      "Bash(curl -s https://taxi-hotspot-map.vercel.app)",
+      "Bash(python -c ' *)",
+      "Bash(rm -f _inspect.json _scrape_test.json)",
+      "Bash(python scripts/scrape_events.py)",
+      "Bash(echo \"EXIT: $?\")"
     ]
   }
 }
