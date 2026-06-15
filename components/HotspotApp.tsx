@@ -5,7 +5,6 @@ import dynamic from "next/dynamic";
 import type { EventsData, TaxiEvent } from "@/lib/types";
 import {
   formatDistance,
-  formatTimeRange,
   googleMapsDirUrl,
   gotoubiInfo,
   haversineKm,
@@ -234,45 +233,24 @@ export default function HotspotApp({ data }: HotspotAppProps) {
       : "直近のイベント情報はありません";
 
   return (
-    <main className="mx-auto max-w-screen-sm bg-white pb-8">
-      {/* ヘッダー（スクロールしても上に固定。コンパクト化） */}
-      <header className="sticky top-0 z-[1001] border-b border-slate-200 bg-white/95 px-4 py-2.5 backdrop-blur">
-        {/* 自動更新データに関する注意書き */}
-        <div className="-mx-4 -mt-2.5 mb-2 bg-slate-100 px-4 py-1.5 text-center text-[11px] leading-snug text-slate-600">
-          ℹ️ イベントは毎日自動更新（出典：Walkerplus）。需要レベルは自動推定・開始時刻は未掲載の場合があります。詳細は各リンク先でご確認ください。
-        </div>
-        <div className="flex items-baseline justify-between gap-2">
-          <h1 className="shrink-0 whitespace-nowrap text-lg font-bold text-slate-900">
-            🚕 需要ホットスポット
+    <main className="mx-auto max-w-screen-sm bg-white">
+      {/* スリムなヘッダー（1行） */}
+      <header className="sticky top-0 z-[1001] flex items-center justify-between gap-2 border-b border-slate-200 bg-white/95 px-3 py-2 backdrop-blur">
+        <div className="flex min-w-0 items-baseline gap-2">
+          <h1 className="shrink-0 whitespace-nowrap text-base font-bold text-slate-900">
+            🚕 需要マップ
           </h1>
-          <span className="min-w-0 truncate text-right text-[11px] text-slate-500">
-            更新 {formatUpdatedAt(data.updated_at)}
+          <span className="truncate text-xs font-semibold text-amber-600">
+            {summary}
           </span>
         </div>
-        <p className="mt-0.5 text-sm font-semibold text-amber-600">{summary}</p>
-        {today.length > 0 && (
-          <p className="truncate text-xs text-slate-500">
-            {today
-              .map((e) => `${e.title}（${formatTimeRange(e)}）`)
-              .join("・")}
-          </p>
-        )}
-        {/* ①天気・④ごとおびを小さなチップ1行にまとめる */}
-        <div className="mt-1.5 flex flex-wrap items-center gap-1.5">
-          <WeatherBanner />
-          {gotoubi && (
-            <span
-              title={gotoubi.sub}
-              className="inline-flex items-center rounded-full bg-rose-100 px-2.5 py-1 text-xs font-bold text-rose-700 ring-1 ring-inset ring-rose-200"
-            >
-              🗓 {gotoubi.label}
-            </span>
-          )}
-        </div>
+        <span className="shrink-0 text-[10px] text-slate-400">
+          更新 {formatUpdatedAt(data.updated_at)}
+        </span>
       </header>
 
-      {/* マップ：画面の主役として大きく表示（高さ60vh） */}
-      <section className="relative h-[60vh] min-h-[340px]">
+      {/* マップ：最初の1画面をほぼ占有（下に少しだけ次の内容を覗かせてスクロールを示唆） */}
+      <section className="relative h-[calc(100dvh-6rem)] min-h-[380px]">
         <MapView
           events={data.events}
           selectedId={selectedId}
@@ -281,7 +259,34 @@ export default function HotspotApp({ data }: HotspotAppProps) {
           placeMode={placeMode}
           onMapClick={handleMapClick}
         />
-        {/* ②現在地ボタンを地図の上にフローティング配置（Googleマップ風） */}
+
+        {/* 天気（雨時のみ）・ごとおび：地図左上の小チップ */}
+        <div className="absolute left-2 top-2 z-[1000] flex max-w-[58%] flex-col items-start gap-1.5">
+          <WeatherBanner />
+          {gotoubi && (
+            <span
+              title={gotoubi.sub}
+              className="inline-flex items-center rounded-full bg-rose-100 px-2.5 py-1 text-[11px] font-bold text-rose-700 shadow ring-1 ring-inset ring-rose-200"
+            >
+              🗓 {gotoubi.label}
+            </span>
+          )}
+        </div>
+
+        {/* 凡例：地図右上の小チップ */}
+        <div className="absolute right-2 top-2 z-[1000] flex items-center gap-1.5 rounded-full bg-white/90 px-2.5 py-1 text-[10px] font-medium text-slate-600 shadow ring-1 ring-slate-200">
+          <span className="flex items-center gap-0.5">
+            <span className="h-2 w-2 rounded-full bg-demand-high" />大
+          </span>
+          <span className="flex items-center gap-0.5">
+            <span className="h-2 w-2 rounded-full bg-demand-medium" />中
+          </span>
+          <span className="flex items-center gap-0.5">
+            <span className="h-2 w-2 rounded-full bg-demand-low" />小
+          </span>
+        </div>
+
+        {/* 現在地（右下） */}
         {locStatus !== "ok" && (
           <button
             type="button"
@@ -297,7 +302,7 @@ export default function HotspotApp({ data }: HotspotAppProps) {
           </button>
         )}
 
-        {/* ①ヘルプマーク登録ボタン（地図左下フローティング） */}
+        {/* ヘルプ（左下） */}
         <div className="absolute bottom-3 left-3 z-[1000] flex flex-col items-start gap-2">
           <button
             type="button"
@@ -305,7 +310,7 @@ export default function HotspotApp({ data }: HotspotAppProps) {
             disabled={sending}
             className="rounded-full bg-orange-500 px-4 py-2.5 text-sm font-bold text-white shadow-lg ring-2 ring-white active:bg-orange-600 disabled:opacity-60"
           >
-            🙋 客多い（応援要請）
+            🙋 客多い
           </button>
           <button
             type="button"
@@ -316,9 +321,8 @@ export default function HotspotApp({ data }: HotspotAppProps) {
                 : "bg-white/90 text-slate-600"
             }`}
           >
-            {placeMode ? "タップ地点を登録…（解除）" : "🗺 地図で指定"}
+            {placeMode ? "タップで登録（解除）" : "🗺 地図で指定"}
           </button>
-          {/* 誤登録の取り消し（自分のマークがある時だけ表示） */}
           {hasMyHelp && (
             <button
               type="button"
@@ -326,22 +330,22 @@ export default function HotspotApp({ data }: HotspotAppProps) {
               disabled={sending}
               className="rounded-full bg-white/90 px-3 py-1.5 text-xs font-bold text-rose-600 shadow ring-1 ring-rose-300 active:bg-rose-50 disabled:opacity-60"
             >
-              🗑 ヘルプを取り消す
+              🗑 取り消す
             </button>
           )}
         </div>
 
-        {/* 登録モードのヒント */}
+        {/* 登録モードのヒント（上中央） */}
         {placeMode && (
-          <div className="absolute left-1/2 top-3 z-[1000] -translate-x-1/2 rounded-full bg-orange-600 px-3 py-1.5 text-xs font-bold text-white shadow-lg">
-            客が多い地点を地図でタップ
+          <div className="absolute left-1/2 top-2 z-[1000] -translate-x-1/2 rounded-full bg-orange-600 px-3 py-1.5 text-xs font-bold text-white shadow-lg">
+            客が多い地点をタップ
           </div>
         )}
 
-        {/* 結果トースト */}
+        {/* 結果トースト（操作ボタンの上） */}
         {helpMsg && (
           <div
-            className={`absolute left-1/2 bottom-3 z-[1001] -translate-x-1/2 rounded-lg px-3 py-2 text-center text-xs font-bold text-white shadow-lg ${
+            className={`absolute bottom-20 left-1/2 z-[1001] max-w-[80%] -translate-x-1/2 rounded-lg px-3 py-2 text-center text-xs font-bold text-white shadow-lg ${
               helpMsg.tone === "ok" ? "bg-emerald-600" : "bg-slate-700"
             }`}
           >
@@ -350,22 +354,19 @@ export default function HotspotApp({ data }: HotspotAppProps) {
         )}
       </section>
 
-      {/* ②最寄りスポット（現在地取得後に地図直下へ表示） */}
+      {/* ②最寄りスポット（現在地取得後・地図直下のスリムバー） */}
       {locStatus === "ok" && nearest && (
-        <div className="flex items-center gap-2 border-b border-blue-200 bg-blue-50 px-4 py-2">
-          <div className="min-w-0 flex-1">
-            <p className="text-[11px] text-blue-600">現在地から最寄り</p>
-            <button
-              type="button"
-              onClick={() => setSelectedId(nearest.ev.id)}
-              className="block truncate text-left text-sm font-bold text-blue-900"
-            >
-              {nearest.ev.title}
-              <span className="ml-1 font-normal text-blue-700">
-                （{formatDistance(nearest.km)}）
-              </span>
-            </button>
-          </div>
+        <div className="flex items-center gap-2 border-b border-blue-200 bg-blue-50 px-3 py-2">
+          <button
+            type="button"
+            onClick={() => setSelectedId(nearest.ev.id)}
+            className="min-w-0 flex-1 truncate text-left text-sm font-bold text-blue-900"
+          >
+            📍最寄り {nearest.ev.title}
+            <span className="ml-1 font-normal text-blue-700">
+              （{formatDistance(nearest.km)}）
+            </span>
+          </button>
           <a
             href={googleMapsDirUrl(nearest.ev.lat, nearest.ev.lng)}
             target="_blank"
@@ -377,24 +378,11 @@ export default function HotspotApp({ data }: HotspotAppProps) {
         </div>
       )}
 
-      {/* 凡例 */}
-      <div className="flex items-center gap-4 border-b border-slate-200 bg-slate-50 px-4 py-2 text-xs text-slate-600">
-        <span className="flex items-center gap-1">
-          <span className="h-3 w-3 rounded-full bg-demand-high" />大需要
-        </span>
-        <span className="flex items-center gap-1">
-          <span className="h-3 w-3 rounded-full bg-demand-medium" />中需要
-        </span>
-        <span className="flex items-center gap-1">
-          <span className="h-3 w-3 rounded-full bg-demand-low" />小・参考
-        </span>
-      </div>
-
       {/* ③稼ぎどきタイムライン（今日のイベントを大→中→小で表示） */}
       <EarningsTimeline events={timeline} onSelect={setSelectedId} />
 
       {/* イベント一覧 */}
-      <div className="px-4 py-2 text-xs font-bold text-slate-500">
+      <div className="px-3 pt-3 pb-1 text-xs font-bold text-slate-500">
         直近7日間のイベント（{list.length}件）
       </div>
       <EventList
@@ -403,6 +391,11 @@ export default function HotspotApp({ data }: HotspotAppProps) {
         onSelect={setSelectedId}
         userLoc={userLoc}
       />
+
+      {/* 注記（最下部・控えめ） */}
+      <p className="px-3 py-3 text-center text-[10px] leading-snug text-slate-400">
+        ℹ️ イベントは毎日自動更新（出典：Walkerplus／さいたまスーパーアリーナ）。需要レベルは自動推定、開始時刻は未掲載の場合があります。
+      </p>
     </main>
   );
 }

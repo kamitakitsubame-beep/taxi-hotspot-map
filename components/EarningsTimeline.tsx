@@ -4,7 +4,6 @@ import type { TaxiEvent } from "@/lib/types";
 import {
   DEMAND_COLOR,
   DEMAND_LABEL,
-  formatTimeRange,
   googleMapsDirUrl,
 } from "@/lib/utils";
 
@@ -57,9 +56,6 @@ export default function EarningsTimeline({
                 </p>
                 <p className="line-clamp-1 text-xs text-slate-500">
                   {ev.venue}
-                </p>
-                <p className="mt-0.5 text-[11px] text-slate-400">
-                  {formatTimeRange(ev)}
                 </p>
               </button>
               <a

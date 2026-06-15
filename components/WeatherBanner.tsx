@@ -93,10 +93,6 @@ export default function WeatherBanner() {
     );
   }
 
-  // 晴れ／くもりは控えめなチップ
-  return (
-    <span className="inline-flex items-center rounded-full bg-slate-100 px-2.5 py-1 text-xs text-slate-500">
-      {weather.nowIcon} {weather.nowLabel}
-    </span>
-  );
+  // 晴れ／くもりは需要に影響しないので、地図をすっきり保つため非表示
+  return null;
 }

@@ -115,7 +115,7 @@ export default function MapView({
     const map = L.map(containerRef.current, {
       center: DEFAULT_CENTER,
       zoom: DEFAULT_ZOOM,
-      zoomControl: true,
+      zoomControl: false, // モバイルはピンチ操作。画面をすっきりさせる
     });
 
     L.tileLayer(
