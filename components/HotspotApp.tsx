@@ -16,6 +16,7 @@ import {
 } from "@/lib/utils";
 import { getDeviceId } from "@/lib/device";
 import {
+  deleteHelp,
   fetchHelps,
   formatRetry,
   postHelp,
@@ -91,14 +92,29 @@ export default function HotspotApp({ data }: HotspotAppProps) {
   };
 
   // --- ヘルプマーク（乗務員間共有） ---
+  const TWO_HOURS_MS = 2 * 60 * 60 * 1000;
+  const MY_KEY = "my_help_marker";
   const [helps, setHelps] = useState<HelpMarker[]>([]);
   const [placeMode, setPlaceMode] = useState(false);
   const [helpMsg, setHelpMsg] = useState<{ text: string; tone: "ok" | "warn" } | null>(null);
   const [sending, setSending] = useState(false);
+  // 自分が登録したマーク（取り消し用）
+  const [myHelp, setMyHelp] = useState<{ id: string; ts: number } | null>(null);
   const deviceIdRef = useRef<string>("");
 
   useEffect(() => {
     deviceIdRef.current = getDeviceId();
+    // 自分の登録を復元（2時間以内のみ有効）
+    try {
+      const raw = localStorage.getItem(MY_KEY);
+      if (raw) {
+        const v = JSON.parse(raw) as { id: string; ts: number };
+        if (v?.id && Date.now() - v.ts < TWO_HOURS_MS) setMyHelp(v);
+        else localStorage.removeItem(MY_KEY);
+      }
+    } catch {
+      /* ignore */
+    }
     let alive = true;
     const load = async () => {
       const m = await fetchHelps();
@@ -110,7 +126,11 @@ export default function HotspotApp({ data }: HotspotAppProps) {
       alive = false;
       clearInterval(t);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // 自分のマークが2時間経過したら取り消しボタンを隠す
+  const hasMyHelp = !!myHelp && Date.now() - myHelp.ts < TWO_HOURS_MS;
 
   const refreshHelps = useCallback(async () => {
     setHelps(await fetchHelps());
@@ -127,6 +147,15 @@ export default function HotspotApp({ data }: HotspotAppProps) {
       const res = await postHelp(lat, lng, deviceIdRef.current);
       setSending(false);
       if (res.ok) {
+        if (res.id) {
+          const rec = { id: res.id, ts: Date.now() };
+          setMyHelp(rec);
+          try {
+            localStorage.setItem(MY_KEY, JSON.stringify(rec));
+          } catch {
+            /* ignore */
+          }
+        }
         flash("🙋 登録しました（2時間表示されます）", "ok");
         refreshHelps();
       } else if (res.error === "rate_limited") {
@@ -139,15 +168,17 @@ export default function HotspotApp({ data }: HotspotAppProps) {
         flash("登録に失敗しました。通信状況をご確認ください", "warn");
       }
     },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [flash, refreshHelps]
   );
 
-  // 現在地ワンタップで登録
+  // 現在地ワンタップで登録（確認ダイアログあり）
   const helpHere = useCallback(() => {
     if (typeof navigator === "undefined" || !navigator.geolocation) {
       flash("位置情報が使えません", "warn");
       return;
     }
+    if (!window.confirm("現在地に「客多い（応援要請）」を登録しますか？")) return;
     setSending(true);
     navigator.geolocation.getCurrentPosition(
       (pos) => submitHelp(pos.coords.latitude, pos.coords.longitude),
@@ -159,14 +190,41 @@ export default function HotspotApp({ data }: HotspotAppProps) {
     );
   }, [flash, submitHelp]);
 
-  // 地図タップで登録
+  // 地図タップで登録（確認ダイアログあり）
   const handleMapClick = useCallback(
     (lat: number, lng: number) => {
       setPlaceMode(false);
+      if (!window.confirm("この地点に「客多い」を登録しますか？")) return;
       submitHelp(lat, lng);
     },
     [submitHelp]
   );
+
+  // 自分のヘルプを取り消す（レート制限はリセットしない）
+  const deleteOwnHelp = useCallback(async () => {
+    if (!myHelp) return;
+    if (
+      !window.confirm(
+        "自分のヘルプを取り消しますか？\n※取り消しても、次に押せるのは登録から2時間後のままです。"
+      )
+    )
+      return;
+    setSending(true);
+    const r = await deleteHelp(myHelp.id, deviceIdRef.current);
+    setSending(false);
+    if (r.ok) {
+      setMyHelp(null);
+      try {
+        localStorage.removeItem(MY_KEY);
+      } catch {
+        /* ignore */
+      }
+      flash("取り消しました（次に押せるのは登録から2時間後のまま）", "ok");
+      refreshHelps();
+    } else {
+      flash("取り消しに失敗しました", "warn");
+    }
+  }, [myHelp, flash, refreshHelps]);
 
   const summary =
     today.length > 0
@@ -260,6 +318,17 @@ export default function HotspotApp({ data }: HotspotAppProps) {
           >
             {placeMode ? "タップ地点を登録…（解除）" : "🗺 地図で指定"}
           </button>
+          {/* 誤登録の取り消し（自分のマークがある時だけ表示） */}
+          {hasMyHelp && (
+            <button
+              type="button"
+              onClick={deleteOwnHelp}
+              disabled={sending}
+              className="rounded-full bg-white/90 px-3 py-1.5 text-xs font-bold text-rose-600 shadow ring-1 ring-rose-300 active:bg-rose-50 disabled:opacity-60"
+            >
+              🗑 ヘルプを取り消す
+            </button>
+          )}
         </div>
 
         {/* 登録モードのヒント */}

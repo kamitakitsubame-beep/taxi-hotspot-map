@@ -7,6 +7,8 @@ export interface HelpMarker {
 
 export interface PostHelpResult {
   ok: boolean;
+  /** 登録できたマークのID（取り消しに使う） */
+  id?: string;
   error?: string;
   /** rate_limited のとき、次に押せるまでの秒数 */
   retryAfterSec?: number;
@@ -37,8 +39,27 @@ export async function postHelp(
       body: JSON.stringify({ lat, lng, deviceId }),
     });
     const d = await r.json().catch(() => ({}));
-    if (r.ok && d.ok) return { ok: true };
+    if (r.ok && d.ok) return { ok: true, id: d.id };
     return { ok: false, error: d.error, retryAfterSec: d.retryAfterSec };
+  } catch {
+    return { ok: false, error: "network" };
+  }
+}
+
+/** 自分が登録したヘルプを取り消す */
+export async function deleteHelp(
+  id: string,
+  deviceId: string
+): Promise<{ ok: boolean; error?: string }> {
+  try {
+    const r = await fetch("/api/help", {
+      method: "DELETE",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id, deviceId }),
+    });
+    const d = await r.json().catch(() => ({}));
+    if (r.ok && d.ok) return { ok: true };
+    return { ok: false, error: d.error };
   } catch {
     return { ok: false, error: "network" };
   }

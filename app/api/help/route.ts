@@ -4,6 +4,7 @@ import { Redis } from "@upstash/redis";
 export const dynamic = "force-dynamic";
 
 const TTL_MS = 2 * 60 * 60 * 1000; // ヘルプマークの寿命：2時間
+const TTL_SEC = 2 * 60 * 60;
 const RATE_LIMIT_SEC = 2 * 60 * 60; // 1端末あたり2時間に1回
 const MAX_MARKERS = 300; // 総数上限
 const KEY = "helps";
@@ -89,6 +90,8 @@ export async function POST(req: NextRequest) {
   const now = Date.now();
   const member = `${lat.toFixed(5)},${lng.toFixed(5)},${now}`;
   await redis.zadd(KEY, { score: now, member });
+  // 取り消し時の本人照合用（マークと同じ2時間で自動消滅）
+  await redis.set(`owner:${member}`, deviceId, { ex: TTL_SEC });
 
   // 後始末：期限切れ削除＋総数上限
   await redis.zremrangebyscore(KEY, 0, now - TTL_MS);
@@ -96,5 +99,39 @@ export async function POST(req: NextRequest) {
   if (count > MAX_MARKERS) {
     await redis.zremrangebyrank(KEY, 0, count - MAX_MARKERS - 1);
   }
+  return NextResponse.json({ ok: true, id: member });
+}
+
+/** 自分が登録したヘルプを取り消す。※レート制限はあえて残す（連打・いたずら防止）。 */
+export async function DELETE(req: NextRequest) {
+  const redis = getRedis();
+  if (!redis) {
+    return NextResponse.json(
+      { ok: false, error: "not_configured" },
+      { status: 503 }
+    );
+  }
+
+  let body: { id?: unknown; deviceId?: unknown };
+  try {
+    body = await req.json();
+  } catch {
+    return NextResponse.json({ ok: false, error: "bad_json" }, { status: 400 });
+  }
+  const id = String(body.id ?? "");
+  const deviceId = String(body.deviceId ?? "").slice(0, 64);
+  if (!id) {
+    return NextResponse.json({ ok: false, error: "bad_params" }, { status: 400 });
+  }
+
+  // 本人のみ取り消し可（登録した端末のみ）
+  const owner = await redis.get(`owner:${id}`);
+  if (owner && String(owner) !== deviceId) {
+    return NextResponse.json({ ok: false, error: "forbidden" }, { status: 403 });
+  }
+
+  await redis.zrem(KEY, id);
+  await redis.del(`owner:${id}`);
+  // レート制限キー（rl:deviceId）は残すので、再登録は元の2時間後まで不可
   return NextResponse.json({ ok: true });
 }
