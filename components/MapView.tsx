@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import L from "leaflet";
 import type { TaxiEvent } from "@/lib/types";
+import type { HelpMarker } from "@/lib/help";
 import {
   DEMAND_LABEL,
   formatDateLabel,
@@ -22,6 +23,23 @@ interface MapViewProps {
   selectedId: string | null;
   /** 取得済みなら現在地マーカーを表示 */
   userLoc?: LatLng | null;
+  /** 乗務員のヘルプマーク */
+  helpMarkers?: HelpMarker[];
+  /** 地図タップ登録モード */
+  placeMode?: boolean;
+  /** 地図タップ時（placeMode中のみ呼ばれる） */
+  onMapClick?: (lat: number, lng: number) => void;
+}
+
+function helpIcon(ageMin: number): L.DivIcon {
+  const op = ageMin >= 90 ? 0.45 : ageMin >= 60 ? 0.65 : ageMin >= 30 ? 0.82 : 1;
+  return L.divIcon({
+    className: "",
+    html: `<span class="help-marker" style="opacity:${op}">🙋</span>`,
+    iconSize: [34, 34],
+    iconAnchor: [17, 17],
+    popupAnchor: [0, -16],
+  });
 }
 
 function markerHtml(level: TaxiEvent["demand_level"]): L.DivIcon {
@@ -74,11 +92,21 @@ export default function MapView({
   events,
   selectedId,
   userLoc,
+  helpMarkers,
+  placeMode,
+  onMapClick,
 }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
   const markersRef = useRef<Map<string, L.Marker>>(new Map());
   const userMarkerRef = useRef<L.CircleMarker | null>(null);
+  const helpLayerRef = useRef<L.LayerGroup | null>(null);
+  const placeModeRef = useRef<boolean>(false);
+  const onMapClickRef = useRef<MapViewProps["onMapClick"]>(undefined);
+
+  // 最新の placeMode / onMapClick を ref に反映（イベントは一度だけ束縛するため）
+  placeModeRef.current = !!placeMode;
+  onMapClickRef.current = onMapClick;
 
   // 地図の初期化（マウント時に一度だけ）
   useEffect(() => {
@@ -99,14 +127,45 @@ export default function MapView({
       }
     ).addTo(map);
 
+    helpLayerRef.current = L.layerGroup().addTo(map);
+
+    // 地図タップ登録モード中のクリックで位置を通知
+    map.on("click", (e: L.LeafletMouseEvent) => {
+      if (placeModeRef.current && onMapClickRef.current) {
+        onMapClickRef.current(e.latlng.lat, e.latlng.lng);
+      }
+    });
+
     mapRef.current = map;
 
     return () => {
       map.remove();
       mapRef.current = null;
       markersRef.current.clear();
+      helpLayerRef.current = null;
     };
   }, []);
+
+  // ヘルプマークの描画
+  useEffect(() => {
+    const layer = helpLayerRef.current;
+    if (!layer) return;
+    layer.clearLayers();
+    (helpMarkers ?? []).forEach((h) => {
+      const label =
+        h.ageMin <= 0 ? "たった今" : `${h.ageMin}分前`;
+      L.marker([h.lat, h.lng], { icon: helpIcon(h.ageMin) })
+        .bindPopup(`🙋 客多い（${label}の要請）`)
+        .addTo(layer);
+    });
+  }, [helpMarkers]);
+
+  // 登録モードのカーソル切替
+  useEffect(() => {
+    const c = containerRef.current;
+    if (!c) return;
+    c.classList.toggle("place-mode", !!placeMode);
+  }, [placeMode]);
 
   // マーカーの描画（events変更時）
   useEffect(() => {

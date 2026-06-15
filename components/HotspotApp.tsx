@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import type { EventsData, TaxiEvent } from "@/lib/types";
 import {
@@ -14,6 +14,13 @@ import {
   upcomingEvents,
   type LatLng,
 } from "@/lib/utils";
+import { getDeviceId } from "@/lib/device";
+import {
+  fetchHelps,
+  formatRetry,
+  postHelp,
+  type HelpMarker,
+} from "@/lib/help";
 import EventList from "./EventList";
 import EarningsTimeline from "./EarningsTimeline";
 import WeatherBanner from "./WeatherBanner";
@@ -83,6 +90,84 @@ export default function HotspotApp({ data }: HotspotAppProps) {
     );
   };
 
+  // --- ヘルプマーク（乗務員間共有） ---
+  const [helps, setHelps] = useState<HelpMarker[]>([]);
+  const [placeMode, setPlaceMode] = useState(false);
+  const [helpMsg, setHelpMsg] = useState<{ text: string; tone: "ok" | "warn" } | null>(null);
+  const [sending, setSending] = useState(false);
+  const deviceIdRef = useRef<string>("");
+
+  useEffect(() => {
+    deviceIdRef.current = getDeviceId();
+    let alive = true;
+    const load = async () => {
+      const m = await fetchHelps();
+      if (alive) setHelps(m);
+    };
+    load();
+    const t = setInterval(load, 25000); // 25秒ごとに更新
+    return () => {
+      alive = false;
+      clearInterval(t);
+    };
+  }, []);
+
+  const refreshHelps = useCallback(async () => {
+    setHelps(await fetchHelps());
+  }, []);
+
+  const flash = useCallback((text: string, tone: "ok" | "warn") => {
+    setHelpMsg({ text, tone });
+    window.setTimeout(() => setHelpMsg(null), 4500);
+  }, []);
+
+  const submitHelp = useCallback(
+    async (lat: number, lng: number) => {
+      setSending(true);
+      const res = await postHelp(lat, lng, deviceIdRef.current);
+      setSending(false);
+      if (res.ok) {
+        flash("🙋 登録しました（2時間表示されます）", "ok");
+        refreshHelps();
+      } else if (res.error === "rate_limited") {
+        flash(`このスマホは2時間に1回まで。${formatRetry(res.retryAfterSec)}は押せません`, "warn");
+      } else if (res.error === "out_of_area") {
+        flash("エリア外のため登録できませんでした", "warn");
+      } else if (res.error === "not_configured") {
+        flash("ヘルプ機能は現在準備中です（まもなく開始）", "warn");
+      } else {
+        flash("登録に失敗しました。通信状況をご確認ください", "warn");
+      }
+    },
+    [flash, refreshHelps]
+  );
+
+  // 現在地ワンタップで登録
+  const helpHere = useCallback(() => {
+    if (typeof navigator === "undefined" || !navigator.geolocation) {
+      flash("位置情報が使えません", "warn");
+      return;
+    }
+    setSending(true);
+    navigator.geolocation.getCurrentPosition(
+      (pos) => submitHelp(pos.coords.latitude, pos.coords.longitude),
+      () => {
+        setSending(false);
+        flash("現在地を取得できませんでした", "warn");
+      },
+      { enableHighAccuracy: true, timeout: 8000, maximumAge: 30000 }
+    );
+  }, [flash, submitHelp]);
+
+  // 地図タップで登録
+  const handleMapClick = useCallback(
+    (lat: number, lng: number) => {
+      setPlaceMode(false);
+      submitHelp(lat, lng);
+    },
+    [submitHelp]
+  );
+
   const summary =
     today.length > 0
       ? `今日は${today.length}件のイベントあり`
@@ -134,6 +219,9 @@ export default function HotspotApp({ data }: HotspotAppProps) {
           events={data.events}
           selectedId={selectedId}
           userLoc={userLoc}
+          helpMarkers={helps}
+          placeMode={placeMode}
+          onMapClick={handleMapClick}
         />
         {/* ②現在地ボタンを地図の上にフローティング配置（Googleマップ風） */}
         {locStatus !== "ok" && (
@@ -149,6 +237,47 @@ export default function HotspotApp({ data }: HotspotAppProps) {
               ? "📍 再試行"
               : "📍 現在地"}
           </button>
+        )}
+
+        {/* ①ヘルプマーク登録ボタン（地図左下フローティング） */}
+        <div className="absolute bottom-3 left-3 z-[1000] flex flex-col items-start gap-2">
+          <button
+            type="button"
+            onClick={helpHere}
+            disabled={sending}
+            className="rounded-full bg-orange-500 px-4 py-2.5 text-sm font-bold text-white shadow-lg ring-2 ring-white active:bg-orange-600 disabled:opacity-60"
+          >
+            🙋 客多い（応援要請）
+          </button>
+          <button
+            type="button"
+            onClick={() => setPlaceMode((v) => !v)}
+            className={`rounded-full px-3 py-1.5 text-xs font-bold shadow ring-1 ring-slate-300 ${
+              placeMode
+                ? "bg-orange-100 text-orange-700"
+                : "bg-white/90 text-slate-600"
+            }`}
+          >
+            {placeMode ? "タップ地点を登録…（解除）" : "🗺 地図で指定"}
+          </button>
+        </div>
+
+        {/* 登録モードのヒント */}
+        {placeMode && (
+          <div className="absolute left-1/2 top-3 z-[1000] -translate-x-1/2 rounded-full bg-orange-600 px-3 py-1.5 text-xs font-bold text-white shadow-lg">
+            客が多い地点を地図でタップ
+          </div>
+        )}
+
+        {/* 結果トースト */}
+        {helpMsg && (
+          <div
+            className={`absolute left-1/2 bottom-3 z-[1001] -translate-x-1/2 rounded-lg px-3 py-2 text-center text-xs font-bold text-white shadow-lg ${
+              helpMsg.tone === "ok" ? "bg-emerald-600" : "bg-slate-700"
+            }`}
+          >
+            {helpMsg.text}
+          </div>
         )}
       </section>
 

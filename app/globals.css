@@ -72,3 +72,35 @@ body {
 .demand-marker.low {
   background-color: #16a34a;
 }
+
+/* 乗務員のヘルプマーク（客多い・応援要請） */
+.help-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #f97316;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  font-size: 18px;
+  animation: help-pulse 1.6s ease-out infinite;
+}
+
+@keyframes help-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.55);
+  }
+  70% {
+    box-shadow: 0 0 0 13px rgba(249, 115, 22, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(249, 115, 22, 0);
+  }
+}
+
+/* 地図タップ登録モード中のカーソル */
+.leaflet-container.place-mode {
+  cursor: crosshair;
+}
