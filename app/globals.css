@@ -105,4 +105,20 @@ body {
   cursor: crosshair;
 }
 
-/* 電車遅延：該当路線を線でなぞる（色は MapView の polyline 側で指定） */
+/* 電車遅延：該当路線を線でなぞる（色は MapView の polyline 側で指定）。ゆっくり点滅。 */
+.train-line {
+  animation: train-blink 2.2s ease-in-out infinite;
+}
+.train-line.suspended {
+  animation-duration: 1.5s; /* 運転見合わせは少し速く */
+}
+
+@keyframes train-blink {
+  0%,
+  100% {
+    stroke-opacity: 1;
+  }
+  50% {
+    stroke-opacity: 0.3;
+  }
+}

@@ -22,6 +22,8 @@ interface TrainRoute {
   coords: [number, number][];
   level: "suspended" | "delay";
   line: string;
+  /** 遅延の理由など（タップ時に表示） */
+  detail?: string;
 }
 
 interface MapViewProps {
@@ -167,7 +169,7 @@ export default function MapView({
     (trainRoutes ?? []).forEach((rt) => {
       const color = rt.level === "suspended" ? "#dc2626" : "#f59e0b";
       const label = rt.level === "suspended" ? "運転見合わせ" : "遅延";
-      // 視認性のための白いケーシング
+      // 視認性のための白いケーシング（点滅しない）
       L.polyline(rt.coords, {
         color: "#ffffff",
         weight: 9,
@@ -175,14 +177,30 @@ export default function MapView({
         lineCap: "round",
         lineJoin: "round",
       }).addTo(layer);
+      const detailHtml = rt.detail
+        ? `<div style="margin-top:4px;color:#475569;font-size:13px">${escapeHtml(
+            rt.detail
+          )}</div>`
+        : "";
+      // 色付きの線（ゆっくり点滅・タップで詳細）
       L.polyline(rt.coords, {
         color,
         weight: 5,
-        opacity: 0.95,
+        opacity: 1,
         lineCap: "round",
         lineJoin: "round",
+        className: `train-line ${rt.level}`,
       })
-        .bindPopup(`🚆 ${rt.line}（${label}）`)
+        .bindPopup(
+          `<div style="min-width:190px">
+            <div style="font-weight:700;font-size:15px;color:${color}">🚆 ${escapeHtml(
+            rt.line
+          )}</div>
+            <div style="font-weight:700;margin-top:2px">【${label}】</div>
+            ${detailHtml}
+            <div style="margin-top:6px;font-size:12px;color:#64748b">該当路線の駅周辺で需要増の可能性。タクシー待機の狙い目です。</div>
+          </div>`
+        )
         .addTo(layer);
     });
   }, [trainRoutes]);

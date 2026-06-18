@@ -155,10 +155,11 @@ export default function HotspotApp({ data }: HotspotAppProps) {
       coords: [number, number][];
       level: "suspended" | "delay";
       line: string;
+      detail: string;
     }[] = [];
     for (const t of trainLines) {
       for (const seg of LINE_ROUTES[t.label] ?? []) {
-        out.push({ coords: seg, level: t.level, line: t.label });
+        out.push({ coords: seg, level: t.level, line: t.label, detail: t.detail });
       }
     }
     return out;
