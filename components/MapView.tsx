@@ -17,10 +17,9 @@ import {
 const DEFAULT_CENTER: [number, number] = [35.86, 139.63];
 const DEFAULT_ZOOM = 11;
 
-interface TrainStation {
-  name: string;
-  lat: number;
-  lng: number;
+interface TrainRoute {
+  /** 区間を構成する座標列 [lat, lng] */
+  coords: [number, number][];
   level: "suspended" | "delay";
   line: string;
 }
@@ -37,18 +36,8 @@ interface MapViewProps {
   placeMode?: boolean;
   /** 地図タップ時（placeMode中のみ呼ばれる） */
   onMapClick?: (lat: number, lng: number) => void;
-  /** 遅延・運転見合わせ中の路線の駅ハイライト */
-  trainStations?: TrainStation[];
-}
-
-function trainIcon(level: "suspended" | "delay"): L.DivIcon {
-  return L.divIcon({
-    className: "",
-    html: `<span class="train-marker ${level}">🚉</span>`,
-    iconSize: [26, 26],
-    iconAnchor: [13, 13],
-    popupAnchor: [0, -12],
-  });
+  /** 遅延・運転見合わせ中の路線を線でなぞる */
+  trainRoutes?: TrainRoute[];
 }
 
 function helpIcon(ageMin: number): L.DivIcon {
@@ -115,7 +104,7 @@ export default function MapView({
   helpMarkers,
   placeMode,
   onMapClick,
-  trainStations,
+  trainRoutes,
 }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
@@ -170,19 +159,33 @@ export default function MapView({
     };
   }, []);
 
-  // 遅延・運転見合わせ路線の駅ハイライト
+  // 遅延・運転見合わせ路線を線でなぞる（遅延=黄／見合わせ=赤）
   useEffect(() => {
     const layer = trainLayerRef.current;
     if (!layer) return;
     layer.clearLayers();
-    (trainStations ?? []).forEach((s) => {
-      const label =
-        s.level === "suspended" ? "運転見合わせ" : "遅延";
-      L.marker([s.lat, s.lng], { icon: trainIcon(s.level) })
-        .bindPopup(`🚉 ${s.name}駅（${s.line}・${label}）`)
+    (trainRoutes ?? []).forEach((rt) => {
+      const color = rt.level === "suspended" ? "#dc2626" : "#f59e0b";
+      const label = rt.level === "suspended" ? "運転見合わせ" : "遅延";
+      // 視認性のための白いケーシング
+      L.polyline(rt.coords, {
+        color: "#ffffff",
+        weight: 9,
+        opacity: 0.9,
+        lineCap: "round",
+        lineJoin: "round",
+      }).addTo(layer);
+      L.polyline(rt.coords, {
+        color,
+        weight: 5,
+        opacity: 0.95,
+        lineCap: "round",
+        lineJoin: "round",
+      })
+        .bindPopup(`🚆 ${rt.line}（${label}）`)
         .addTo(layer);
     });
-  }, [trainStations]);
+  }, [trainRoutes]);
 
   // ヘルプマークの描画
   useEffect(() => {

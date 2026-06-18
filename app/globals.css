@@ -105,44 +105,4 @@ body {
   cursor: crosshair;
 }
 
-/* 電車遅延：該当路線の駅ハイライト */
-.train-marker {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 26px;
-  height: 26px;
-  border-radius: 6px;
-  background: #fff;
-  border: 2px solid #f59e0b; /* 遅延=オレンジ */
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
-  font-size: 13px;
-  animation: train-pulse-delay 1.8s ease-out infinite;
-}
-.train-marker.suspended {
-  border-color: #dc2626; /* 運転見合わせ=赤 */
-  animation: train-pulse-stop 1.4s ease-out infinite;
-}
-
-@keyframes train-pulse-delay {
-  0% {
-    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.5);
-  }
-  70% {
-    box-shadow: 0 0 0 10px rgba(245, 158, 11, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0);
-  }
-}
-@keyframes train-pulse-stop {
-  0% {
-    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.55);
-  }
-  70% {
-    box-shadow: 0 0 0 12px rgba(220, 38, 38, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0);
-  }
-}
+/* 電車遅延：該当路線を線でなぞる（色は MapView の polyline 側で指定） */

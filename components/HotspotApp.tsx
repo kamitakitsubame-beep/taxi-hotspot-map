@@ -22,7 +22,7 @@ import {
   type HelpMarker,
 } from "@/lib/help";
 import { fetchTrain, type TrainLine } from "@/lib/train";
-import { LINE_STATIONS } from "@/lib/trainStations";
+import { LINE_ROUTES } from "@/lib/trainStations";
 import EventList from "./EventList";
 import EarningsTimeline from "./EarningsTimeline";
 import WeatherBanner from "./WeatherBanner";
@@ -149,18 +149,16 @@ export default function HotspotApp({ data }: HotspotAppProps) {
     };
   }, []);
 
-  // 影響路線の駅を地図ハイライト用に展開（運転見合わせを優先表示）
-  const trainStations = useMemo(() => {
+  // 影響路線を地図の「なぞり線」用に展開（路線→区間ごとのルート）
+  const trainRoutes = useMemo(() => {
     const out: {
-      name: string;
-      lat: number;
-      lng: number;
+      coords: [number, number][];
       level: "suspended" | "delay";
       line: string;
     }[] = [];
     for (const t of trainLines) {
-      for (const s of LINE_STATIONS[t.label] ?? []) {
-        out.push({ ...s, level: t.level, line: t.label });
+      for (const seg of LINE_ROUTES[t.label] ?? []) {
+        out.push({ coords: seg, level: t.level, line: t.label });
       }
     }
     return out;
@@ -326,7 +324,7 @@ export default function HotspotApp({ data }: HotspotAppProps) {
           helpMarkers={helps}
           placeMode={placeMode}
           onMapClick={handleMapClick}
-          trainStations={trainStations}
+          trainRoutes={trainRoutes}
         />
 
         {/* 天気（雨時のみ）・ごとおび：地図左上の小チップ */}
