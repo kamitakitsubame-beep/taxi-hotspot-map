@@ -17,6 +17,14 @@ import {
 const DEFAULT_CENTER: [number, number] = [35.86, 139.63];
 const DEFAULT_ZOOM = 11;
 
+interface TrainStation {
+  name: string;
+  lat: number;
+  lng: number;
+  level: "suspended" | "delay";
+  line: string;
+}
+
 interface MapViewProps {
   events: TaxiEvent[];
   /** 一覧から選択されたイベントID（ピンを開く） */
@@ -29,6 +37,18 @@ interface MapViewProps {
   placeMode?: boolean;
   /** 地図タップ時（placeMode中のみ呼ばれる） */
   onMapClick?: (lat: number, lng: number) => void;
+  /** 遅延・運転見合わせ中の路線の駅ハイライト */
+  trainStations?: TrainStation[];
+}
+
+function trainIcon(level: "suspended" | "delay"): L.DivIcon {
+  return L.divIcon({
+    className: "",
+    html: `<span class="train-marker ${level}">🚉</span>`,
+    iconSize: [26, 26],
+    iconAnchor: [13, 13],
+    popupAnchor: [0, -12],
+  });
 }
 
 function helpIcon(ageMin: number): L.DivIcon {
@@ -95,12 +115,14 @@ export default function MapView({
   helpMarkers,
   placeMode,
   onMapClick,
+  trainStations,
 }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
   const markersRef = useRef<Map<string, L.Marker>>(new Map());
   const userMarkerRef = useRef<L.CircleMarker | null>(null);
   const helpLayerRef = useRef<L.LayerGroup | null>(null);
+  const trainLayerRef = useRef<L.LayerGroup | null>(null);
   const placeModeRef = useRef<boolean>(false);
   const onMapClickRef = useRef<MapViewProps["onMapClick"]>(undefined);
 
@@ -128,6 +150,7 @@ export default function MapView({
     ).addTo(map);
 
     helpLayerRef.current = L.layerGroup().addTo(map);
+    trainLayerRef.current = L.layerGroup().addTo(map);
 
     // 地図タップ登録モード中のクリックで位置を通知
     map.on("click", (e: L.LeafletMouseEvent) => {
@@ -143,8 +166,23 @@ export default function MapView({
       mapRef.current = null;
       markersRef.current.clear();
       helpLayerRef.current = null;
+      trainLayerRef.current = null;
     };
   }, []);
+
+  // 遅延・運転見合わせ路線の駅ハイライト
+  useEffect(() => {
+    const layer = trainLayerRef.current;
+    if (!layer) return;
+    layer.clearLayers();
+    (trainStations ?? []).forEach((s) => {
+      const label =
+        s.level === "suspended" ? "運転見合わせ" : "遅延";
+      L.marker([s.lat, s.lng], { icon: trainIcon(s.level) })
+        .bindPopup(`🚉 ${s.name}駅（${s.line}・${label}）`)
+        .addTo(layer);
+    });
+  }, [trainStations]);
 
   // ヘルプマークの描画
   useEffect(() => {

@@ -21,6 +21,8 @@ import {
   postHelp,
   type HelpMarker,
 } from "@/lib/help";
+import { fetchTrain, type TrainLine } from "@/lib/train";
+import { LINE_STATIONS } from "@/lib/trainStations";
 import EventList from "./EventList";
 import EarningsTimeline from "./EarningsTimeline";
 import WeatherBanner from "./WeatherBanner";
@@ -130,6 +132,42 @@ export default function HotspotApp({ data }: HotspotAppProps) {
 
   // 自分のマークが2時間経過したら取り消しボタンを隠す
   const hasMyHelp = !!myHelp && Date.now() - myHelp.ts < TWO_HOURS_MS;
+
+  // --- 電車遅延（JR） ---
+  const [trainLines, setTrainLines] = useState<TrainLine[]>([]);
+  useEffect(() => {
+    let alive = true;
+    const load = async () => {
+      const t = await fetchTrain();
+      if (alive) setTrainLines(t);
+    };
+    load();
+    const id = setInterval(load, 180000); // 3分ごと
+    return () => {
+      alive = false;
+      clearInterval(id);
+    };
+  }, []);
+
+  // 影響路線の駅を地図ハイライト用に展開（運転見合わせを優先表示）
+  const trainStations = useMemo(() => {
+    const out: {
+      name: string;
+      lat: number;
+      lng: number;
+      level: "suspended" | "delay";
+      line: string;
+    }[] = [];
+    for (const t of trainLines) {
+      for (const s of LINE_STATIONS[t.label] ?? []) {
+        out.push({ ...s, level: t.level, line: t.label });
+      }
+    }
+    return out;
+  }, [trainLines]);
+
+  const suspended = trainLines.filter((t) => t.level === "suspended");
+  const delayed = trainLines.filter((t) => t.level === "delay");
 
   const refreshHelps = useCallback(async () => {
     setHelps(await fetchHelps());
@@ -249,6 +287,36 @@ export default function HotspotApp({ data }: HotspotAppProps) {
         </span>
       </header>
 
+      {/* 電車遅延バナー（運転見合わせ＝赤／遅延＝黄。平常時は非表示） */}
+      {(suspended.length > 0 || delayed.length > 0) && (
+        <div
+          className={`flex items-start gap-2 px-3 py-2 text-xs font-bold ${
+            suspended.length > 0
+              ? "bg-red-600 text-white"
+              : "bg-amber-400 text-amber-950"
+          }`}
+        >
+          <span className="shrink-0">🚆</span>
+          <span className="min-w-0">
+            {suspended.length > 0 && (
+              <span>
+                【運転見合わせ】{suspended.map((t) => t.label).join("・")}
+                <span className="font-normal">｜該当駅周辺で需要急増の可能性。早めの待機を。</span>
+              </span>
+            )}
+            {suspended.length > 0 && delayed.length > 0 && <br />}
+            {delayed.length > 0 && (
+              <span>
+                【遅延】{delayed.map((t) => t.label).join("・")}
+                {delayed[0]?.detail && (
+                  <span className="font-normal">｜{delayed[0].detail}</span>
+                )}
+              </span>
+            )}
+          </span>
+        </div>
+      )}
+
       {/* マップ：最初の1画面をほぼ占有（下に少しだけ次の内容を覗かせてスクロールを示唆） */}
       <section className="relative h-[calc(100dvh-6rem)] min-h-[380px]">
         <MapView
@@ -258,6 +326,7 @@ export default function HotspotApp({ data }: HotspotAppProps) {
           helpMarkers={helps}
           placeMode={placeMode}
           onMapClick={handleMapClick}
+          trainStations={trainStations}
         />
 
         {/* 天気（雨時のみ）・ごとおび：地図左上の小チップ */}
