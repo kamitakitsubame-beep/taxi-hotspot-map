@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-06-18T06:52:31+09:00",
+  "updated_at": "2026-06-19T06:56:20+09:00",
   "events": [
     {
       "id": "wp-e598282",
       "title": "アフリカン現代アート　ティンガティンガ原画展＠そごう大宮店",
-      "date": "2026-06-18",
+      "date": "2026-06-19",
       "date_end": "2026-06-22",
       "venue": "そごう大宮店（さいたま市大宮区）",
       "category": "",
@@ -17,23 +17,6 @@
       "_geo_key_city": "さいたま市大宮区",
       "time_start": "10:00",
       "time_end": "20:00"
-    },
-    {
-      "id": "wp-e595610",
-      "title": "金融経済講演会「笑う門には福来る！～転ばぬ先のマネーの知恵を教えます～」",
-      "date": "2026-06-18",
-      "date_end": "2026-06-18",
-      "venue": "ソニックシティ　国際会議室（さいたま市大宮区）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "最寄り：大宮駅(埼玉県)。小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e595610/",
-      "lat": 35.91709,
-      "lng": 139.63122,
-      "_geo_key_place": "ソニックシティ　国際会議室",
-      "_geo_key_city": "さいたま市大宮区",
-      "time_start": "14:00",
-      "time_end": "15:40"
     },
     {
       "id": "wp-e596215",
@@ -404,6 +387,55 @@
       "_geo_key_city": "さいたま市大宮区",
       "time_start": "10:30",
       "time_end": "11:30"
+    },
+    {
+      "id": "wp-e552340",
+      "title": "第65回 川口七夕まつり",
+      "date": "2026-07-03",
+      "date_end": "2026-07-07",
+      "venue": "ふじの市商店街（川口市）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "最寄り：川口駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e552340/",
+      "lat": 35.80782,
+      "lng": 139.72411,
+      "_geo_key_place": "ふじの市商店街",
+      "_geo_key_city": "川口市",
+      "time_start": "10:00",
+      "time_end": "20:30"
+    },
+    {
+      "id": "wp-e589305",
+      "title": "さいたまパリ祭2026",
+      "date": "2026-07-03",
+      "date_end": "2026-07-03",
+      "venue": "埼玉会館小ホール（さいたま市浦和区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "最寄り：浦和駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e589305/",
+      "lat": 35.87196,
+      "lng": 139.64914,
+      "_geo_key_place": "埼玉会館小ホール",
+      "_geo_key_city": "さいたま市浦和区",
+      "time_start": "13:30",
+      "time_end": "15:45"
+    },
+    {
+      "id": "wp-e600570",
+      "title": "第13回路地裏シネマ『大海原のソングライン』上映会＆アフターセッション",
+      "date": "2026-07-03",
+      "date_end": "2026-07-04",
+      "venue": "路地裏ガレージマーケット（さいたま市中央区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "最寄り：与野本町駅(埼玉県)。小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e600570/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "路地裏ガレージマーケット",
+      "_geo_key_city": "さいたま市中央区"
     }
   ]
 }
