@@ -1,23 +1,6 @@
 {
-  "updated_at": "2026-06-22T06:03:31+09:00",
+  "updated_at": "2026-06-23T06:54:50+09:00",
   "events": [
-    {
-      "id": "wp-e598282",
-      "title": "アフリカン現代アート　ティンガティンガ原画展＠そごう大宮店",
-      "date": "2026-06-22",
-      "date_end": "2026-06-22",
-      "venue": "そごう大宮店（さいたま市大宮区）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "最寄り：大宮駅(埼玉県)。小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e598282/",
-      "lat": 35.91709,
-      "lng": 139.63122,
-      "_geo_key_place": "そごう大宮店",
-      "_geo_key_city": "さいたま市大宮区",
-      "time_start": "10:00",
-      "time_end": "20:00"
-    },
     {
       "id": "wp-e592705",
       "title": "埼玉会館ランチタイム・コンサート第69回 荒井里桜（ヴァイオリン）",
@@ -270,23 +253,6 @@
       "time_end": "16:00"
     },
     {
-      "id": "wp-e596350",
-      "title": "映画『五月の雨』上映会＠コミュニティスペースほぼのら",
-      "date": "2026-07-04",
-      "date_end": "2026-07-04",
-      "venue": "コミュニティスペースほぼのら（さいたま市南区）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "最寄り：中浦和駅(埼玉県),西浦和駅(埼玉県)。小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e596350/",
-      "lat": 35.83905,
-      "lng": 139.64134,
-      "_geo_key_place": "コミュニティスペースほぼのら",
-      "_geo_key_city": "さいたま市南区",
-      "time_start": "10:00",
-      "time_end": "18:00"
-    },
-    {
       "id": "wp-e600969",
       "title": "爆笑！星兄プラネタリウムショー",
       "date": "2026-07-04",
@@ -336,6 +302,23 @@
       "_geo_key_city": "さいたま市中央区",
       "time_start": "14:00",
       "time_end": "17:00"
+    },
+    {
+      "id": "wp-e600970",
+      "title": "消防音楽隊たなばたコンサート",
+      "date": "2026-07-07",
+      "date_end": "2026-07-07",
+      "venue": "さいたま市宇宙劇場（さいたま市大宮区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "最寄り：大宮駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e600970/",
+      "lat": 35.90781,
+      "lng": 139.62151,
+      "_geo_key_place": "さいたま市宇宙劇場",
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "12:10",
+      "time_end": "12:55"
     }
   ]
 }
