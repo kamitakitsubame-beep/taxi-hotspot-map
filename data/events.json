@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T05:50:51+09:00",
+  "updated_at": "2026-06-30T06:16:12+09:00",
   "events": [
     {
       "id": "wp-e599768",
@@ -183,6 +183,23 @@
       "_geo_key_city": "さいたま市大宮区",
       "time_start": "15:00",
       "time_end": "21:00"
+    },
+    {
+      "id": "wp-e601285",
+      "title": "第30回人形のまち岩槻 朝顔市",
+      "date": "2026-07-05",
+      "date_end": "2026-07-05",
+      "venue": "岩槻駅東口クレセントモール（さいたま市岩槻区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "最寄り：岩槻駅(埼玉県)。小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e601285/",
+      "lat": 35.93902,
+      "lng": 139.68745,
+      "_geo_key_place": "岩槻駅東口クレセントモール",
+      "_geo_key_city": "さいたま市岩槻区",
+      "time_start": "09:00",
+      "time_end": "12:00"
     },
     {
       "id": "wp-e596827",
