@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-01T06:22:48+09:00",
+  "updated_at": "2026-07-02T06:15:45+09:00",
   "events": [
     {
       "id": "wp-e599768",
       "title": "聖学院メッセージ集ー緑信叢書展「言葉は、光になる。」",
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "date_end": "2026-07-17",
       "venue": "聖学院大学チャペル（上尾市）",
       "category": "",
@@ -19,26 +19,9 @@
       "time_end": "16:00"
     },
     {
-      "id": "wp-e598233",
-      "title": "和楽器deリトミック・おおみや（7月）",
-      "date": "2026-07-01",
-      "date_end": "2026-07-01",
-      "venue": "彩ノ音 箏・尺八教室（さいたま市大宮区）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "最寄り：大宮駅(埼玉県)。小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e598233/",
-      "lat": 35.91709,
-      "lng": 139.63122,
-      "_geo_key_place": "彩ノ音 箏・尺八教室",
-      "_geo_key_city": "さいたま市大宮区",
-      "time_start": "10:30",
-      "time_end": "11:30"
-    },
-    {
       "id": "wp-e601942",
       "title": "七夕 TANABATA -大宮の天の川- 2026",
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "date_end": "2026-07-07",
       "venue": "武蔵一宮氷川神社／氷川参道／大宮公園／NACK5スタジアム大宮／県営大宮公園野球場 ほか（さいたま市大宮区）",
       "category": "",
@@ -51,21 +34,6 @@
       "_geo_key_city": "さいたま市大宮区",
       "time_start": "15:00",
       "time_end": "21:00"
-    },
-    {
-      "id": "wp-e599430",
-      "title": "初山参り（東間浅間神社の例大祭）",
-      "date": "2026-07-01",
-      "date_end": "2026-07-01",
-      "venue": "東間浅間神社（北本市）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "最寄り：北本駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e599430/",
-      "lat": 36.03631,
-      "lng": 139.53236,
-      "_geo_key_place": "東間浅間神社",
-      "_geo_key_city": "北本市"
     },
     {
       "id": "wp-e552340",
@@ -185,6 +153,19 @@
       "time_end": "21:00"
     },
     {
+      "id": "arena-74232616",
+      "title": "さいたま市立大宮南小学校吹奏楽部 サマーコンサート2026",
+      "date": "2026-07-04",
+      "date_end": "2026-07-04",
+      "venue": "けやきひろば（さいたま市中央区）",
+      "category": "コンサート・スポーツ",
+      "demand_level": "medium",
+      "demand_comment": "けやきひろば等での催し。来場者の行き帰りで新都心駅周辺に需要が見込まれます。",
+      "source_url": "https://www.saitama-arena.co.jp/schedule/",
+      "lat": 35.8966,
+      "lng": 139.631
+    },
+    {
       "id": "wp-e601285",
       "title": "第30回人形のまち岩槻 朝顔市",
       "date": "2026-07-05",
@@ -251,6 +232,19 @@
       "time_end": "12:55"
     },
     {
+      "id": "arena-67862619",
+      "title": "東部方面音楽隊　火曜コンサート",
+      "date": "2026-07-07",
+      "date_end": "2026-07-07",
+      "venue": "けやきひろば（さいたま市中央区）",
+      "category": "コンサート・スポーツ",
+      "demand_level": "medium",
+      "demand_comment": "けやきひろば等での催し。来場者の行き帰りで新都心駅周辺に需要が見込まれます。",
+      "source_url": "https://www.saitama-arena.co.jp/schedule/",
+      "lat": 35.8966,
+      "lng": 139.631
+    },
+    {
       "id": "wp-e597059",
       "title": "けやきの下のマルシェ（7月）",
       "date": "2026-07-11",
@@ -283,6 +277,19 @@
       "_geo_key_city": "鴻巣市",
       "time_start": "14:00",
       "time_end": "20:00"
+    },
+    {
+      "id": "arena-11370251",
+      "title": "海上自衛隊東京音楽隊　火曜コンサート",
+      "date": "2026-07-14",
+      "date_end": "2026-07-14",
+      "venue": "けやきひろば（さいたま市中央区）",
+      "category": "コンサート・スポーツ",
+      "demand_level": "medium",
+      "demand_comment": "けやきひろば等での催し。来場者の行き帰りで新都心駅周辺に需要が見込まれます。",
+      "source_url": "https://www.saitama-arena.co.jp/schedule/",
+      "lat": 35.8966,
+      "lng": 139.631
     }
   ]
 }
