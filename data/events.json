@@ -1,23 +1,6 @@
 {
-  "updated_at": "2026-07-09T05:55:11+09:00",
+  "updated_at": "2026-07-10T06:09:51+09:00",
   "events": [
-    {
-      "id": "wp-e599768",
-      "title": "聖学院メッセージ集ー緑信叢書展「言葉は、光になる。」",
-      "date": "2026-07-09",
-      "date_end": "2026-07-17",
-      "venue": "聖学院大学チャペル（上尾市）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e599768/",
-      "lat": 35.97741,
-      "lng": 139.59305,
-      "_geo_key_place": "聖学院大学チャペル",
-      "_geo_key_city": "上尾市",
-      "time_start": "10:00",
-      "time_end": "16:00"
-    },
     {
       "id": "wp-e603903",
       "title": "リップクリームとアンチバクテリアスプレーをつくろう！",
@@ -87,7 +70,7 @@
       "time_end": "20:00"
     },
     {
-      "id": "arena-55364856",
+      "id": "arena-71148227",
       "title": "海上自衛隊東京音楽隊　火曜コンサート",
       "date": "2026-07-14",
       "date_end": "2026-07-14",
@@ -300,6 +283,23 @@
       "_geo_key_city": "さいたま市南区",
       "time_start": "10:00",
       "time_end": "16:45"
+    },
+    {
+      "id": "wp-e602060",
+      "title": "本宿天神社　夏まつり",
+      "date": "2026-07-24",
+      "date_end": "2026-07-25",
+      "venue": "本宿天神社・北本駅東口駅前ロータリー（北本市）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "最寄り：北本駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e602060/",
+      "lat": 36.02696,
+      "lng": 139.53117,
+      "_geo_key_place": "本宿天神社・北本駅東口駅前ロータリー",
+      "_geo_key_city": "北本市",
+      "time_start": "10:00",
+      "time_end": "21:00"
     }
   ]
 }
