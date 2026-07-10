@@ -1,23 +1,6 @@
 {
-  "updated_at": "2026-07-10T06:09:51+09:00",
+  "updated_at": "2026-07-11T05:58:35+09:00",
   "events": [
-    {
-      "id": "wp-e603903",
-      "title": "リップクリームとアンチバクテリアスプレーをつくろう！",
-      "date": "2026-07-10",
-      "date_end": "2026-07-10",
-      "venue": "コミュニティースペースほぼのら（さいたま市南区）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "最寄り：中浦和駅(埼玉県),西浦和駅(埼玉県)。小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e603903/",
-      "lat": 35.83903,
-      "lng": 139.64131,
-      "_geo_key_place": "コミュニティースペースほぼのら",
-      "_geo_key_city": "さいたま市南区",
-      "time_start": "10:00",
-      "time_end": "11:00"
-    },
     {
       "id": "wp-e597059",
       "title": "けやきの下のマルシェ（7月）",
@@ -32,6 +15,23 @@
       "lng": 139.62231,
       "_geo_key_place": "たまアリ△タウン けやきひろば1階プラザ",
       "_geo_key_city": "さいたま市中央区",
+      "time_start": "10:00",
+      "time_end": "16:00"
+    },
+    {
+      "id": "wp-e599768",
+      "title": "聖学院メッセージ集ー緑信叢書展「言葉は、光になる。」",
+      "date": "2026-07-11",
+      "date_end": "2026-07-17",
+      "venue": "聖学院大学チャペル（上尾市）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e599768/",
+      "lat": 35.97741,
+      "lng": 139.59305,
+      "_geo_key_place": "聖学院大学チャペル",
+      "_geo_key_city": "上尾市",
       "time_start": "10:00",
       "time_end": "16:00"
     },
@@ -70,7 +70,7 @@
       "time_end": "20:00"
     },
     {
-      "id": "arena-71148227",
+      "id": "arena-84125399",
       "title": "海上自衛隊東京音楽隊　火曜コンサート",
       "date": "2026-07-14",
       "date_end": "2026-07-14",
@@ -300,6 +300,53 @@
       "_geo_key_city": "北本市",
       "time_start": "10:00",
       "time_end": "21:00"
+    },
+    {
+      "id": "wp-e600418",
+      "title": "大宮けいりん 水かけまつり！『サマフェス』",
+      "date": "2026-07-25",
+      "date_end": "2026-07-25",
+      "venue": "大宮競輪場（さいたま市大宮区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "最寄り：大宮公園駅(埼玉県),北大宮駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e600418/",
+      "lat": 35.9191,
+      "lng": 139.6338,
+      "_geo_key_place": "大宮競輪場",
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "10:00",
+      "time_end": "15:00"
+    },
+    {
+      "id": "wp-e00873",
+      "title": "令和8年度 さいたま市花火大会 大和田公園会場",
+      "date": "2026-07-25",
+      "date_end": "2026-07-25",
+      "venue": "大和田公園周辺（さいたま市北区）",
+      "category": "",
+      "demand_level": "high",
+      "demand_comment": "大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e00873/",
+      "lat": 35.92528,
+      "lng": 139.61097,
+      "_geo_key_place": "大和田公園周辺",
+      "_geo_key_city": "さいたま市北区",
+      "time_start": "19:30",
+      "time_end": "20:30"
+    },
+    {
+      "id": "arena-77463431",
+      "title": "GMOアリーナさいたまけやきひろば音楽祭×♯ HNG SONIC 2026",
+      "date": "2026-07-25",
+      "date_end": "2026-07-26",
+      "venue": "けやきひろば（さいたま市中央区）",
+      "category": "コンサート・スポーツ",
+      "demand_level": "high",
+      "demand_comment": "さいたまスーパーアリーナの大型公演。終演後にさいたま新都心駅周辺で大量需要。早めの待機を強く推奨。",
+      "source_url": "https://www.saitama-arena.co.jp/schedule/",
+      "lat": 35.8966,
+      "lng": 139.631
     }
   ]
 }
