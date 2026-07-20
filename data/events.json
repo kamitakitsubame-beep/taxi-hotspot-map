@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-20T05:36:57+09:00",
+  "updated_at": "2026-07-21T05:59:37+09:00",
   "events": [
     {
       "id": "wp-e605167",
       "title": "TOMUSHIのカブクワすごいぞ in けやきひろば",
-      "date": "2026-07-20",
+      "date": "2026-07-21",
       "date_end": "2026-08-26",
       "venue": "けやきひろば2階　特設会場（さいたま市中央区）",
       "category": "",
@@ -19,26 +19,9 @@
       "time_end": "16:00"
     },
     {
-      "id": "wp-e604503",
-      "title": "クラフトカフェ夏祭り「スライム作り」+レインボーかき氷",
-      "date": "2026-07-20",
-      "date_end": "2026-07-20",
-      "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e604503/",
-      "lat": 35.83903,
-      "lng": 139.64131,
-      "_geo_key_place": "体験工房クラフトカフェ浦和",
-      "_geo_key_city": "さいたま市南区",
-      "time_start": "10:00",
-      "time_end": "16:45"
-    },
-    {
       "id": "wp-e600780",
       "title": "七夕スカイランタン祭り2026(埼玉)",
-      "date": "2026-07-20",
+      "date": "2026-07-21",
       "date_end": "2026-07-23",
       "venue": "埼玉スタジアム2002（さいたま市緑区）",
       "category": "",
@@ -104,7 +87,7 @@
       "time_end": "20:30"
     },
     {
-      "id": "arena-33306757",
+      "id": "arena-17560007",
       "title": "GMOアリーナさいたまけやきひろば音楽祭×♯ HNG SONIC 2026",
       "date": "2026-07-25",
       "date_end": "2026-07-26",
@@ -285,6 +268,23 @@
       "_geo_key_city": "桶川市",
       "time_start": "14:00",
       "time_end": "15:20"
+    },
+    {
+      "id": "wp-e603320",
+      "title": "こどもシアター夏「シャボン玉のコンサートのはじまりはじまり」",
+      "date": "2026-08-04",
+      "date_end": "2026-08-04",
+      "venue": "埼玉会館（さいたま市浦和区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "最寄り：浦和駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e603320/",
+      "lat": 35.85759,
+      "lng": 139.65224,
+      "_geo_key_place": "埼玉会館",
+      "_geo_key_city": "さいたま市浦和区",
+      "time_start": "14:30",
+      "time_end": "19:30"
     }
   ]
 }
