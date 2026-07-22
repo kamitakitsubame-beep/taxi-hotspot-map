@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-22T05:57:00+09:00",
+  "updated_at": "2026-07-23T05:53:43+09:00",
   "events": [
     {
       "id": "wp-e605167",
       "title": "TOMUSHIのカブクワすごいぞ in けやきひろば",
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "date_end": "2026-08-26",
       "venue": "けやきひろば2階　特設会場（さいたま市中央区）",
       "category": "",
@@ -21,7 +21,7 @@
     {
       "id": "wp-e600780",
       "title": "七夕スカイランタン祭り2026(埼玉)",
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "date_end": "2026-07-23",
       "venue": "埼玉スタジアム2002（さいたま市緑区）",
       "category": "",
@@ -33,23 +33,6 @@
       "_geo_key_place": "埼玉スタジアム2002",
       "_geo_key_city": "さいたま市緑区",
       "time_start": "17:00",
-      "time_end": "21:00"
-    },
-    {
-      "id": "wp-e602060",
-      "title": "本宿天神社　夏まつり",
-      "date": "2026-07-24",
-      "date_end": "2026-07-25",
-      "venue": "本宿天神社・北本駅東口駅前ロータリー（北本市）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "最寄り：北本駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e602060/",
-      "lat": 36.02696,
-      "lng": 139.53117,
-      "_geo_key_place": "本宿天神社・北本駅東口駅前ロータリー",
-      "_geo_key_city": "北本市",
-      "time_start": "10:00",
       "time_end": "21:00"
     },
     {
@@ -70,7 +53,24 @@
       "time_end": "15:00"
     },
     {
-      "id": "arena-67230536",
+      "id": "wp-e00873",
+      "title": "令和8年度 さいたま市花火大会 大和田公園会場",
+      "date": "2026-07-25",
+      "date_end": "2026-07-25",
+      "venue": "大和田公園周辺（さいたま市北区）",
+      "category": "",
+      "demand_level": "high",
+      "demand_comment": "大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e00873/",
+      "lat": 35.92528,
+      "lng": 139.61097,
+      "_geo_key_place": "大和田公園周辺",
+      "_geo_key_city": "さいたま市北区",
+      "time_start": "19:30",
+      "time_end": "20:30"
+    },
+    {
+      "id": "arena-67237158",
       "title": "GMOアリーナさいたまけやきひろば音楽祭×♯ HNG SONIC 2026",
       "date": "2026-07-25",
       "date_end": "2026-07-26",
@@ -268,6 +268,23 @@
       "_geo_key_city": "さいたま市浦和区",
       "time_start": "14:30",
       "time_end": "19:30"
+    },
+    {
+      "id": "wp-e72577",
+      "title": "大宮夏まつり 第54回 大宮日進七夕まつり2026",
+      "date": "2026-08-06",
+      "date_end": "2026-08-07",
+      "venue": "JR日進駅南口 日進七夕通り周辺（さいたま市北区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "最寄り：日進駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e72577/",
+      "lat": 35.92528,
+      "lng": 139.61097,
+      "_geo_key_place": "JR日進駅南口 日進七夕通り周辺",
+      "_geo_key_city": "さいたま市北区",
+      "time_start": "15:00",
+      "time_end": "21:00"
     }
   ]
 }
