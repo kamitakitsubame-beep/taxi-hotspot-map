@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-23T05:53:43+09:00",
+  "updated_at": "2026-07-24T05:50:41+09:00",
   "events": [
     {
       "id": "wp-e605167",
       "title": "TOMUSHIのカブクワすごいぞ in けやきひろば",
-      "date": "2026-07-23",
+      "date": "2026-07-24",
       "date_end": "2026-08-26",
       "venue": "けやきひろば2階　特設会場（さいたま市中央区）",
       "category": "",
@@ -19,20 +19,20 @@
       "time_end": "16:00"
     },
     {
-      "id": "wp-e600780",
-      "title": "七夕スカイランタン祭り2026(埼玉)",
-      "date": "2026-07-23",
-      "date_end": "2026-07-23",
-      "venue": "埼玉スタジアム2002（さいたま市緑区）",
+      "id": "wp-e602060",
+      "title": "本宿天神社　夏まつり",
+      "date": "2026-07-24",
+      "date_end": "2026-07-25",
+      "venue": "本宿天神社・北本駅東口駅前ロータリー（北本市）",
       "category": "",
-      "demand_level": "high",
-      "demand_comment": "大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e600780/",
-      "lat": 35.90307,
-      "lng": 139.71761,
-      "_geo_key_place": "埼玉スタジアム2002",
-      "_geo_key_city": "さいたま市緑区",
-      "time_start": "17:00",
+      "demand_level": "medium",
+      "demand_comment": "最寄り：北本駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e602060/",
+      "lat": 36.02696,
+      "lng": 139.53117,
+      "_geo_key_place": "本宿天神社・北本駅東口駅前ロータリー",
+      "_geo_key_city": "北本市",
+      "time_start": "10:00",
       "time_end": "21:00"
     },
     {
@@ -70,7 +70,7 @@
       "time_end": "20:30"
     },
     {
-      "id": "arena-67237158",
+      "id": "arena-69404185",
       "title": "GMOアリーナさいたまけやきひろば音楽祭×♯ HNG SONIC 2026",
       "date": "2026-07-25",
       "date_end": "2026-07-26",
@@ -151,21 +151,21 @@
       "time_end": "20:30"
     },
     {
-      "id": "wp-e601716",
-      "title": "大宮夏まつり 西口夏まつり",
-      "date": "2026-07-31",
-      "date_end": "2026-07-31",
-      "venue": "大宮駅西口周辺（さいたま市大宮区）",
+      "id": "wp-e607311",
+      "title": "TSUKUTTE！つくってまなぶ。実験でワーク2026 in大宮工房館",
+      "date": "2026-07-29",
+      "date_end": "2026-08-17",
+      "venue": "大宮工房館（さいたま市大宮区）",
       "category": "",
-      "demand_level": "medium",
-      "demand_comment": "最寄り：大宮駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e601716/",
-      "lat": 35.91709,
-      "lng": 139.63122,
-      "_geo_key_place": "大宮駅西口周辺",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e607311/",
+      "lat": 35.91217,
+      "lng": 139.6415,
+      "_geo_key_place": "大宮工房館",
       "_geo_key_city": "さいたま市大宮区",
-      "time_start": "17:00",
-      "time_end": "21:00"
+      "time_start": "13:30",
+      "time_end": "15:30"
     },
     {
       "id": "wp-e598160",
@@ -270,6 +270,22 @@
       "time_end": "19:30"
     },
     {
+      "id": "wp-e607313",
+      "title": "TSUKUTTE！つくってまなぶ。地域の居場所 inとしょかんのとなり",
+      "date": "2026-08-05",
+      "date_end": "2026-08-05",
+      "venue": "エシカルカフェとしょかんのとなり（さいたま市見沼区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "最寄り：七里駅(埼玉県),大和田駅(埼玉県)。小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e607313/",
+      "lat": 35.91303,
+      "lng": 139.65233,
+      "_geo_key_place": "エシカルカフェとしょかんのとなり",
+      "_geo_key_city": "さいたま市見沼区",
+      "time_start": "10:00"
+    },
+    {
       "id": "wp-e72577",
       "title": "大宮夏まつり 第54回 大宮日進七夕まつり2026",
       "date": "2026-08-06",
@@ -285,6 +301,37 @@
       "_geo_key_city": "さいたま市北区",
       "time_start": "15:00",
       "time_end": "21:00"
+    },
+    {
+      "id": "wp-e601740",
+      "title": "大宮夏まつり 第30回東大宮サマーフェスティバル",
+      "date": "2026-08-07",
+      "date_end": "2026-08-08",
+      "venue": "東大宮中央公園（さいたま市見沼区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "最寄り：東大宮駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e601740/",
+      "lat": 35.94911,
+      "lng": 139.64444,
+      "_geo_key_place": "東大宮中央公園",
+      "_geo_key_city": "さいたま市見沼区",
+      "time_start": "16:00"
+    },
+    {
+      "id": "wp-e601506",
+      "title": "第14回路地裏シネマ『ジェンダー・マリアージュ ～全米を揺るがした同性婚裁判～』上映会",
+      "date": "2026-08-07",
+      "date_end": "2026-08-08",
+      "venue": "路地裏ガレージマーケット（さいたま市中央区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "最寄り：与野本町駅(埼玉県)。小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e601506/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "路地裏ガレージマーケット",
+      "_geo_key_city": "さいたま市中央区"
     }
   ]
 }
