@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-24T05:50:41+09:00",
+  "updated_at": "2026-07-25T05:54:25+09:00",
   "events": [
     {
       "id": "wp-e605167",
       "title": "TOMUSHIのカブクワすごいぞ in けやきひろば",
-      "date": "2026-07-24",
+      "date": "2026-07-25",
       "date_end": "2026-08-26",
       "venue": "けやきひろば2階　特設会場（さいたま市中央区）",
       "category": "",
@@ -17,23 +17,6 @@
       "_geo_key_city": "さいたま市中央区",
       "time_start": "10:00",
       "time_end": "16:00"
-    },
-    {
-      "id": "wp-e602060",
-      "title": "本宿天神社　夏まつり",
-      "date": "2026-07-24",
-      "date_end": "2026-07-25",
-      "venue": "本宿天神社・北本駅東口駅前ロータリー（北本市）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "最寄り：北本駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e602060/",
-      "lat": 36.02696,
-      "lng": 139.53117,
-      "_geo_key_place": "本宿天神社・北本駅東口駅前ロータリー",
-      "_geo_key_city": "北本市",
-      "time_start": "10:00",
-      "time_end": "21:00"
     },
     {
       "id": "wp-e600418",
@@ -53,6 +36,23 @@
       "time_end": "15:00"
     },
     {
+      "id": "wp-e602060",
+      "title": "本宿天神社　夏まつり",
+      "date": "2026-07-25",
+      "date_end": "2026-07-25",
+      "venue": "本宿天神社・北本駅東口駅前ロータリー（北本市）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "最寄り：北本駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e602060/",
+      "lat": 36.02696,
+      "lng": 139.53117,
+      "_geo_key_place": "本宿天神社・北本駅東口駅前ロータリー",
+      "_geo_key_city": "北本市",
+      "time_start": "10:00",
+      "time_end": "21:00"
+    },
+    {
       "id": "wp-e00873",
       "title": "令和8年度 さいたま市花火大会 大和田公園会場",
       "date": "2026-07-25",
@@ -70,7 +70,7 @@
       "time_end": "20:30"
     },
     {
-      "id": "arena-69404185",
+      "id": "arena-24003129",
       "title": "GMOアリーナさいたまけやきひろば音楽祭×♯ HNG SONIC 2026",
       "date": "2026-07-25",
       "date_end": "2026-07-26",
@@ -166,6 +166,23 @@
       "_geo_key_city": "さいたま市大宮区",
       "time_start": "13:30",
       "time_end": "15:30"
+    },
+    {
+      "id": "wp-e601716",
+      "title": "大宮夏まつり 西口夏まつり",
+      "date": "2026-07-31",
+      "date_end": "2026-07-31",
+      "venue": "大宮駅西口周辺（さいたま市大宮区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "最寄り：大宮駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e601716/",
+      "lat": 35.91709,
+      "lng": 139.63122,
+      "_geo_key_place": "大宮駅西口周辺",
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "17:00",
+      "time_end": "21:00"
     },
     {
       "id": "wp-e598160",
@@ -332,6 +349,40 @@
       "lng": 139.62231,
       "_geo_key_place": "路地裏ガレージマーケット",
       "_geo_key_city": "さいたま市中央区"
+    },
+    {
+      "id": "wp-e605102",
+      "title": "SKIPシティウィークエンドシアター『爆弾』",
+      "date": "2026-08-08",
+      "date_end": "2026-08-08",
+      "venue": "SKIPシティ 彩の国ビジュアルプラザ 映像ホール（川口市）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e605102/",
+      "lat": 35.80782,
+      "lng": 139.72411,
+      "_geo_key_place": "SKIPシティ 彩の国ビジュアルプラザ 映像ホール",
+      "_geo_key_city": "川口市",
+      "time_start": "14:00",
+      "time_end": "16:20"
+    },
+    {
+      "id": "wp-e00513",
+      "title": "令和8年度 さいたま市花火大会 東浦和 大間木公園会場",
+      "date": "2026-08-08",
+      "date_end": "2026-08-08",
+      "venue": "大間木公園周辺（さいたま市緑区）",
+      "category": "",
+      "demand_level": "high",
+      "demand_comment": "大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e00513/",
+      "lat": 35.88687,
+      "lng": 139.66605,
+      "_geo_key_place": "大間木公園周辺",
+      "_geo_key_city": "さいたま市緑区",
+      "time_start": "19:30",
+      "time_end": "20:20"
     }
   ]
 }
