@@ -1,87 +1,6 @@
 {
-  "updated_at": "2026-07-25T05:54:25+09:00",
+  "updated_at": "2026-07-26T05:39:09+09:00",
   "events": [
-    {
-      "id": "wp-e605167",
-      "title": "TOMUSHIのカブクワすごいぞ in けやきひろば",
-      "date": "2026-07-25",
-      "date_end": "2026-08-26",
-      "venue": "けやきひろば2階　特設会場（さいたま市中央区）",
-      "category": "",
-      "demand_level": "high",
-      "demand_comment": "最寄り：さいたま新都心駅(埼玉県),北与野駅(埼玉県)。大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e605167/",
-      "lat": 35.89918,
-      "lng": 139.62231,
-      "_geo_key_place": "けやきひろば2階　特設会場",
-      "_geo_key_city": "さいたま市中央区",
-      "time_start": "10:00",
-      "time_end": "16:00"
-    },
-    {
-      "id": "wp-e600418",
-      "title": "大宮けいりん 水かけまつり！『サマフェス』",
-      "date": "2026-07-25",
-      "date_end": "2026-07-25",
-      "venue": "大宮競輪場（さいたま市大宮区）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "最寄り：大宮公園駅(埼玉県),北大宮駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e600418/",
-      "lat": 35.9191,
-      "lng": 139.6338,
-      "_geo_key_place": "大宮競輪場",
-      "_geo_key_city": "さいたま市大宮区",
-      "time_start": "10:00",
-      "time_end": "15:00"
-    },
-    {
-      "id": "wp-e602060",
-      "title": "本宿天神社　夏まつり",
-      "date": "2026-07-25",
-      "date_end": "2026-07-25",
-      "venue": "本宿天神社・北本駅東口駅前ロータリー（北本市）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "最寄り：北本駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e602060/",
-      "lat": 36.02696,
-      "lng": 139.53117,
-      "_geo_key_place": "本宿天神社・北本駅東口駅前ロータリー",
-      "_geo_key_city": "北本市",
-      "time_start": "10:00",
-      "time_end": "21:00"
-    },
-    {
-      "id": "wp-e00873",
-      "title": "令和8年度 さいたま市花火大会 大和田公園会場",
-      "date": "2026-07-25",
-      "date_end": "2026-07-25",
-      "venue": "大和田公園周辺（さいたま市北区）",
-      "category": "",
-      "demand_level": "high",
-      "demand_comment": "大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e00873/",
-      "lat": 35.92528,
-      "lng": 139.61097,
-      "_geo_key_place": "大和田公園周辺",
-      "_geo_key_city": "さいたま市北区",
-      "time_start": "19:30",
-      "time_end": "20:30"
-    },
-    {
-      "id": "arena-24003129",
-      "title": "GMOアリーナさいたまけやきひろば音楽祭×♯ HNG SONIC 2026",
-      "date": "2026-07-25",
-      "date_end": "2026-07-26",
-      "venue": "けやきひろば（さいたま市中央区）",
-      "category": "コンサート・スポーツ",
-      "demand_level": "high",
-      "demand_comment": "さいたまスーパーアリーナの大型公演。終演後にさいたま新都心駅周辺で大量需要。早めの待機を強く推奨。",
-      "source_url": "https://www.saitama-arena.co.jp/schedule/",
-      "lat": 35.8966,
-      "lng": 139.631
-    },
     {
       "id": "wp-e605452",
       "title": "大宮第二公園　アジサイの花がら摘み",
@@ -98,6 +17,23 @@
       "_geo_key_city": "さいたま市大宮区",
       "time_start": "08:30",
       "time_end": "10:00"
+    },
+    {
+      "id": "wp-e605167",
+      "title": "TOMUSHIのカブクワすごいぞ in けやきひろば",
+      "date": "2026-07-26",
+      "date_end": "2026-08-26",
+      "venue": "けやきひろば2階　特設会場（さいたま市中央区）",
+      "category": "",
+      "demand_level": "high",
+      "demand_comment": "最寄り：さいたま新都心駅(埼玉県),北与野駅(埼玉県)。大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e605167/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "けやきひろば2階　特設会場",
+      "_geo_key_city": "さいたま市中央区",
+      "time_start": "10:00",
+      "time_end": "16:00"
     },
     {
       "id": "wp-e605456",
@@ -149,6 +85,19 @@
       "_geo_key_city": "さいたま市浦和区",
       "time_start": "14:15",
       "time_end": "20:30"
+    },
+    {
+      "id": "arena-92116239",
+      "title": "GMOアリーナさいたまけやきひろば音楽祭×♯ HNG SONIC 2026",
+      "date": "2026-07-26",
+      "date_end": "2026-07-26",
+      "venue": "けやきひろば（さいたま市中央区）",
+      "category": "コンサート・スポーツ",
+      "demand_level": "high",
+      "demand_comment": "さいたまスーパーアリーナの大型公演。終演後にさいたま新都心駅周辺で大量需要。早めの待機を強く推奨。",
+      "source_url": "https://www.saitama-arena.co.jp/schedule/",
+      "lat": 35.8966,
+      "lng": 139.631
     },
     {
       "id": "wp-e607311",
@@ -320,22 +269,6 @@
       "time_end": "21:00"
     },
     {
-      "id": "wp-e601740",
-      "title": "大宮夏まつり 第30回東大宮サマーフェスティバル",
-      "date": "2026-08-07",
-      "date_end": "2026-08-08",
-      "venue": "東大宮中央公園（さいたま市見沼区）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "最寄り：東大宮駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e601740/",
-      "lat": 35.94911,
-      "lng": 139.64444,
-      "_geo_key_place": "東大宮中央公園",
-      "_geo_key_city": "さいたま市見沼区",
-      "time_start": "16:00"
-    },
-    {
       "id": "wp-e601506",
       "title": "第14回路地裏シネマ『ジェンダー・マリアージュ ～全米を揺るがした同性婚裁判～』上映会",
       "date": "2026-08-07",
@@ -383,6 +316,23 @@
       "_geo_key_city": "さいたま市緑区",
       "time_start": "19:30",
       "time_end": "20:20"
+    },
+    {
+      "id": "wp-e596247",
+      "title": "浦和ユースオーケストラ　第18回定期演奏会",
+      "date": "2026-08-09",
+      "date_end": "2026-08-09",
+      "venue": "彩の国さいたま芸術劇場　音楽ホール（さいたま市中央区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "最寄り：与野本町駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e596247/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "彩の国さいたま芸術劇場　音楽ホール",
+      "_geo_key_city": "さいたま市中央区",
+      "time_start": "13:30",
+      "time_end": "15:30"
     }
   ]
 }
