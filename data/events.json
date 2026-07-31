@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-31T05:53:48+09:00",
+  "updated_at": "2026-08-01T05:51:33+09:00",
   "events": [
     {
       "id": "wp-e605167",
       "title": "TOMUSHIのカブクワすごいぞ in けやきひろば",
-      "date": "2026-07-31",
+      "date": "2026-08-01",
       "date_end": "2026-08-26",
       "venue": "けやきひろば2階　特設会場（さいたま市中央区）",
       "category": "",
@@ -17,40 +17,6 @@
       "_geo_key_city": "さいたま市中央区",
       "time_start": "10:00",
       "time_end": "16:00"
-    },
-    {
-      "id": "wp-e607311",
-      "title": "TSUKUTTE！つくってまなぶ。実験でワーク2026 in大宮工房館",
-      "date": "2026-07-31",
-      "date_end": "2026-08-17",
-      "venue": "大宮工房館（さいたま市大宮区）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e607311/",
-      "lat": 35.91217,
-      "lng": 139.6415,
-      "_geo_key_place": "大宮工房館",
-      "_geo_key_city": "さいたま市大宮区",
-      "time_start": "13:30",
-      "time_end": "15:30"
-    },
-    {
-      "id": "wp-e601716",
-      "title": "大宮夏まつり 西口夏まつり",
-      "date": "2026-07-31",
-      "date_end": "2026-07-31",
-      "venue": "大宮駅西口周辺（さいたま市大宮区）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "最寄り：大宮駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e601716/",
-      "lat": 35.91709,
-      "lng": 139.63122,
-      "_geo_key_place": "大宮駅西口周辺",
-      "_geo_key_city": "さいたま市大宮区",
-      "time_start": "17:00",
-      "time_end": "21:00"
     },
     {
       "id": "wp-e598160",
@@ -68,6 +34,23 @@
       "_geo_key_city": "蓮田市",
       "time_start": "11:00",
       "time_end": "12:00"
+    },
+    {
+      "id": "wp-e607311",
+      "title": "TSUKUTTE！つくってまなぶ。実験でワーク2026 in大宮工房館",
+      "date": "2026-08-01",
+      "date_end": "2026-08-17",
+      "venue": "大宮工房館（さいたま市大宮区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e607311/",
+      "lat": 35.91217,
+      "lng": 139.6415,
+      "_geo_key_place": "大宮工房館",
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "13:30",
+      "time_end": "15:30"
     },
     {
       "id": "wp-e72219",
@@ -119,6 +102,19 @@
       "_geo_key_city": "戸田市",
       "time_start": "19:00",
       "time_end": "20:30"
+    },
+    {
+      "id": "arena-63380763",
+      "title": "第2回ねこフェス2026",
+      "date": "2026-08-01",
+      "date_end": "2026-08-02",
+      "venue": "さいたまスーパーアリーナ 展示ホール（さいたま市中央区）",
+      "category": "コンサート・スポーツ",
+      "demand_level": "high",
+      "demand_comment": "さいたまスーパーアリーナの大型公演。終演後にさいたま新都心駅周辺で大量需要。早めの待機を強く推奨。",
+      "source_url": "https://www.saitama-arena.co.jp/schedule/",
+      "lat": 35.8951,
+      "lng": 139.6306
     },
     {
       "id": "wp-e599220",
@@ -268,6 +264,56 @@
       "_geo_key_city": "さいたま市中央区",
       "time_start": "13:30",
       "time_end": "15:30"
+    },
+    {
+      "id": "wp-e607620",
+      "title": "大宮けいりん 水かけまつり！『サマフェス 2nd スプラッシュ！』",
+      "date": "2026-08-15",
+      "date_end": "2026-08-15",
+      "venue": "大宮競輪場（さいたま市大宮区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "最寄り：大宮公園駅(埼玉県),北大宮駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e607620/",
+      "lat": 35.9191,
+      "lng": 139.6338,
+      "_geo_key_place": "大宮競輪場",
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "10:00",
+      "time_end": "15:00"
+    },
+    {
+      "id": "wp-e607698",
+      "title": "70〜90年代J-POPでゆるく音を重ねる大人の週末セッション",
+      "date": "2026-08-15",
+      "date_end": "2026-08-15",
+      "venue": "レンタルスペースRhythmNeko（リズム・ねこ）（川口市）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "最寄り：蕨駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e607698/",
+      "lat": 35.80782,
+      "lng": 139.72411,
+      "_geo_key_place": "レンタルスペースRhythmNeko（リズム・ねこ）",
+      "_geo_key_city": "川口市",
+      "time_start": "14:00",
+      "time_end": "21:30"
+    },
+    {
+      "id": "wp-e601207",
+      "title": "島田秀平×城谷歩×響洋平 彩恐酔夜vol.2",
+      "date": "2026-08-15",
+      "date_end": "2026-08-15",
+      "venue": "蓮田市総合文化会館ハストピア（蓮田市）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e601207/",
+      "lat": 35.99409,
+      "lng": 139.66325,
+      "_geo_key_place": "蓮田市総合文化会館ハストピア",
+      "_geo_key_city": "蓮田市",
+      "time_start": "15:00"
     }
   ]
 }
