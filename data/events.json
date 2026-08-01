@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-01T05:51:33+09:00",
+  "updated_at": "2026-08-02T05:39:10+09:00",
   "events": [
     {
       "id": "wp-e605167",
       "title": "TOMUSHIのカブクワすごいぞ in けやきひろば",
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "date_end": "2026-08-26",
       "venue": "けやきひろば2階　特設会場（さいたま市中央区）",
       "category": "",
@@ -19,26 +19,9 @@
       "time_end": "16:00"
     },
     {
-      "id": "wp-e598160",
-      "title": "Concert for KIDS～0才からのクラシック(R)～（埼玉県蓮田市）",
-      "date": "2026-08-01",
-      "date_end": "2026-08-01",
-      "venue": "蓮田市総合文化会館ハストピア（蓮田市）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e598160/",
-      "lat": 35.99409,
-      "lng": 139.66325,
-      "_geo_key_place": "蓮田市総合文化会館ハストピア",
-      "_geo_key_city": "蓮田市",
-      "time_start": "11:00",
-      "time_end": "12:00"
-    },
-    {
       "id": "wp-e607311",
       "title": "TSUKUTTE！つくってまなぶ。実験でワーク2026 in大宮工房館",
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "date_end": "2026-08-17",
       "venue": "大宮工房館（さいたま市大宮区）",
       "category": "",
@@ -51,70 +34,6 @@
       "_geo_key_city": "さいたま市大宮区",
       "time_start": "13:30",
       "time_end": "15:30"
-    },
-    {
-      "id": "wp-e72219",
-      "title": "大宮夏まつり 2026中山道まつり",
-      "date": "2026-08-01",
-      "date_end": "2026-08-02",
-      "venue": "大宮駅東口周辺（さいたま市大宮区）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "最寄り：大宮駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e72219/",
-      "lat": 35.91709,
-      "lng": 139.63122,
-      "_geo_key_place": "大宮駅東口周辺",
-      "_geo_key_city": "さいたま市大宮区",
-      "time_start": "17:00",
-      "time_end": "21:00"
-    },
-    {
-      "id": "wp-e72574",
-      "title": "大宮夏まつり 第39回スパークカーニバル",
-      "date": "2026-08-01",
-      "date_end": "2026-08-01",
-      "venue": "大宮西口駅周辺（さいたま市大宮区）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "最寄り：大宮駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e72574/",
-      "lat": 35.91709,
-      "lng": 139.63122,
-      "_geo_key_place": "大宮西口駅周辺",
-      "_geo_key_city": "さいたま市大宮区",
-      "time_start": "17:00",
-      "time_end": "22:00"
-    },
-    {
-      "id": "wp-e01078",
-      "title": "市制施行60周年記念 第73回戸田橋花火大会",
-      "date": "2026-08-01",
-      "date_end": "2026-08-01",
-      "venue": "国道17号戸田橋上流荒川河川敷（戸田市）",
-      "category": "",
-      "demand_level": "high",
-      "demand_comment": "最寄り：戸田公園駅(埼玉県)。大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e01078/",
-      "lat": 35.81759,
-      "lng": 139.67789,
-      "_geo_key_place": "国道17号戸田橋上流荒川河川敷",
-      "_geo_key_city": "戸田市",
-      "time_start": "19:00",
-      "time_end": "20:30"
-    },
-    {
-      "id": "arena-63380763",
-      "title": "第2回ねこフェス2026",
-      "date": "2026-08-01",
-      "date_end": "2026-08-02",
-      "venue": "さいたまスーパーアリーナ 展示ホール（さいたま市中央区）",
-      "category": "コンサート・スポーツ",
-      "demand_level": "high",
-      "demand_comment": "さいたまスーパーアリーナの大型公演。終演後にさいたま新都心駅周辺で大量需要。早めの待機を強く推奨。",
-      "source_url": "https://www.saitama-arena.co.jp/schedule/",
-      "lat": 35.8951,
-      "lng": 139.6306
     },
     {
       "id": "wp-e599220",
@@ -132,6 +51,36 @@
       "_geo_key_city": "桶川市",
       "time_start": "14:00",
       "time_end": "15:20"
+    },
+    {
+      "id": "wp-e72219",
+      "title": "大宮夏まつり 2026中山道まつり",
+      "date": "2026-08-02",
+      "date_end": "2026-08-02",
+      "venue": "大宮駅東口周辺（さいたま市大宮区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "最寄り：大宮駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e72219/",
+      "lat": 35.91709,
+      "lng": 139.63122,
+      "_geo_key_place": "大宮駅東口周辺",
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "17:00",
+      "time_end": "21:00"
+    },
+    {
+      "id": "arena-51737160",
+      "title": "第2回ねこフェス2026",
+      "date": "2026-08-02",
+      "date_end": "2026-08-02",
+      "venue": "さいたまスーパーアリーナ 展示ホール（さいたま市中央区）",
+      "category": "コンサート・スポーツ",
+      "demand_level": "high",
+      "demand_comment": "さいたまスーパーアリーナの大型公演。終演後にさいたま新都心駅周辺で大量需要。早めの待機を強く推奨。",
+      "source_url": "https://www.saitama-arena.co.jp/schedule/",
+      "lat": 35.8951,
+      "lng": 139.6306
     },
     {
       "id": "wp-e603320",
@@ -314,6 +263,23 @@
       "_geo_key_place": "蓮田市総合文化会館ハストピア",
       "_geo_key_city": "蓮田市",
       "time_start": "15:00"
+    },
+    {
+      "id": "wp-e603504",
+      "title": "大宮「0歳からの・はじめてのオーケストラ」動物大行進",
+      "date": "2026-08-16",
+      "date_end": "2026-08-16",
+      "venue": "RaiBoC Hall（市民会館おおみや）（さいたま市大宮区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "最寄り：大宮駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e603504/",
+      "lat": 35.91709,
+      "lng": 139.63122,
+      "_geo_key_place": "RaiBoC Hall（市民会館おおみや）",
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "14:20",
+      "time_end": "15:30"
     }
   ]
 }
