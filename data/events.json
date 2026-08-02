@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-02T05:39:10+09:00",
+  "updated_at": "2026-08-03T05:41:42+09:00",
   "events": [
     {
       "id": "wp-e605167",
       "title": "TOMUSHIのカブクワすごいぞ in けやきひろば",
-      "date": "2026-08-02",
+      "date": "2026-08-03",
       "date_end": "2026-08-26",
       "venue": "けやきひろば2階　特設会場（さいたま市中央区）",
       "category": "",
@@ -21,7 +21,7 @@
     {
       "id": "wp-e607311",
       "title": "TSUKUTTE！つくってまなぶ。実験でワーク2026 in大宮工房館",
-      "date": "2026-08-02",
+      "date": "2026-08-03",
       "date_end": "2026-08-17",
       "venue": "大宮工房館（さいたま市大宮区）",
       "category": "",
@@ -34,53 +34,6 @@
       "_geo_key_city": "さいたま市大宮区",
       "time_start": "13:30",
       "time_end": "15:30"
-    },
-    {
-      "id": "wp-e599220",
-      "title": "脱出島絶対王者!!直伝　あばれる君 熱血授業 in 桶川",
-      "date": "2026-08-02",
-      "date_end": "2026-08-02",
-      "venue": "桶川市民ホール（桶川市）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "最寄り：桶川駅(埼玉県)。小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e599220/",
-      "lat": 36.00289,
-      "lng": 139.55834,
-      "_geo_key_place": "桶川市民ホール",
-      "_geo_key_city": "桶川市",
-      "time_start": "14:00",
-      "time_end": "15:20"
-    },
-    {
-      "id": "wp-e72219",
-      "title": "大宮夏まつり 2026中山道まつり",
-      "date": "2026-08-02",
-      "date_end": "2026-08-02",
-      "venue": "大宮駅東口周辺（さいたま市大宮区）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "最寄り：大宮駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e72219/",
-      "lat": 35.91709,
-      "lng": 139.63122,
-      "_geo_key_place": "大宮駅東口周辺",
-      "_geo_key_city": "さいたま市大宮区",
-      "time_start": "17:00",
-      "time_end": "21:00"
-    },
-    {
-      "id": "arena-51737160",
-      "title": "第2回ねこフェス2026",
-      "date": "2026-08-02",
-      "date_end": "2026-08-02",
-      "venue": "さいたまスーパーアリーナ 展示ホール（さいたま市中央区）",
-      "category": "コンサート・スポーツ",
-      "demand_level": "high",
-      "demand_comment": "さいたまスーパーアリーナの大型公演。終演後にさいたま新都心駅周辺で大量需要。早めの待機を強く推奨。",
-      "source_url": "https://www.saitama-arena.co.jp/schedule/",
-      "lat": 35.8951,
-      "lng": 139.6306
     },
     {
       "id": "wp-e603320",
