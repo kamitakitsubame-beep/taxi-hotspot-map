@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-10T05:18:42+09:00",
+  "updated_at": "2026-08-11T05:30:46+09:00",
   "events": [
     {
       "id": "wp-e605167",
       "title": "TOMUSHIのカブクワすごいぞ in けやきひろば",
-      "date": "2026-08-10",
+      "date": "2026-08-11",
       "date_end": "2026-08-26",
       "venue": "けやきひろば2階　特設会場（さいたま市中央区）",
       "category": "",
@@ -21,7 +21,7 @@
     {
       "id": "wp-e607311",
       "title": "TSUKUTTE！つくってまなぶ。実験でワーク2026 in大宮工房館",
-      "date": "2026-08-10",
+      "date": "2026-08-11",
       "date_end": "2026-08-17",
       "venue": "大宮工房館（さいたま市大宮区）",
       "category": "",
@@ -84,23 +84,6 @@
       "_geo_key_place": "蓮田市総合文化会館ハストピア",
       "_geo_key_city": "蓮田市",
       "time_start": "15:00"
-    },
-    {
-      "id": "wp-e603504",
-      "title": "大宮「0歳からの・はじめてのオーケストラ」動物大行進",
-      "date": "2026-08-16",
-      "date_end": "2026-08-16",
-      "venue": "RaiBoC Hall（市民会館おおみや）（さいたま市大宮区）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "最寄り：大宮駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e603504/",
-      "lat": 35.91709,
-      "lng": 139.63122,
-      "_geo_key_place": "RaiBoC Hall（市民会館おおみや）",
-      "_geo_key_city": "さいたま市大宮区",
-      "time_start": "14:20",
-      "time_end": "15:30"
     },
     {
       "id": "wp-e600788",
@@ -237,6 +220,23 @@
       "_geo_key_city": "さいたま市中央区",
       "time_start": "15:00",
       "time_end": "17:00"
+    },
+    {
+      "id": "wp-e598496",
+      "title": "パソコン講座（Excel編）",
+      "date": "2026-08-25",
+      "date_end": "2026-08-26",
+      "venue": "さいたま市市民活動サポートセンター　パソコンコーナー（さいたま市浦和区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "最寄り：浦和駅(埼玉県)。小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e598496/",
+      "lat": 35.8617,
+      "lng": 139.6573,
+      "_geo_key_place": "さいたま市市民活動サポートセンター　パソコンコーナー",
+      "_geo_key_city": "さいたま市浦和区",
+      "time_start": "10:00",
+      "time_end": "12:00"
     }
   ]
 }
