@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-11T05:30:46+09:00",
+  "updated_at": "2026-08-12T05:32:37+09:00",
   "events": [
     {
       "id": "wp-e605167",
       "title": "TOMUSHIのカブクワすごいぞ in けやきひろば",
-      "date": "2026-08-11",
+      "date": "2026-08-12",
       "date_end": "2026-08-26",
       "venue": "けやきひろば2階　特設会場（さいたま市中央区）",
       "category": "",
@@ -21,7 +21,7 @@
     {
       "id": "wp-e607311",
       "title": "TSUKUTTE！つくってまなぶ。実験でワーク2026 in大宮工房館",
-      "date": "2026-08-11",
+      "date": "2026-08-12",
       "date_end": "2026-08-17",
       "venue": "大宮工房館（さいたま市大宮区）",
       "category": "",
@@ -84,6 +84,23 @@
       "_geo_key_place": "蓮田市総合文化会館ハストピア",
       "_geo_key_city": "蓮田市",
       "time_start": "15:00"
+    },
+    {
+      "id": "wp-e603504",
+      "title": "大宮「0歳からの・はじめてのオーケストラ」動物大行進",
+      "date": "2026-08-16",
+      "date_end": "2026-08-16",
+      "venue": "RaiBoC Hall（市民会館おおみや）（さいたま市大宮区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "最寄り：大宮駅(埼玉県)。中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e603504/",
+      "lat": 35.91709,
+      "lng": 139.63122,
+      "_geo_key_place": "RaiBoC Hall（市民会館おおみや）",
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "14:20",
+      "time_end": "15:30"
     },
     {
       "id": "wp-e600788",
