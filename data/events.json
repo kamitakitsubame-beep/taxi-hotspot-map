@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-16T05:09:25+09:00",
+  "updated_at": "2026-08-17T05:08:52+09:00",
   "events": [
     {
       "id": "wp-e605167",
       "title": "TOMUSHIのカブクワすごいぞ in けやきひろば",
-      "date": "2026-08-16",
+      "date": "2026-08-17",
       "date_end": "2026-08-26",
       "venue": "けやきひろば2階　特設会場（さいたま市中央区）",
       "category": "",
@@ -21,7 +21,7 @@
     {
       "id": "wp-e607311",
       "title": "TSUKUTTE！つくってまなぶ。実験でワーク2026 in大宮工房館",
-      "date": "2026-08-16",
+      "date": "2026-08-17",
       "date_end": "2026-08-17",
       "venue": "大宮工房館（さいたま市大宮区）",
       "category": "",
@@ -34,40 +34,6 @@
       "_geo_key_city": "さいたま市大宮区",
       "time_start": "13:30",
       "time_end": "15:30"
-    },
-    {
-      "id": "wp-e603504",
-      "title": "大宮「0歳からの・はじめてのオーケストラ」動物大行進",
-      "date": "2026-08-16",
-      "date_end": "2026-08-16",
-      "venue": "RaiBoC Hall（市民会館おおみや）（さいたま市大宮区）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e603504/",
-      "lat": 35.91709,
-      "lng": 139.63122,
-      "_geo_key_place": "RaiBoC Hall（市民会館おおみや）",
-      "_geo_key_city": "さいたま市大宮区",
-      "time_start": "14:20",
-      "time_end": "15:30"
-    },
-    {
-      "id": "wp-e609760",
-      "title": "リトミックLive〜夕涼み会〜",
-      "date": "2026-08-16",
-      "date_end": "2026-08-16",
-      "venue": "蕨市立文化ホールくるる（蕨市）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e609760/",
-      "lat": 35.82637,
-      "lng": 139.67913,
-      "_geo_key_place": "蕨市立文化ホールくるる",
-      "_geo_key_city": "蕨市",
-      "time_start": "15:00",
-      "time_end": "15:40"
     },
     {
       "id": "wp-e600788",
