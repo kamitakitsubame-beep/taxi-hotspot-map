@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-19T05:10:36+09:00",
+  "updated_at": "2026-08-20T05:13:45+09:00",
   "events": [
     {
       "id": "wp-e605167",
       "title": "TOMUSHIのカブクワすごいぞ in けやきひろば",
-      "date": "2026-08-19",
+      "date": "2026-08-20",
       "date_end": "2026-08-26",
       "venue": "けやきひろば2階　特設会場（さいたま市中央区）",
       "category": "",
@@ -17,23 +17,6 @@
       "_geo_key_city": "さいたま市中央区",
       "time_start": "10:00",
       "time_end": "16:00"
-    },
-    {
-      "id": "wp-e600788",
-      "title": "第2回プロフェッショナル部門第1位受賞記念リサイタル 花岡綾オーボエリサイタル",
-      "date": "2026-08-19",
-      "date_end": "2026-08-19",
-      "venue": "プラザイースト ホール（さいたま市緑区）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e600788/",
-      "lat": 35.88687,
-      "lng": 139.66605,
-      "_geo_key_place": "プラザイースト ホール",
-      "_geo_key_city": "さいたま市緑区",
-      "time_start": "19:00",
-      "time_end": "20:00"
     },
     {
       "id": "wp-e607449",
