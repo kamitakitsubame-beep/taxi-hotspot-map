@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-20T05:13:45+09:00",
+  "updated_at": "2026-08-21T05:16:00+09:00",
   "events": [
     {
       "id": "wp-e605167",
       "title": "TOMUSHIのカブクワすごいぞ in けやきひろば",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "date_end": "2026-08-26",
       "venue": "けやきひろば2階　特設会場（さいたま市中央区）",
       "category": "",
@@ -356,6 +356,21 @@
       "_geo_key_city": "蓮田市",
       "time_start": "14:00",
       "time_end": "16:30"
+    },
+    {
+      "id": "wp-e607907",
+      "title": "第15回路地裏シネマ『コスタリカの奇跡』上映会",
+      "date": "2026-09-04",
+      "date_end": "2026-09-05",
+      "venue": "路地裏ガレージマーケット（さいたま市中央区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e607907/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "路地裏ガレージマーケット",
+      "_geo_key_city": "さいたま市中央区"
     }
   ]
 }
