@@ -1,23 +1,6 @@
 {
-  "updated_at": "2026-08-21T05:16:00+09:00",
+  "updated_at": "2026-08-22T05:12:45+09:00",
   "events": [
-    {
-      "id": "wp-e605167",
-      "title": "TOMUSHIのカブクワすごいぞ in けやきひろば",
-      "date": "2026-08-21",
-      "date_end": "2026-08-26",
-      "venue": "けやきひろば2階　特設会場（さいたま市中央区）",
-      "category": "",
-      "demand_level": "high",
-      "demand_comment": "大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e605167/",
-      "lat": 35.89918,
-      "lng": 139.62231,
-      "_geo_key_place": "けやきひろば2階　特設会場",
-      "_geo_key_city": "さいたま市中央区",
-      "time_start": "10:00",
-      "time_end": "16:00"
-    },
     {
       "id": "wp-e607449",
       "title": "みぬまの沼いきもの観察会",
@@ -51,6 +34,23 @@
       "_geo_key_city": "さいたま市西区",
       "time_start": "09:30",
       "time_end": "21:00"
+    },
+    {
+      "id": "wp-e605167",
+      "title": "TOMUSHIのカブクワすごいぞ in けやきひろば",
+      "date": "2026-08-22",
+      "date_end": "2026-08-26",
+      "venue": "けやきひろば2階　特設会場（さいたま市中央区）",
+      "category": "",
+      "demand_level": "high",
+      "demand_comment": "大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e605167/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "けやきひろば2階　特設会場",
+      "_geo_key_city": "さいたま市中央区",
+      "time_start": "10:00",
+      "time_end": "16:00"
     },
     {
       "id": "wp-e609679",
@@ -371,6 +371,73 @@
       "lng": 139.62231,
       "_geo_key_place": "路地裏ガレージマーケット",
       "_geo_key_city": "さいたま市中央区"
+    },
+    {
+      "id": "wp-e606519",
+      "title": "キッズフリマ@けやきひろば",
+      "date": "2026-09-05",
+      "date_end": "2026-09-05",
+      "venue": "けやきひろば　1F プラザ（さいたま市中央区）",
+      "category": "",
+      "demand_level": "high",
+      "demand_comment": "大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e606519/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "けやきひろば　1F プラザ",
+      "_geo_key_city": "さいたま市中央区",
+      "time_start": "11:00",
+      "time_end": "15:30"
+    },
+    {
+      "id": "wp-e604204",
+      "title": "ジャン・チャクムル　ピアノ・リサイタル",
+      "date": "2026-09-05",
+      "date_end": "2026-09-05",
+      "venue": "彩の国さいたま芸術劇場　音楽ホール（さいたま市中央区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e604204/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "彩の国さいたま芸術劇場　音楽ホール",
+      "_geo_key_city": "さいたま市中央区",
+      "time_start": "14:00",
+      "time_end": "16:00"
+    },
+    {
+      "id": "wp-e600977",
+      "title": "プレミアクラシックVol.21　村治佳織ギターリサイタル～音楽の花束～",
+      "date": "2026-09-05",
+      "date_end": "2026-09-05",
+      "venue": "さいたま市地域中核施設　プラザイースト（さいたま市緑区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e600977/",
+      "lat": 35.88687,
+      "lng": 139.66605,
+      "_geo_key_place": "さいたま市地域中核施設　プラザイースト",
+      "_geo_key_city": "さいたま市緑区",
+      "time_start": "14:00"
+    },
+    {
+      "id": "wp-e598316",
+      "title": "埼スタ花火 John Williams Fireworks(ジョン・ウィリアムズ ファイヤーワークス) 2026",
+      "date": "2026-09-05",
+      "date_end": "2026-09-05",
+      "venue": "埼玉スタジアム2002（さいたま市緑区）",
+      "category": "",
+      "demand_level": "high",
+      "demand_comment": "大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e598316/",
+      "lat": 35.90307,
+      "lng": 139.71761,
+      "_geo_key_place": "埼玉スタジアム2002",
+      "_geo_key_city": "さいたま市緑区",
+      "time_start": "18:30",
+      "time_end": "19:30"
     }
   ]
 }
