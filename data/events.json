@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-25T05:16:56+09:00",
+  "updated_at": "2026-08-26T05:15:26+09:00",
   "events": [
     {
       "id": "wp-e609850",
       "title": "0歳からのコンサート　音育ランド　埼玉",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "date_end": "2026-08-26",
       "venue": "NEEDSさいたま新都心 by T&G WEDDING（旧 ガーデンヒルズ迎賓館 大宮）（さいたま市大宮区）",
       "category": "",
@@ -21,7 +21,7 @@
     {
       "id": "wp-e605167",
       "title": "TOMUSHIのカブクワすごいぞ in けやきひろば",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "date_end": "2026-08-26",
       "venue": "けやきひろば2階　特設会場（さいたま市中央区）",
       "category": "",
@@ -38,7 +38,7 @@
     {
       "id": "wp-e598496",
       "title": "パソコン講座（Excel編）",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "date_end": "2026-08-26",
       "venue": "さいたま市市民活動サポートセンター　パソコンコーナー（さいたま市浦和区）",
       "category": "",
@@ -319,6 +319,23 @@
       "_geo_key_city": "さいたま市北区",
       "time_start": "11:30",
       "time_end": "15:00"
+    },
+    {
+      "id": "wp-e608694",
+      "title": "ママハピEXPO＠アリオ上尾",
+      "date": "2026-09-09",
+      "date_end": "2026-09-09",
+      "venue": "アリオ上尾（上尾市）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e608694/",
+      "lat": 35.96161,
+      "lng": 139.56554,
+      "_geo_key_place": "アリオ上尾",
+      "_geo_key_city": "上尾市",
+      "time_start": "10:00",
+      "time_end": "16:00"
     }
   ]
 }
