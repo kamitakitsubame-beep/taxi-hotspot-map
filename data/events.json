@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-27T07:34:04+09:00",
+  "updated_at": "2026-08-28T12:54:13+09:00",
   "events": [
     {
       "id": "wp-e608715",
       "title": "さいたまの盆踊り",
-      "date": "2026-08-27",
+      "date": "2026-08-28",
       "date_end": "2026-08-29",
       "venue": "JR埼京線北与野駅南側広場（さいたま市中央区）",
       "category": "",
@@ -84,6 +84,19 @@
       "_geo_key_place": "蓮田市総合文化会館ハストピア",
       "_geo_key_city": "蓮田市",
       "time_start": "16:00"
+    },
+    {
+      "id": "arena-9737096",
+      "title": "VYBE/花と風/ONE-WISH　ミニライブ＆特典会　＠けやきひろば",
+      "date": "2026-08-29",
+      "date_end": "2026-08-29",
+      "venue": "けやきひろば（さいたま市中央区）",
+      "category": "コンサート・スポーツ",
+      "demand_level": "medium",
+      "demand_comment": "けやきひろば等での催し。来場者の行き帰りで新都心駅周辺に需要が見込まれます。",
+      "source_url": "https://www.saitama-arena.co.jp/schedule/",
+      "lat": 35.8966,
+      "lng": 139.631
     },
     {
       "id": "wp-e601258",
@@ -285,6 +298,21 @@
       "_geo_key_city": "上尾市",
       "time_start": "10:00",
       "time_end": "16:00"
+    },
+    {
+      "id": "wp-e610612",
+      "title": "多摩美シアタープロジェクト びびび vol.2『大工』",
+      "date": "2026-09-11",
+      "date_end": "2026-09-13",
+      "venue": "彩の国さいたま芸術劇場小ホール（さいたま市中央区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e610612/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "彩の国さいたま芸術劇場小ホール",
+      "_geo_key_city": "さいたま市中央区"
     }
   ]
 }
