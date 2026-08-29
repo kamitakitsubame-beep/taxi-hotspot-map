@@ -1,40 +1,6 @@
 {
-  "updated_at": "2026-08-28T12:54:13+09:00",
+  "updated_at": "2026-08-29T11:33:26+09:00",
   "events": [
-    {
-      "id": "wp-e608715",
-      "title": "さいたまの盆踊り",
-      "date": "2026-08-28",
-      "date_end": "2026-08-29",
-      "venue": "JR埼京線北与野駅南側広場（さいたま市中央区）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e608715/",
-      "lat": 35.89918,
-      "lng": 139.62231,
-      "_geo_key_place": "JR埼京線北与野駅南側広場",
-      "_geo_key_city": "さいたま市中央区",
-      "time_start": "18:00",
-      "time_end": "21:30"
-    },
-    {
-      "id": "wp-e609985",
-      "title": "生バンドで歌える！「フライデーマイク」（8月）",
-      "date": "2026-08-28",
-      "date_end": "2026-08-28",
-      "venue": "レンタルスペースRhythmNeko（リズム・ねこ）（川口市）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e609985/",
-      "lat": 35.80782,
-      "lng": 139.72411,
-      "_geo_key_place": "レンタルスペースRhythmNeko（リズム・ねこ）",
-      "_geo_key_city": "川口市",
-      "time_start": "19:00",
-      "time_end": "21:30"
-    },
     {
       "id": "wp-e608884",
       "title": "KEIGO COLLECTION2026",
@@ -86,7 +52,24 @@
       "time_start": "16:00"
     },
     {
-      "id": "arena-9737096",
+      "id": "wp-e608715",
+      "title": "さいたまの盆踊り",
+      "date": "2026-08-29",
+      "date_end": "2026-08-29",
+      "venue": "JR埼京線北与野駅南側広場（さいたま市中央区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e608715/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "JR埼京線北与野駅南側広場",
+      "_geo_key_city": "さいたま市中央区",
+      "time_start": "18:00",
+      "time_end": "21:30"
+    },
+    {
+      "id": "arena-90102167",
       "title": "VYBE/花と風/ONE-WISH　ミニライブ＆特典会　＠けやきひろば",
       "date": "2026-08-29",
       "date_end": "2026-08-29",
@@ -313,6 +296,40 @@
       "lng": 139.62231,
       "_geo_key_place": "彩の国さいたま芸術劇場小ホール",
       "_geo_key_city": "さいたま市中央区"
+    },
+    {
+      "id": "wp-e605430",
+      "title": "SKIPシティウィークエンドシアター『国宝』",
+      "date": "2026-09-12",
+      "date_end": "2026-09-12",
+      "venue": "SKIPシティ 彩の国ビジュアルプラザ 映像ホール（川口市）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e605430/",
+      "lat": 35.80782,
+      "lng": 139.72411,
+      "_geo_key_place": "SKIPシティ 彩の国ビジュアルプラザ 映像ホール",
+      "_geo_key_city": "川口市",
+      "time_start": "14:00",
+      "time_end": "16:55"
+    },
+    {
+      "id": "wp-e610508",
+      "title": "OHANA marche",
+      "date": "2026-09-12",
+      "date_end": "2026-09-12",
+      "venue": "岩槻駅東口クレセントモール（さいたま市岩槻区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e610508/",
+      "lat": 35.93902,
+      "lng": 139.68745,
+      "_geo_key_place": "岩槻駅東口クレセントモール",
+      "_geo_key_city": "さいたま市岩槻区",
+      "time_start": "15:00",
+      "time_end": "20:00"
     }
   ]
 }
