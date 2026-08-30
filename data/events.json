@@ -1,57 +1,6 @@
 {
-  "updated_at": "2026-08-30T07:05:48+09:00",
+  "updated_at": "2026-08-31T07:12:13+09:00",
   "events": [
-    {
-      "id": "wp-e601258",
-      "title": "リベラル・アンサンブル・オーケストラ第22回演奏会",
-      "date": "2026-08-30",
-      "date_end": "2026-08-30",
-      "venue": "RaiBoC Hall（市民会館おおみや）（さいたま市大宮区）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e601258/",
-      "lat": 35.91709,
-      "lng": 139.63122,
-      "_geo_key_place": "RaiBoC Hall（市民会館おおみや）",
-      "_geo_key_city": "さいたま市大宮区",
-      "time_start": "13:30",
-      "time_end": "15:30"
-    },
-    {
-      "id": "wp-e609752",
-      "title": "Celesteコンサート～童謡・唱歌の復権",
-      "date": "2026-08-30",
-      "date_end": "2026-08-30",
-      "venue": "北本市文化センター　ホール（北本市）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e609752/",
-      "lat": 36.02696,
-      "lng": 139.53117,
-      "_geo_key_place": "北本市文化センター　ホール",
-      "_geo_key_city": "北本市",
-      "time_start": "14:00",
-      "time_end": "16:00"
-    },
-    {
-      "id": "wp-e600104",
-      "title": "蓮田市演奏家協会　第9回定期演奏会",
-      "date": "2026-08-30",
-      "date_end": "2026-08-30",
-      "venue": "蓮田市総合文化会館ハストピアどきどきホール（蓮田市）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e600104/",
-      "lat": 35.99409,
-      "lng": 139.66325,
-      "_geo_key_place": "蓮田市総合文化会館ハストピアどきどきホール",
-      "_geo_key_city": "蓮田市",
-      "time_start": "14:00",
-      "time_end": "16:30"
-    },
     {
       "id": "wp-e607907",
       "title": "第15回路地裏シネマ『コスタリカの奇跡』上映会",
@@ -250,6 +199,23 @@
       "_geo_key_city": "さいたま市岩槻区",
       "time_start": "15:00",
       "time_end": "20:00"
+    },
+    {
+      "id": "wp-e607424",
+      "title": "生成AI講座",
+      "date": "2026-09-14",
+      "date_end": "2026-09-14",
+      "venue": "さいたま市市民活動サポートセンター（さいたま市浦和区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e607424/",
+      "lat": 35.85869,
+      "lng": 139.659,
+      "_geo_key_place": "さいたま市市民活動サポートセンター",
+      "_geo_key_city": "さいたま市浦和区",
+      "time_start": "14:00",
+      "time_end": "16:00"
     }
   ]
 }
