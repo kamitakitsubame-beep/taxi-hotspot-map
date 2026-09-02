@@ -1,19 +1,6 @@
 {
-  "updated_at": "2026-09-02T07:09:48+09:00",
+  "updated_at": "2026-09-03T07:05:32+09:00",
   "events": [
-    {
-      "id": "arena-78191124",
-      "title": "埼玉県警察音楽隊「新都心けやきひろば・ポリス・コンサート」",
-      "date": "2026-09-02",
-      "date_end": "2026-09-02",
-      "venue": "けやきひろば（さいたま市中央区）",
-      "category": "コンサート・スポーツ",
-      "demand_level": "medium",
-      "demand_comment": "けやきひろば等での催し。来場者の行き帰りで新都心駅周辺に需要が見込まれます。",
-      "source_url": "https://www.saitama-arena.co.jp/schedule/",
-      "lat": 35.8966,
-      "lng": 139.631
-    },
     {
       "id": "wp-e607907",
       "title": "第15回路地裏シネマ『コスタリカの奇跡』上映会",
@@ -165,7 +152,7 @@
       "time_end": "16:00"
     },
     {
-      "id": "arena-8169889",
+      "id": "arena-13448546",
       "title": "リトル・ママフェスタ さいたま2026Sep.",
       "date": "2026-09-11",
       "date_end": "2026-09-12",
@@ -241,6 +228,23 @@
       "_geo_key_place": "さいたま市市民活動サポートセンター",
       "_geo_key_city": "さいたま市浦和区",
       "time_start": "14:00",
+      "time_end": "16:00"
+    },
+    {
+      "id": "wp-e609751",
+      "title": "第61回 東京音楽大学提携シリーズ～声楽コンサート",
+      "date": "2026-09-17",
+      "date_end": "2026-09-17",
+      "venue": "北本市文化センター　ホールロビー（北本市）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e609751/",
+      "lat": 36.02696,
+      "lng": 139.53117,
+      "_geo_key_place": "北本市文化センター　ホールロビー",
+      "_geo_key_city": "北本市",
+      "time_start": "14:30",
       "time_end": "16:00"
     }
   ]
