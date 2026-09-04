@@ -1,21 +1,6 @@
 {
-  "updated_at": "2026-09-04T06:58:53+09:00",
+  "updated_at": "2026-09-05T06:55:00+09:00",
   "events": [
-    {
-      "id": "wp-e607907",
-      "title": "第15回路地裏シネマ『コスタリカの奇跡』上映会",
-      "date": "2026-09-04",
-      "date_end": "2026-09-05",
-      "venue": "路地裏ガレージマーケット（さいたま市中央区）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e607907/",
-      "lat": 35.89918,
-      "lng": 139.62231,
-      "_geo_key_place": "路地裏ガレージマーケット",
-      "_geo_key_city": "さいたま市中央区"
-    },
     {
       "id": "wp-e606519",
       "title": "キッズフリマ@けやきひろば",
@@ -82,6 +67,21 @@
       "_geo_key_city": "さいたま市緑区",
       "time_start": "18:30",
       "time_end": "19:30"
+    },
+    {
+      "id": "wp-e607907",
+      "title": "第15回路地裏シネマ『コスタリカの奇跡』上映会",
+      "date": "2026-09-05",
+      "date_end": "2026-09-05",
+      "venue": "路地裏ガレージマーケット（さいたま市中央区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e607907/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "路地裏ガレージマーケット",
+      "_geo_key_city": "さいたま市中央区"
     },
     {
       "id": "wp-e604813",
@@ -152,7 +152,7 @@
       "time_end": "16:00"
     },
     {
-      "id": "arena-57393166",
+      "id": "arena-1552049",
       "title": "リトル・ママフェスタ さいたま2026Sep.",
       "date": "2026-09-11",
       "date_end": "2026-09-12",
@@ -178,23 +178,6 @@
       "lng": 139.62231,
       "_geo_key_place": "彩の国さいたま芸術劇場小ホール",
       "_geo_key_city": "さいたま市中央区"
-    },
-    {
-      "id": "wp-e605430",
-      "title": "SKIPシティウィークエンドシアター『国宝』",
-      "date": "2026-09-12",
-      "date_end": "2026-09-12",
-      "venue": "SKIPシティ 彩の国ビジュアルプラザ 映像ホール（川口市）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e605430/",
-      "lat": 35.80782,
-      "lng": 139.72411,
-      "_geo_key_place": "SKIPシティ 彩の国ビジュアルプラザ 映像ホール",
-      "_geo_key_city": "川口市",
-      "time_start": "14:00",
-      "time_end": "16:55"
     },
     {
       "id": "wp-e610508",
@@ -263,6 +246,90 @@
       "_geo_key_city": "鴻巣市",
       "time_start": "14:00",
       "time_end": "16:00"
+    },
+    {
+      "id": "wp-e608711",
+      "title": "絵本フェスタ川口2026",
+      "date": "2026-09-19",
+      "date_end": "2026-09-19",
+      "venue": "川口総合文化センター リリア（川口市）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e608711/",
+      "lat": 35.80059,
+      "lng": 139.71723,
+      "_geo_key_place": "川口総合文化センター リリア",
+      "_geo_key_city": "川口市",
+      "time_start": "11:00",
+      "time_end": "16:00"
+    },
+    {
+      "id": "wp-e601743",
+      "title": "浦和まつり 第31回音楽パレード/第50回浦和おどり",
+      "date": "2026-09-19",
+      "date_end": "2026-09-19",
+      "venue": "旧中山道：ロイヤルパインズホテル浦和前～さくら草通り（さいたま市浦和区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e601743/",
+      "lat": 35.88787,
+      "lng": 139.63639,
+      "_geo_key_place": "旧中山道：ロイヤルパインズホテル浦和前～さくら草通り",
+      "_geo_key_city": "さいたま市浦和区",
+      "time_start": "13:00"
+    },
+    {
+      "id": "wp-e610800",
+      "title": "歌って演奏　大人のJ-POP音楽会（9月）",
+      "date": "2026-09-19",
+      "date_end": "2026-09-19",
+      "venue": "レンタルスペースRhythmNeko（リズム・ねこ）（川口市）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e610800/",
+      "lat": 35.80782,
+      "lng": 139.72411,
+      "_geo_key_place": "レンタルスペースRhythmNeko（リズム・ねこ）",
+      "_geo_key_city": "川口市",
+      "time_start": "14:00",
+      "time_end": "21:30"
+    },
+    {
+      "id": "wp-e608506",
+      "title": "重要有形民俗文化財「北武蔵の農具」に見る発明・特許と知財戦略",
+      "date": "2026-09-19",
+      "date_end": "2026-09-19",
+      "venue": "埼玉県立歴史と民俗の博物館（さいたま市大宮区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e608506/",
+      "lat": 35.91709,
+      "lng": 139.63122,
+      "_geo_key_place": "埼玉県立歴史と民俗の博物館",
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "14:00",
+      "time_end": "15:30"
+    },
+    {
+      "id": "wp-e609650",
+      "title": "ワッツストリートマルシェ  岩槻横丁（9月）",
+      "date": "2026-09-19",
+      "date_end": "2026-09-19",
+      "venue": "岩槻駅東口クレセントモール（さいたま市岩槻区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e609650/",
+      "lat": 35.93902,
+      "lng": 139.68745,
+      "_geo_key_place": "岩槻駅東口クレセントモール",
+      "_geo_key_city": "さいたま市岩槻区",
+      "time_start": "15:00",
+      "time_end": "20:30"
     }
   ]
 }
