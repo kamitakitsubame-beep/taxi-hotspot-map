@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T06:48:46+09:00",
+  "updated_at": "2026-09-08T07:21:37+09:00",
   "events": [
     {
       "id": "wp-e608694",
@@ -19,7 +19,7 @@
       "time_end": "16:00"
     },
     {
-      "id": "arena-5075825",
+      "id": "arena-16030945",
       "title": "リトル・ママフェスタ さいたま2026Sep.",
       "date": "2026-09-11",
       "date_end": "2026-09-12",
@@ -96,6 +96,23 @@
       "_geo_key_city": "さいたま市南区",
       "time_start": "10:00",
       "time_end": "15:45"
+    },
+    {
+      "id": "wp-e607424",
+      "title": "生成AI講座",
+      "date": "2026-09-14",
+      "date_end": "2026-09-14",
+      "venue": "さいたま市市民活動サポートセンター（さいたま市浦和区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e607424/",
+      "lat": 35.85869,
+      "lng": 139.659,
+      "_geo_key_place": "さいたま市市民活動サポートセンター",
+      "_geo_key_city": "さいたま市浦和区",
+      "time_start": "14:00",
+      "time_end": "16:00"
     },
     {
       "id": "wp-e609751",
