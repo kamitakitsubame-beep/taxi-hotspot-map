@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T07:21:37+09:00",
+  "updated_at": "2026-09-09T07:07:19+09:00",
   "events": [
     {
       "id": "wp-e608694",
@@ -19,7 +19,7 @@
       "time_end": "16:00"
     },
     {
-      "id": "arena-16030945",
+      "id": "arena-50900323",
       "title": "リトル・ママフェスタ さいたま2026Sep.",
       "date": "2026-09-11",
       "date_end": "2026-09-12",
@@ -250,6 +250,23 @@
       "time_end": "20:30"
     },
     {
+      "id": "wp-e613468",
+      "title": "動物愛護フェスティバル2026",
+      "date": "2026-09-20",
+      "date_end": "2026-09-20",
+      "venue": "さいたま市動物愛護ふれあいセンター（さいたま市桜区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e613468/",
+      "lat": 35.85827,
+      "lng": 139.60542,
+      "_geo_key_place": "さいたま市動物愛護ふれあいセンター",
+      "_geo_key_city": "さいたま市桜区",
+      "time_start": "10:00",
+      "time_end": "16:00"
+    },
+    {
       "id": "wp-e612972",
       "title": "おもいやりプラネタリウム",
       "date": "2026-09-20",
@@ -265,6 +282,40 @@
       "_geo_key_city": "川口市",
       "time_start": "15:30",
       "time_end": "16:20"
+    },
+    {
+      "id": "wp-e608639",
+      "title": "さいたま「0歳からの・はじめてのオーケストラ」出発進行",
+      "date": "2026-09-23",
+      "date_end": "2026-09-23",
+      "venue": "彩の国さいたま芸術劇場 　小ホール（さいたま市中央区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e608639/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "彩の国さいたま芸術劇場 　小ホール",
+      "_geo_key_city": "さいたま市中央区",
+      "time_start": "10:00",
+      "time_end": "11:10"
+    },
+    {
+      "id": "wp-e608191",
+      "title": "順天堂醫院交響楽団　第9回定期演奏会",
+      "date": "2026-09-23",
+      "date_end": "2026-09-23",
+      "venue": "川口リリア　フカガワみらいホール（メインホール）（川口市）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e608191/",
+      "lat": 35.80782,
+      "lng": 139.72411,
+      "_geo_key_place": "川口リリア　フカガワみらいホール（メインホール）",
+      "_geo_key_city": "川口市",
+      "time_start": "15:00",
+      "time_end": "17:00"
     }
   ]
 }
