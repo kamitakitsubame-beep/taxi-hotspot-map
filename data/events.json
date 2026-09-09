@@ -1,25 +1,8 @@
 {
-  "updated_at": "2026-09-09T07:07:19+09:00",
+  "updated_at": "2026-09-10T07:04:18+09:00",
   "events": [
     {
-      "id": "wp-e608694",
-      "title": "ママハピEXPO＠アリオ上尾",
-      "date": "2026-09-09",
-      "date_end": "2026-09-09",
-      "venue": "アリオ上尾（上尾市）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e608694/",
-      "lat": 35.96161,
-      "lng": 139.56554,
-      "_geo_key_place": "アリオ上尾",
-      "_geo_key_city": "上尾市",
-      "time_start": "10:00",
-      "time_end": "16:00"
-    },
-    {
-      "id": "arena-50900323",
+      "id": "arena-61339273",
       "title": "リトル・ママフェスタ さいたま2026Sep.",
       "date": "2026-09-11",
       "date_end": "2026-09-12",
