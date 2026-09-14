@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-14T06:53:36+09:00",
+  "updated_at": "2026-09-15T07:50:11+09:00",
   "events": [
     {
       "id": "wp-e613076",
       "title": "太古のロマン！ミニはにわ作り",
-      "date": "2026-09-14",
+      "date": "2026-09-15",
       "date_end": "2026-09-27",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -17,23 +17,6 @@
       "_geo_key_city": "さいたま市南区",
       "time_start": "10:00",
       "time_end": "15:45"
-    },
-    {
-      "id": "wp-e607424",
-      "title": "生成AI講座",
-      "date": "2026-09-14",
-      "date_end": "2026-09-14",
-      "venue": "さいたま市市民活動サポートセンター（さいたま市浦和区）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e607424/",
-      "lat": 35.85869,
-      "lng": 139.659,
-      "_geo_key_place": "さいたま市市民活動サポートセンター",
-      "_geo_key_city": "さいたま市浦和区",
-      "time_start": "14:00",
-      "time_end": "16:00"
     },
     {
       "id": "wp-e609751",
@@ -424,6 +407,36 @@
       "_geo_key_city": "川口市",
       "time_start": "19:00",
       "time_end": "19:30"
+    },
+    {
+      "id": "wp-e610140",
+      "title": "0歳からのコンサート　音育ランド　さいたま",
+      "date": "2026-09-29",
+      "date_end": "2026-09-30",
+      "venue": "NEEDSさいたま新都心 by T&G WEDDING（旧 ガーデンヒルズ迎賓館 大宮）（さいたま市大宮区）",
+      "category": "",
+      "demand_level": "high",
+      "demand_comment": "大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e610140/",
+      "lat": 35.91709,
+      "lng": 139.63122,
+      "_geo_key_place": "NEEDSさいたま新都心 by T&G WEDDING（旧 ガーデンヒルズ迎賓館 大宮）",
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "10:00",
+      "time_end": "16:00"
+    },
+    {
+      "id": "arena-34152279",
+      "title": "彩SAKEフェス2026 ～呑んで埼玉～",
+      "date": "2026-09-29",
+      "date_end": "2026-09-29",
+      "venue": "さいたまスーパーアリーナ 展示ホール（さいたま市中央区）",
+      "category": "コンサート・スポーツ",
+      "demand_level": "high",
+      "demand_comment": "さいたまスーパーアリーナの大型公演。終演後にさいたま新都心駅周辺で大量需要。早めの待機を強く推奨。",
+      "source_url": "https://www.saitama-arena.co.jp/schedule/",
+      "lat": 35.8951,
+      "lng": 139.6306
     }
   ]
 }
