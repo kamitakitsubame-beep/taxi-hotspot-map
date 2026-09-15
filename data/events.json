@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-15T07:50:11+09:00",
+  "updated_at": "2026-09-16T07:31:00+09:00",
   "events": [
     {
       "id": "wp-e613076",
       "title": "太古のロマン！ミニはにわ作り",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "date_end": "2026-09-27",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -426,7 +426,7 @@
       "time_end": "16:00"
     },
     {
-      "id": "arena-34152279",
+      "id": "arena-297623",
       "title": "彩SAKEフェス2026 ～呑んで埼玉～",
       "date": "2026-09-29",
       "date_end": "2026-09-29",
@@ -437,6 +437,56 @@
       "source_url": "https://www.saitama-arena.co.jp/schedule/",
       "lat": 35.8951,
       "lng": 139.6306
+    },
+    {
+      "id": "wp-e612527",
+      "title": "大宮＆ＭＡＭＡＣＯフェスタ2026秋 ～ママもこどももにこにこフェスタ～",
+      "date": "2026-09-30",
+      "date_end": "2026-09-30",
+      "venue": "大宮ソニックシティ　地下1階展示場 　第1（さいたま市大宮区）",
+      "category": "",
+      "demand_level": "high",
+      "demand_comment": "大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e612527/",
+      "lat": 35.91709,
+      "lng": 139.63122,
+      "_geo_key_place": "大宮ソニックシティ　地下1階展示場 　第1",
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "10:00",
+      "time_end": "15:00"
+    },
+    {
+      "id": "wp-e432842",
+      "title": "ルミネ大宮「ALOHA TABLE(アロハ テーブル) ハワイアンビアガーデン 」",
+      "date": "2026-09-30",
+      "date_end": "2026-09-30",
+      "venue": "ルミネ大宮（さいたま市大宮区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e432842/",
+      "lat": 35.89895,
+      "lng": 139.63602,
+      "_geo_key_place": "ルミネ大宮",
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "11:00",
+      "time_end": "22:00"
+    },
+    {
+      "id": "wp-e611251",
+      "title": "ダンスユニットキニナルキ　第6回自主公演「Restand-私を、貫く-」",
+      "date": "2026-09-30",
+      "date_end": "2026-10-01",
+      "venue": "彩の国さいたま芸術劇場小ホール（さいたま市中央区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e611251/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "彩の国さいたま芸術劇場小ホール",
+      "_geo_key_city": "さいたま市中央区",
+      "time_start": "19:30"
     }
   ]
 }
