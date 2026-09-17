@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-17T07:27:35+09:00",
+  "updated_at": "2026-09-18T07:30:56+09:00",
   "events": [
     {
       "id": "wp-e613076",
       "title": "太古のロマン！ミニはにわ作り",
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "date_end": "2026-09-27",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -17,23 +17,6 @@
       "_geo_key_city": "さいたま市南区",
       "time_start": "10:00",
       "time_end": "15:45"
-    },
-    {
-      "id": "wp-e609751",
-      "title": "第61回 東京音楽大学提携シリーズ～声楽コンサート",
-      "date": "2026-09-17",
-      "date_end": "2026-09-17",
-      "venue": "北本市文化センター　ホールロビー（北本市）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e609751/",
-      "lat": 36.02696,
-      "lng": 139.53117,
-      "_geo_key_place": "北本市文化センター　ホールロビー",
-      "_geo_key_city": "北本市",
-      "time_start": "14:30",
-      "time_end": "16:00"
     },
     {
       "id": "wp-e604838",
@@ -426,7 +409,7 @@
       "time_end": "16:00"
     },
     {
-      "id": "arena-98512127",
+      "id": "arena-61596204",
       "title": "彩SAKEフェス2026 ～呑んで埼玉～",
       "date": "2026-09-29",
       "date_end": "2026-09-29",
@@ -487,6 +470,21 @@
       "_geo_key_place": "彩の国さいたま芸術劇場小ホール",
       "_geo_key_city": "さいたま市中央区",
       "time_start": "19:30"
+    },
+    {
+      "id": "wp-e613474",
+      "title": "第16回路地裏シネマ『森を織る。』上映会",
+      "date": "2026-10-02",
+      "date_end": "2026-10-03",
+      "venue": "路地裏ガレージマーケット（さいたま市中央区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e613474/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "路地裏ガレージマーケット",
+      "_geo_key_city": "さいたま市中央区"
     }
   ]
 }
