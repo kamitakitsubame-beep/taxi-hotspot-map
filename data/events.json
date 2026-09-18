@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-18T07:30:56+09:00",
+  "updated_at": "2026-09-19T07:00:15+09:00",
   "events": [
     {
       "id": "wp-e613076",
       "title": "太古のロマン！ミニはにわ作り",
-      "date": "2026-09-18",
+      "date": "2026-09-19",
       "date_end": "2026-09-27",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -17,23 +17,6 @@
       "_geo_key_city": "さいたま市南区",
       "time_start": "10:00",
       "time_end": "15:45"
-    },
-    {
-      "id": "wp-e604838",
-      "title": "昭和歌謡コンサート（鴻巣市）",
-      "date": "2026-09-18",
-      "date_end": "2026-09-18",
-      "venue": "クレアこうのす　小ホール（鴻巣市）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e604838/",
-      "lat": 36.06576,
-      "lng": 139.52211,
-      "_geo_key_place": "クレアこうのす　小ホール",
-      "_geo_key_city": "鴻巣市",
-      "time_start": "14:00",
-      "time_end": "16:00"
     },
     {
       "id": "wp-e613125",
@@ -84,23 +67,6 @@
       "_geo_key_place": "旧中山道：ロイヤルパインズホテル浦和前～さくら草通り",
       "_geo_key_city": "さいたま市浦和区",
       "time_start": "13:00"
-    },
-    {
-      "id": "wp-e610800",
-      "title": "歌って演奏　大人のJ-POP音楽会（9月）",
-      "date": "2026-09-19",
-      "date_end": "2026-09-19",
-      "venue": "レンタルスペースRhythmNeko（リズム・ねこ）（川口市）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e610800/",
-      "lat": 35.80782,
-      "lng": 139.72411,
-      "_geo_key_place": "レンタルスペースRhythmNeko（リズム・ねこ）",
-      "_geo_key_city": "川口市",
-      "time_start": "14:00",
-      "time_end": "21:30"
     },
     {
       "id": "wp-e608506",
@@ -409,7 +375,7 @@
       "time_end": "16:00"
     },
     {
-      "id": "arena-61596204",
+      "id": "arena-72286667",
       "title": "彩SAKEフェス2026 ～呑んで埼玉～",
       "date": "2026-09-29",
       "date_end": "2026-09-29",
@@ -485,6 +451,40 @@
       "lng": 139.62231,
       "_geo_key_place": "路地裏ガレージマーケット",
       "_geo_key_city": "さいたま市中央区"
+    },
+    {
+      "id": "wp-e614210",
+      "title": "イオンモール与野　ドームプラネット",
+      "date": "2026-10-03",
+      "date_end": "2026-10-04",
+      "venue": "イオンモール与野（さいたま市中央区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e614210/",
+      "lat": 35.89062,
+      "lng": 139.61534,
+      "_geo_key_place": "イオンモール与野",
+      "_geo_key_city": "さいたま市中央区",
+      "time_start": "10:00",
+      "time_end": "18:00"
+    },
+    {
+      "id": "wp-e611945",
+      "title": "第21回　調うさぎ縁日",
+      "date": "2026-10-03",
+      "date_end": "2026-10-04",
+      "venue": "ギャラリー彩光舎（さいたま市浦和区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e611945/",
+      "lat": 35.88787,
+      "lng": 139.63639,
+      "_geo_key_place": "ギャラリー彩光舎",
+      "_geo_key_city": "さいたま市浦和区",
+      "time_start": "10:00",
+      "time_end": "17:00"
     }
   ]
 }
