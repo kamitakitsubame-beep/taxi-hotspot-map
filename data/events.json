@@ -1,23 +1,6 @@
 {
-  "updated_at": "2026-09-22T07:55:07+09:00",
+  "updated_at": "2026-09-23T07:28:39+09:00",
   "events": [
-    {
-      "id": "wp-e613076",
-      "title": "太古のロマン！ミニはにわ作り",
-      "date": "2026-09-22",
-      "date_end": "2026-09-27",
-      "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e613076/",
-      "lat": 35.83903,
-      "lng": 139.64131,
-      "_geo_key_place": "体験工房クラフトカフェ浦和",
-      "_geo_key_city": "さいたま市南区",
-      "time_start": "10:00",
-      "time_end": "15:45"
-    },
     {
       "id": "wp-e608639",
       "title": "さいたま「0歳からの・はじめてのオーケストラ」出発進行",
@@ -34,6 +17,23 @@
       "_geo_key_city": "さいたま市中央区",
       "time_start": "10:00",
       "time_end": "11:10"
+    },
+    {
+      "id": "wp-e613076",
+      "title": "太古のロマン！ミニはにわ作り",
+      "date": "2026-09-23",
+      "date_end": "2026-09-27",
+      "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e613076/",
+      "lat": 35.83903,
+      "lng": 139.64131,
+      "_geo_key_place": "体験工房クラフトカフェ浦和",
+      "_geo_key_city": "さいたま市南区",
+      "time_start": "10:00",
+      "time_end": "15:45"
     },
     {
       "id": "wp-e608191",
@@ -257,7 +257,7 @@
       "time_end": "16:00"
     },
     {
-      "id": "arena-16709633",
+      "id": "arena-50091272",
       "title": "彩SAKEフェス2026 ～呑んで埼玉～",
       "date": "2026-09-29",
       "date_end": "2026-09-29",
