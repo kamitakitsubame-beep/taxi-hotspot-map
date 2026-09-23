@@ -1,27 +1,10 @@
 {
-  "updated_at": "2026-09-23T07:28:39+09:00",
+  "updated_at": "2026-09-24T07:32:07+09:00",
   "events": [
-    {
-      "id": "wp-e608639",
-      "title": "さいたま「0歳からの・はじめてのオーケストラ」出発進行",
-      "date": "2026-09-23",
-      "date_end": "2026-09-23",
-      "venue": "彩の国さいたま芸術劇場 　小ホール（さいたま市中央区）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e608639/",
-      "lat": 35.89918,
-      "lng": 139.62231,
-      "_geo_key_place": "彩の国さいたま芸術劇場 　小ホール",
-      "_geo_key_city": "さいたま市中央区",
-      "time_start": "10:00",
-      "time_end": "11:10"
-    },
     {
       "id": "wp-e613076",
       "title": "太古のロマン！ミニはにわ作り",
-      "date": "2026-09-23",
+      "date": "2026-09-24",
       "date_end": "2026-09-27",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -34,23 +17,6 @@
       "_geo_key_city": "さいたま市南区",
       "time_start": "10:00",
       "time_end": "15:45"
-    },
-    {
-      "id": "wp-e608191",
-      "title": "順天堂醫院交響楽団　第9回定期演奏会",
-      "date": "2026-09-23",
-      "date_end": "2026-09-23",
-      "venue": "川口リリア　フカガワみらいホール（メインホール）（川口市）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e608191/",
-      "lat": 35.80782,
-      "lng": 139.72411,
-      "_geo_key_place": "川口リリア　フカガワみらいホール（メインホール）",
-      "_geo_key_city": "川口市",
-      "time_start": "15:00",
-      "time_end": "17:00"
     },
     {
       "id": "wp-e607649",
@@ -257,7 +223,7 @@
       "time_end": "16:00"
     },
     {
-      "id": "arena-50091272",
+      "id": "arena-31609228",
       "title": "彩SAKEフェス2026 ～呑んで埼玉～",
       "date": "2026-09-29",
       "date_end": "2026-09-29",
