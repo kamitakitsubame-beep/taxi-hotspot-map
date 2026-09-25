@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-25T07:48:21+09:00",
+  "updated_at": "2026-09-26T07:55:15+09:00",
   "events": [
     {
       "id": "wp-e613076",
       "title": "太古のロマン！ミニはにわ作り",
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "date_end": "2026-09-27",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -223,7 +223,7 @@
       "time_end": "16:00"
     },
     {
-      "id": "arena-26933436",
+      "id": "arena-17526568",
       "title": "彩SAKEフェス2026 ～呑んで埼玉～",
       "date": "2026-09-29",
       "date_end": "2026-09-29",
@@ -384,6 +384,90 @@
       "_geo_key_city": "さいたま市北区",
       "time_start": "13:30",
       "time_end": "15:15"
+    },
+    {
+      "id": "wp-e612067",
+      "title": "第32回 大正時代まつり",
+      "date": "2026-10-10",
+      "date_end": "2026-10-11",
+      "venue": "JR与野駅西口駅前通り周辺（さいたま市中央区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e612067/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "JR与野駅西口駅前通り周辺",
+      "_geo_key_city": "さいたま市中央区",
+      "time_start": "10:00",
+      "time_end": "20:00"
+    },
+    {
+      "id": "wp-e615741",
+      "title": "スポーツデポカップ フットサルフェスタ2026（フットメッセ川口元郷・関東U-12）",
+      "date": "2026-10-10",
+      "date_end": "2026-10-10",
+      "venue": "フットメッセ川口元郷（川口市）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e615741/",
+      "lat": 35.80782,
+      "lng": 139.72411,
+      "_geo_key_place": "フットメッセ川口元郷",
+      "_geo_key_city": "川口市",
+      "time_start": "12:10"
+    },
+    {
+      "id": "wp-e613055",
+      "title": "演劇と出会う、シェイクスピアと出会う『すべての季節のシェイクスピア』",
+      "date": "2026-10-10",
+      "date_end": "2026-10-10",
+      "venue": "さいたま市地域中核施設　プラザイースト（さいたま市緑区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e613055/",
+      "lat": 35.88687,
+      "lng": 139.66605,
+      "_geo_key_place": "さいたま市地域中核施設　プラザイースト",
+      "_geo_key_city": "さいたま市緑区",
+      "time_start": "13:00",
+      "time_end": "17:00"
+    },
+    {
+      "id": "wp-e607312",
+      "title": "北東京フィルハーモニーオーケストラ　第3回定期演奏会",
+      "date": "2026-10-10",
+      "date_end": "2026-10-10",
+      "venue": "彩の国さいたま芸術劇場　音楽ホール（さいたま市中央区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e607312/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "彩の国さいたま芸術劇場　音楽ホール",
+      "_geo_key_city": "さいたま市中央区",
+      "time_start": "14:00",
+      "time_end": "16:00"
+    },
+    {
+      "id": "wp-e01076",
+      "title": "燃えよ！商工会青年部！！第23回 こうのす花火大会",
+      "date": "2026-10-10",
+      "date_end": "2026-10-10",
+      "venue": "糠田運動場および荒川河川敷（鴻巣市）",
+      "category": "",
+      "demand_level": "high",
+      "demand_comment": "大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e01076/",
+      "lat": 36.06576,
+      "lng": 139.52211,
+      "_geo_key_place": "糠田運動場および荒川河川敷",
+      "_geo_key_city": "鴻巣市",
+      "time_start": "17:30",
+      "time_end": "20:00"
     }
   ]
 }
