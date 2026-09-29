@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-29T09:01:53+09:00",
+  "updated_at": "2026-09-30T08:15:44+09:00",
   "events": [
     {
       "id": "wp-e610140",
       "title": "0歳からのコンサート　音育ランド　さいたま",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "date_end": "2026-09-30",
       "venue": "NEEDSさいたま新都心 by T&G WEDDING（旧 ガーデンヒルズ迎賓館 大宮）（さいたま市大宮区）",
       "category": "",
@@ -17,19 +17,6 @@
       "_geo_key_city": "さいたま市大宮区",
       "time_start": "10:00",
       "time_end": "16:00"
-    },
-    {
-      "id": "arena-85794700",
-      "title": "彩SAKEフェス2026 ～呑んで埼玉～",
-      "date": "2026-09-29",
-      "date_end": "2026-09-29",
-      "venue": "さいたまスーパーアリーナ 展示ホール（さいたま市中央区）",
-      "category": "コンサート・スポーツ",
-      "demand_level": "high",
-      "demand_comment": "さいたまスーパーアリーナの大型公演。終演後にさいたま新都心駅周辺で大量需要。早めの待機を強く推奨。",
-      "source_url": "https://www.saitama-arena.co.jp/schedule/",
-      "lat": 35.8951,
-      "lng": 139.6306
     },
     {
       "id": "wp-e612527",
@@ -381,6 +368,23 @@
       "_geo_key_city": "戸田市",
       "time_start": "10:00",
       "time_end": "17:00"
+    },
+    {
+      "id": "wp-e616687",
+      "title": "聖学院大学創立記念講演会「人は人との関わりを通して人間になる」",
+      "date": "2026-10-14",
+      "date_end": "2026-10-14",
+      "venue": "聖学院大学チャペル（上尾市）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e616687/",
+      "lat": 35.97741,
+      "lng": 139.59305,
+      "_geo_key_place": "聖学院大学チャペル",
+      "_geo_key_city": "上尾市",
+      "time_start": "10:40",
+      "time_end": "12:10"
     }
   ]
 }
