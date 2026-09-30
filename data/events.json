@@ -1,61 +1,10 @@
 {
-  "updated_at": "2026-09-30T08:15:44+09:00",
+  "updated_at": "2026-10-01T08:18:34+09:00",
   "events": [
-    {
-      "id": "wp-e610140",
-      "title": "0歳からのコンサート　音育ランド　さいたま",
-      "date": "2026-09-30",
-      "date_end": "2026-09-30",
-      "venue": "NEEDSさいたま新都心 by T&G WEDDING（旧 ガーデンヒルズ迎賓館 大宮）（さいたま市大宮区）",
-      "category": "",
-      "demand_level": "high",
-      "demand_comment": "大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e610140/",
-      "lat": 35.91709,
-      "lng": 139.63122,
-      "_geo_key_place": "NEEDSさいたま新都心 by T&G WEDDING（旧 ガーデンヒルズ迎賓館 大宮）",
-      "_geo_key_city": "さいたま市大宮区",
-      "time_start": "10:00",
-      "time_end": "16:00"
-    },
-    {
-      "id": "wp-e612527",
-      "title": "大宮＆ＭＡＭＡＣＯフェスタ2026秋 ～ママもこどももにこにこフェスタ～",
-      "date": "2026-09-30",
-      "date_end": "2026-09-30",
-      "venue": "大宮ソニックシティ　地下1階展示場 　第1（さいたま市大宮区）",
-      "category": "",
-      "demand_level": "high",
-      "demand_comment": "大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e612527/",
-      "lat": 35.91709,
-      "lng": 139.63122,
-      "_geo_key_place": "大宮ソニックシティ　地下1階展示場 　第1",
-      "_geo_key_city": "さいたま市大宮区",
-      "time_start": "10:00",
-      "time_end": "15:00"
-    },
-    {
-      "id": "wp-e432842",
-      "title": "ルミネ大宮「ALOHA TABLE(アロハ テーブル) ハワイアンビアガーデン 」",
-      "date": "2026-09-30",
-      "date_end": "2026-09-30",
-      "venue": "ルミネ大宮（さいたま市大宮区）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e432842/",
-      "lat": 35.89895,
-      "lng": 139.63602,
-      "_geo_key_place": "ルミネ大宮",
-      "_geo_key_city": "さいたま市大宮区",
-      "time_start": "11:00",
-      "time_end": "22:00"
-    },
     {
       "id": "wp-e611251",
       "title": "ダンスユニットキニナルキ　第6回自主公演「Restand-私を、貫く-」",
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "date_end": "2026-10-01",
       "venue": "彩の国さいたま芸術劇場小ホール（さいたま市中央区）",
       "category": "",
@@ -184,6 +133,19 @@
       "_geo_key_city": "さいたま市北区",
       "time_start": "13:30",
       "time_end": "15:15"
+    },
+    {
+      "id": "arena-98663206",
+      "title": "クラフト餃子フェス SAITAMA 2026",
+      "date": "2026-10-07",
+      "date_end": "2026-10-12",
+      "venue": "けやきひろば（さいたま市中央区）",
+      "category": "コンサート・スポーツ",
+      "demand_level": "medium",
+      "demand_comment": "けやきひろば等での催し。来場者の行き帰りで新都心駅周辺に需要が見込まれます。",
+      "source_url": "https://www.saitama-arena.co.jp/schedule/",
+      "lat": 35.8966,
+      "lng": 139.631
     },
     {
       "id": "wp-e612067",
@@ -385,6 +347,23 @@
       "_geo_key_city": "上尾市",
       "time_start": "10:40",
       "time_end": "12:10"
+    },
+    {
+      "id": "wp-e612531",
+      "title": "川口商工会議所創立90周年記念式典・講演",
+      "date": "2026-10-15",
+      "date_end": "2026-10-15",
+      "venue": "川口総合文化センター・リリア（川口市）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e612531/",
+      "lat": 35.80059,
+      "lng": 139.71723,
+      "_geo_key_place": "川口総合文化センター・リリア",
+      "_geo_key_city": "川口市",
+      "time_start": "17:30",
+      "time_end": "19:30"
     }
   ]
 }
