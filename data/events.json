@@ -1,22 +1,6 @@
 {
-  "updated_at": "2026-10-01T08:18:34+09:00",
+  "updated_at": "2026-10-02T08:32:07+09:00",
   "events": [
-    {
-      "id": "wp-e611251",
-      "title": "ダンスユニットキニナルキ　第6回自主公演「Restand-私を、貫く-」",
-      "date": "2026-10-01",
-      "date_end": "2026-10-01",
-      "venue": "彩の国さいたま芸術劇場小ホール（さいたま市中央区）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e611251/",
-      "lat": 35.89918,
-      "lng": 139.62231,
-      "_geo_key_place": "彩の国さいたま芸術劇場小ホール",
-      "_geo_key_city": "さいたま市中央区",
-      "time_start": "19:30"
-    },
     {
       "id": "wp-e613474",
       "title": "第16回路地裏シネマ『森を織る。』上映会",
@@ -135,7 +119,7 @@
       "time_end": "15:15"
     },
     {
-      "id": "arena-98663206",
+      "id": "arena-1347527",
       "title": "クラフト餃子フェス SAITAMA 2026",
       "date": "2026-10-07",
       "date_end": "2026-10-12",
@@ -364,6 +348,19 @@
       "_geo_key_city": "川口市",
       "time_start": "17:30",
       "time_end": "19:30"
+    },
+    {
+      "id": "arena-44626992",
+      "title": "埼玉県警察音楽隊「新都心けやきひろば・ポリス・コンサート」",
+      "date": "2026-10-16",
+      "date_end": "2026-10-16",
+      "venue": "けやきひろば（さいたま市中央区）",
+      "category": "コンサート・スポーツ",
+      "demand_level": "medium",
+      "demand_comment": "けやきひろば等での催し。来場者の行き帰りで新都心駅周辺に需要が見込まれます。",
+      "source_url": "https://www.saitama-arena.co.jp/schedule/",
+      "lat": 35.8966,
+      "lng": 139.631
     }
   ]
 }
