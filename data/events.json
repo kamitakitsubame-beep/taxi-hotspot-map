@@ -1,21 +1,6 @@
 {
-  "updated_at": "2026-10-02T08:32:07+09:00",
+  "updated_at": "2026-10-03T08:23:53+09:00",
   "events": [
-    {
-      "id": "wp-e613474",
-      "title": "第16回路地裏シネマ『森を織る。』上映会",
-      "date": "2026-10-02",
-      "date_end": "2026-10-03",
-      "venue": "路地裏ガレージマーケット（さいたま市中央区）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e613474/",
-      "lat": 35.89918,
-      "lng": 139.62231,
-      "_geo_key_place": "路地裏ガレージマーケット",
-      "_geo_key_city": "さいたま市中央区"
-    },
     {
       "id": "wp-e614210",
       "title": "イオンモール与野　ドームプラネット",
@@ -49,6 +34,21 @@
       "_geo_key_city": "さいたま市浦和区",
       "time_start": "10:00",
       "time_end": "17:00"
+    },
+    {
+      "id": "wp-e613474",
+      "title": "第16回路地裏シネマ『森を織る。』上映会",
+      "date": "2026-10-03",
+      "date_end": "2026-10-03",
+      "venue": "路地裏ガレージマーケット（さいたま市中央区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e613474/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "路地裏ガレージマーケット",
+      "_geo_key_city": "さいたま市中央区"
     },
     {
       "id": "wp-e616576",
@@ -119,7 +119,7 @@
       "time_end": "15:15"
     },
     {
-      "id": "arena-1347527",
+      "id": "arena-50292813",
       "title": "クラフト餃子フェス SAITAMA 2026",
       "date": "2026-10-07",
       "date_end": "2026-10-12",
@@ -350,7 +350,7 @@
       "time_end": "19:30"
     },
     {
-      "id": "arena-44626992",
+      "id": "arena-30523418",
       "title": "埼玉県警察音楽隊「新都心けやきひろば・ポリス・コンサート」",
       "date": "2026-10-16",
       "date_end": "2026-10-16",
@@ -361,6 +361,108 @@
       "source_url": "https://www.saitama-arena.co.jp/schedule/",
       "lat": 35.8966,
       "lng": 139.631
+    },
+    {
+      "id": "wp-e612580",
+      "title": "JR貨物線　新金線開業100周年企画！E257系 貸切列車で行く！JR貨物線めぐり！大宮駅発",
+      "date": "2026-10-17",
+      "date_end": "2026-10-17",
+      "venue": "新幹線、京浜東北線、埼京線、川越線、東北線、高崎線、東武アーバンパークライン、ニューシャトル　大宮駅（さいたま市大宮区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e612580/",
+      "lat": 35.91709,
+      "lng": 139.63122,
+      "_geo_key_place": "新幹線、京浜東北線、埼京線、川越線、東北線、高崎線、東武アーバンパークライン、ニューシャトル　大宮駅",
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "09:30",
+      "time_end": "18:05"
+    },
+    {
+      "id": "wp-e608764",
+      "title": "けやきの下のマルシェ（10月）",
+      "date": "2026-10-17",
+      "date_end": "2026-10-18",
+      "venue": "たまアリ△タウン けやきひろば1階プラザ（さいたま市中央区）",
+      "category": "",
+      "demand_level": "high",
+      "demand_comment": "大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e608764/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "たまアリ△タウン けやきひろば1階プラザ",
+      "_geo_key_city": "さいたま市中央区",
+      "time_start": "10:00",
+      "time_end": "16:00"
+    },
+    {
+      "id": "wp-e615147",
+      "title": "大宮けいりん「秋の遊びフェス」",
+      "date": "2026-10-17",
+      "date_end": "2026-10-17",
+      "venue": "大宮競輪場（さいたま市大宮区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e615147/",
+      "lat": 35.9191,
+      "lng": 139.6338,
+      "_geo_key_place": "大宮競輪場",
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "10:00",
+      "time_end": "15:00"
+    },
+    {
+      "id": "wp-e614307",
+      "title": "大宴会フェスティバル～飲んで笑って歌でも歌って騒ごうよ～",
+      "date": "2026-10-17",
+      "date_end": "2026-10-17",
+      "venue": "清龍酒造 清水亭（蓮田市）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e614307/",
+      "lat": 35.99409,
+      "lng": 139.66325,
+      "_geo_key_place": "清龍酒造 清水亭",
+      "_geo_key_city": "蓮田市",
+      "time_start": "12:30",
+      "time_end": "15:30"
+    },
+    {
+      "id": "wp-e616385",
+      "title": "歌って演奏 大人のJ-POP音楽会",
+      "date": "2026-10-17",
+      "date_end": "2026-10-17",
+      "venue": "レンタルスペース Rhythm Neko（リズム・ねこ）（川口市）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e616385/",
+      "lat": 35.80782,
+      "lng": 139.72411,
+      "_geo_key_place": "レンタルスペース Rhythm Neko（リズム・ねこ）",
+      "_geo_key_city": "川口市",
+      "time_start": "14:00",
+      "time_end": "21:30"
+    },
+    {
+      "id": "wp-e613912",
+      "title": "大宮「0歳からの・はじめてのオーケストラ」美しく青きドナウ",
+      "date": "2026-10-17",
+      "date_end": "2026-10-17",
+      "venue": "RaiBoC Hall（市民会館おおみや）（さいたま市大宮区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e613912/",
+      "lat": 35.91709,
+      "lng": 139.63122,
+      "_geo_key_place": "RaiBoC Hall（市民会館おおみや）",
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "14:30",
+      "time_end": "16:40"
     }
   ]
 }
