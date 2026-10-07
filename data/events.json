@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-07T08:25:37+09:00",
+  "updated_at": "2026-10-08T08:55:07+09:00",
   "events": [
     {
       "id": "wp-e616576",
       "title": "太古のロマン！ミニはにわ作り",
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "date_end": "2026-10-25",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -19,9 +19,26 @@
       "time_end": "16:00"
     },
     {
+      "id": "wp-e617795",
+      "title": "第40回 北海道の物産と観光展",
+      "date": "2026-10-08",
+      "date_end": "2026-10-12",
+      "venue": "そごう大宮店（さいたま市大宮区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e617795/",
+      "lat": 35.91709,
+      "lng": 139.63122,
+      "_geo_key_place": "そごう大宮店",
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "10:00",
+      "time_end": "20:00"
+    },
+    {
       "id": "wp-e616081",
       "title": "未就学児歓迎・はじめての手びねり陶芸",
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "date_end": "2026-10-25",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -36,9 +53,9 @@
       "time_end": "15:00"
     },
     {
-      "id": "arena-62976634",
+      "id": "arena-2767621",
       "title": "クラフト餃子フェス SAITAMA 2026",
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "date_end": "2026-10-12",
       "venue": "けやきひろば（さいたま市中央区）",
       "category": "コンサート・スポーツ",
@@ -47,6 +64,23 @@
       "source_url": "https://www.saitama-arena.co.jp/schedule/",
       "lat": 35.8966,
       "lng": 139.631
+    },
+    {
+      "id": "wp-e618172",
+      "title": "浦和ビアスタジアム2026",
+      "date": "2026-10-09",
+      "date_end": "2026-10-12",
+      "venue": "浦和駅東口駅前市民広場（浦和PARCO前）（さいたま市浦和区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e618172/",
+      "lat": 35.88787,
+      "lng": 139.63639,
+      "_geo_key_place": "浦和駅東口駅前市民広場（浦和PARCO前）",
+      "_geo_key_city": "さいたま市浦和区",
+      "time_start": "11:00",
+      "time_end": "21:00"
     },
     {
       "id": "wp-e612067",
@@ -233,23 +267,6 @@
       "time_end": "17:00"
     },
     {
-      "id": "wp-e616687",
-      "title": "聖学院大学創立記念講演会「人は人との関わりを通して人間になる」",
-      "date": "2026-10-14",
-      "date_end": "2026-10-14",
-      "venue": "聖学院大学チャペル（上尾市）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e616687/",
-      "lat": 35.97741,
-      "lng": 139.59305,
-      "_geo_key_place": "聖学院大学チャペル",
-      "_geo_key_city": "上尾市",
-      "time_start": "10:40",
-      "time_end": "12:10"
-    },
-    {
       "id": "wp-e612531",
       "title": "川口商工会議所創立90周年記念式典・講演",
       "date": "2026-10-15",
@@ -267,7 +284,7 @@
       "time_end": "19:30"
     },
     {
-      "id": "arena-53487024",
+      "id": "arena-46187901",
       "title": "埼玉県警察音楽隊「新都心けやきひろば・ポリス・コンサート」",
       "date": "2026-10-16",
       "date_end": "2026-10-16",
@@ -449,7 +466,7 @@
       "time_end": "10:30"
     },
     {
-      "id": "arena-46567912",
+      "id": "arena-31854199",
       "title": "陸上自衛隊中央音楽隊・火曜コンサート",
       "date": "2026-10-20",
       "date_end": "2026-10-20",
