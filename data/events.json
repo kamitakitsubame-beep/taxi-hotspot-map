@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-08T08:55:07+09:00",
+  "updated_at": "2026-10-09T09:01:26+09:00",
   "events": [
     {
       "id": "wp-e616576",
       "title": "太古のロマン！ミニはにわ作り",
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "date_end": "2026-10-25",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -21,7 +21,7 @@
     {
       "id": "wp-e617795",
       "title": "第40回 北海道の物産と観光展",
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "date_end": "2026-10-12",
       "venue": "そごう大宮店（さいたま市大宮区）",
       "category": "",
@@ -38,7 +38,7 @@
     {
       "id": "wp-e616081",
       "title": "未就学児歓迎・はじめての手びねり陶芸",
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "date_end": "2026-10-25",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -51,19 +51,6 @@
       "_geo_key_city": "さいたま市南区",
       "time_start": "11:00",
       "time_end": "15:00"
-    },
-    {
-      "id": "arena-2767621",
-      "title": "クラフト餃子フェス SAITAMA 2026",
-      "date": "2026-10-08",
-      "date_end": "2026-10-12",
-      "venue": "けやきひろば（さいたま市中央区）",
-      "category": "コンサート・スポーツ",
-      "demand_level": "medium",
-      "demand_comment": "けやきひろば等での催し。来場者の行き帰りで新都心駅周辺に需要が見込まれます。",
-      "source_url": "https://www.saitama-arena.co.jp/schedule/",
-      "lat": 35.8966,
-      "lng": 139.631
     },
     {
       "id": "wp-e618172",
@@ -81,6 +68,19 @@
       "_geo_key_city": "さいたま市浦和区",
       "time_start": "11:00",
       "time_end": "21:00"
+    },
+    {
+      "id": "arena-35523560",
+      "title": "クラフト餃子フェス SAITAMA 2026",
+      "date": "2026-10-09",
+      "date_end": "2026-10-12",
+      "venue": "けやきひろば（さいたま市中央区）",
+      "category": "コンサート・スポーツ",
+      "demand_level": "medium",
+      "demand_comment": "けやきひろば等での催し。来場者の行き帰りで新都心駅周辺に需要が見込まれます。",
+      "source_url": "https://www.saitama-arena.co.jp/schedule/",
+      "lat": 35.8966,
+      "lng": 139.631
     },
     {
       "id": "wp-e612067",
@@ -284,7 +284,7 @@
       "time_end": "19:30"
     },
     {
-      "id": "arena-46187901",
+      "id": "arena-97587005",
       "title": "埼玉県警察音楽隊「新都心けやきひろば・ポリス・コンサート」",
       "date": "2026-10-16",
       "date_end": "2026-10-16",
@@ -363,23 +363,6 @@
       "_geo_key_city": "蓮田市",
       "time_start": "12:30",
       "time_end": "15:30"
-    },
-    {
-      "id": "wp-e616385",
-      "title": "歌って演奏 大人のJ-POP音楽会",
-      "date": "2026-10-17",
-      "date_end": "2026-10-17",
-      "venue": "レンタルスペース Rhythm Neko（リズム・ねこ）（川口市）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e616385/",
-      "lat": 35.80782,
-      "lng": 139.72411,
-      "_geo_key_place": "レンタルスペース Rhythm Neko（リズム・ねこ）",
-      "_geo_key_city": "川口市",
-      "time_start": "14:00",
-      "time_end": "21:30"
     },
     {
       "id": "wp-e613912",
@@ -466,7 +449,7 @@
       "time_end": "10:30"
     },
     {
-      "id": "arena-31854199",
+      "id": "arena-34632760",
       "title": "陸上自衛隊中央音楽隊・火曜コンサート",
       "date": "2026-10-20",
       "date_end": "2026-10-20",
@@ -477,6 +460,21 @@
       "source_url": "https://www.saitama-arena.co.jp/schedule/",
       "lat": 35.8966,
       "lng": 139.631
+    },
+    {
+      "id": "wp-e609036",
+      "title": "ホフェッシュ・シェクター・カンパニー『Theatre of Dreams』",
+      "date": "2026-10-23",
+      "date_end": "2026-10-25",
+      "venue": "彩の国さいたま芸術劇場 大ホール（さいたま市中央区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e609036/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "彩の国さいたま芸術劇場 大ホール",
+      "_geo_key_city": "さいたま市中央区"
     }
   ]
 }
