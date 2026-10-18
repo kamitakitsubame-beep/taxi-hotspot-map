@@ -1,60 +1,10 @@
 {
-  "updated_at": "2026-10-18T06:49:50+09:00",
+  "updated_at": "2026-10-19T07:00:20+09:00",
   "events": [
-    {
-      "id": "wp-e616097",
-      "title": "スポーツデポカップ フットサルフェスタ2026（FFC東川口・関東U-12）",
-      "date": "2026-10-18",
-      "date_end": "2026-10-18",
-      "venue": "FFC東川口（川口市）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e616097/",
-      "lat": 35.80782,
-      "lng": 139.72411,
-      "_geo_key_place": "FFC東川口",
-      "_geo_key_city": "川口市",
-      "time_start": "09:00"
-    },
-    {
-      "id": "wp-e614653",
-      "title": "53ニケーション（10月）",
-      "date": "2026-10-18",
-      "date_end": "2026-10-18",
-      "venue": "さいたま市文化センター3階　第4集会室（さいたま市南区）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e614653/",
-      "lat": 35.83903,
-      "lng": 139.64131,
-      "_geo_key_place": "さいたま市文化センター3階　第4集会室",
-      "_geo_key_city": "さいたま市南区",
-      "time_start": "09:30",
-      "time_end": "11:30"
-    },
-    {
-      "id": "wp-e608764",
-      "title": "けやきの下のマルシェ（10月）",
-      "date": "2026-10-18",
-      "date_end": "2026-10-18",
-      "venue": "たまアリ△タウン けやきひろば1階プラザ（さいたま市中央区）",
-      "category": "",
-      "demand_level": "high",
-      "demand_comment": "大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e608764/",
-      "lat": 35.89918,
-      "lng": 139.62231,
-      "_geo_key_place": "たまアリ△タウン けやきひろば1階プラザ",
-      "_geo_key_city": "さいたま市中央区",
-      "time_start": "10:00",
-      "time_end": "16:00"
-    },
     {
       "id": "wp-e616576",
       "title": "太古のロマン！ミニはにわ作り",
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "date_end": "2026-10-25",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -71,7 +21,7 @@
     {
       "id": "wp-e618270",
       "title": "張り子deアレブリヘ作り",
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "date_end": "2026-10-25",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -88,7 +38,7 @@
     {
       "id": "wp-e616081",
       "title": "未就学児歓迎・はじめての手びねり陶芸",
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "date_end": "2026-10-25",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -101,56 +51,6 @@
       "_geo_key_city": "さいたま市南区",
       "time_start": "11:00",
       "time_end": "15:00"
-    },
-    {
-      "id": "wp-e618599",
-      "title": "おおとり祭り",
-      "date": "2026-10-18",
-      "date_end": "2026-10-18",
-      "venue": "中山道（人形（深井2丁目交差点）～加美（池元院前））（鴻巣市）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e618599/",
-      "lat": 36.06576,
-      "lng": 139.52211,
-      "_geo_key_place": "中山道（人形（深井2丁目交差点）～加美（池元院前））",
-      "_geo_key_city": "鴻巣市",
-      "time_start": "12:00",
-      "time_end": "19:00"
-    },
-    {
-      "id": "wp-e616096",
-      "title": "スポーツデポカップ フットサルフェスタ2026（フットメッセ川口元郷・関東O-35）",
-      "date": "2026-10-18",
-      "date_end": "2026-10-18",
-      "venue": "フットメッセ川口元郷（川口市）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e616096/",
-      "lat": 35.80782,
-      "lng": 139.72411,
-      "_geo_key_place": "フットメッセ川口元郷",
-      "_geo_key_city": "川口市",
-      "time_start": "15:10"
-    },
-    {
-      "id": "wp-e523899",
-      "title": "第12回 浦和美園まつり＆花火大会",
-      "date": "2026-10-18",
-      "date_end": "2026-10-18",
-      "venue": "大門上池調節池（さいたま市緑区）",
-      "category": "",
-      "demand_level": "high",
-      "demand_comment": "大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e523899/",
-      "lat": 35.88687,
-      "lng": 139.66605,
-      "_geo_key_place": "大門上池調節池",
-      "_geo_key_city": "さいたま市緑区",
-      "time_start": "17:00",
-      "time_end": "17:30"
     },
     {
       "id": "wp-e616454",
@@ -170,7 +70,7 @@
       "time_end": "10:30"
     },
     {
-      "id": "arena-11786901",
+      "id": "arena-30466057",
       "title": "陸上自衛隊中央音楽隊・火曜コンサート",
       "date": "2026-10-20",
       "date_end": "2026-10-20",
@@ -213,23 +113,6 @@
       "_geo_key_city": "鴻巣市",
       "time_start": "09:00",
       "time_end": "16:00"
-    },
-    {
-      "id": "wp-e618620",
-      "title": "第5回春おか祭",
-      "date": "2026-10-24",
-      "date_end": "2026-10-24",
-      "venue": "春おか広場（さいたま市見沼区）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e618620/",
-      "lat": 35.94409,
-      "lng": 139.6697,
-      "_geo_key_place": "春おか広場",
-      "_geo_key_city": "さいたま市見沼区",
-      "time_start": "10:00",
-      "time_end": "15:00"
     },
     {
       "id": "wp-e355833",
@@ -453,7 +336,7 @@
       "time_end": "20:00"
     },
     {
-      "id": "arena-59183123",
+      "id": "arena-75669122",
       "title": "エビカニフェス 2026",
       "date": "2026-10-31",
       "date_end": "2026-11-03",
@@ -479,6 +362,23 @@
       "lng": 139.64086,
       "_geo_key_place": "大宮第二公園",
       "_geo_key_city": "さいたま市大宮区"
+    },
+    {
+      "id": "wp-e619606",
+      "title": "埼玉文芸“秋の集い” 向坂くじら氏を迎えて",
+      "date": "2026-11-01",
+      "date_end": "2026-11-01",
+      "venue": "さいたま文学館（桶川市）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e619606/",
+      "lat": 35.99611,
+      "lng": 139.56059,
+      "_geo_key_place": "さいたま文学館",
+      "_geo_key_city": "桶川市",
+      "time_start": "13:30",
+      "time_end": "15:30"
     }
   ]
 }
