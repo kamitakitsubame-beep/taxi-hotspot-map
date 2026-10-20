@@ -1,27 +1,10 @@
 {
-  "updated_at": "2026-10-20T08:11:31+09:00",
+  "updated_at": "2026-10-21T07:46:32+09:00",
   "events": [
-    {
-      "id": "wp-e616454",
-      "title": "ファミリー鑑賞会",
-      "date": "2026-10-20",
-      "date_end": "2026-10-20",
-      "venue": "埼玉県立近代美術館（さいたま市浦和区）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e616454/",
-      "lat": 35.8696,
-      "lng": 139.64302,
-      "_geo_key_place": "埼玉県立近代美術館",
-      "_geo_key_city": "さいたま市浦和区",
-      "time_start": "09:30",
-      "time_end": "10:30"
-    },
     {
       "id": "wp-e616576",
       "title": "太古のロマン！ミニはにわ作り",
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "date_end": "2026-10-25",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -38,7 +21,7 @@
     {
       "id": "wp-e618270",
       "title": "張り子deアレブリヘ作り",
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "date_end": "2026-10-25",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -55,7 +38,7 @@
     {
       "id": "wp-e616081",
       "title": "未就学児歓迎・はじめての手びねり陶芸",
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "date_end": "2026-10-25",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -68,19 +51,6 @@
       "_geo_key_city": "さいたま市南区",
       "time_start": "11:00",
       "time_end": "15:00"
-    },
-    {
-      "id": "arena-34819444",
-      "title": "陸上自衛隊中央音楽隊・火曜コンサート",
-      "date": "2026-10-20",
-      "date_end": "2026-10-20",
-      "venue": "けやきひろば（さいたま市中央区）",
-      "category": "コンサート・スポーツ",
-      "demand_level": "medium",
-      "demand_comment": "けやきひろば等での催し。来場者の行き帰りで新都心駅周辺に需要が見込まれます。",
-      "source_url": "https://www.saitama-arena.co.jp/schedule/",
-      "lat": 35.8966,
-      "lng": 139.631
     },
     {
       "id": "wp-e609036",
@@ -217,6 +187,23 @@
       "time_end": "16:00"
     },
     {
+      "id": "wp-e609990",
+      "title": "昭和歌謡コンサート（蓮田市）",
+      "date": "2026-10-27",
+      "date_end": "2026-10-27",
+      "venue": "蓮田市総合文化会館　ハストピア（蓮田市）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e609990/",
+      "lat": 35.99409,
+      "lng": 139.66325,
+      "_geo_key_place": "蓮田市総合文化会館　ハストピア",
+      "_geo_key_city": "蓮田市",
+      "time_start": "14:00",
+      "time_end": "16:00"
+    },
+    {
       "id": "wp-e610902",
       "title": "写真展　能登の記憶",
       "date": "2026-10-30",
@@ -302,6 +289,23 @@
       "time_end": "16:00"
     },
     {
+      "id": "wp-e616558",
+      "title": "民俗工芸実演「掛軸の表具」",
+      "date": "2026-10-31",
+      "date_end": "2026-10-31",
+      "venue": "埼玉県立歴史と民俗の博物館（さいたま市大宮区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e616558/",
+      "lat": 35.91709,
+      "lng": 139.63122,
+      "_geo_key_place": "埼玉県立歴史と民俗の博物館",
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "14:00",
+      "time_end": "15:30"
+    },
+    {
       "id": "wp-e616671",
       "title": "芥川龍之介「蜘蛛の糸」より　connexion",
       "date": "2026-10-31",
@@ -336,7 +340,7 @@
       "time_end": "20:00"
     },
     {
-      "id": "arena-58254022",
+      "id": "arena-38713552",
       "title": "エビカニフェス 2026",
       "date": "2026-10-31",
       "date_end": "2026-11-03",
