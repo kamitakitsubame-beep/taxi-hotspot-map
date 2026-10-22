@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-22T07:52:20+09:00",
+  "updated_at": "2026-10-23T07:50:29+09:00",
   "events": [
     {
       "id": "wp-e616576",
       "title": "太古のロマン！ミニはにわ作り",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "date_end": "2026-10-25",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -21,7 +21,7 @@
     {
       "id": "wp-e618270",
       "title": "張り子deアレブリヘ作り",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "date_end": "2026-10-25",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -38,7 +38,7 @@
     {
       "id": "wp-e616081",
       "title": "未就学児歓迎・はじめての手びねり陶芸",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "date_end": "2026-10-25",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -289,6 +289,23 @@
       "time_end": "16:00"
     },
     {
+      "id": "wp-e616558",
+      "title": "民俗工芸実演「掛軸の表具」",
+      "date": "2026-10-31",
+      "date_end": "2026-10-31",
+      "venue": "埼玉県立歴史と民俗の博物館（さいたま市大宮区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e616558/",
+      "lat": 35.91709,
+      "lng": 139.63122,
+      "_geo_key_place": "埼玉県立歴史と民俗の博物館",
+      "_geo_key_city": "さいたま市大宮区",
+      "time_start": "14:00",
+      "time_end": "15:30"
+    },
+    {
       "id": "wp-e616671",
       "title": "芥川龍之介「蜘蛛の糸」より　connexion",
       "date": "2026-10-31",
@@ -323,7 +340,7 @@
       "time_end": "20:00"
     },
     {
-      "id": "arena-41611186",
+      "id": "arena-44090009",
       "title": "エビカニフェス 2026",
       "date": "2026-10-31",
       "date_end": "2026-11-03",
@@ -349,23 +366,6 @@
       "lng": 139.64086,
       "_geo_key_place": "大宮第二公園",
       "_geo_key_city": "さいたま市大宮区"
-    },
-    {
-      "id": "wp-e619606",
-      "title": "埼玉文芸“秋の集い” 向坂くじら氏を迎えて",
-      "date": "2026-11-01",
-      "date_end": "2026-11-01",
-      "venue": "さいたま文学館（桶川市）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e619606/",
-      "lat": 35.99611,
-      "lng": 139.56059,
-      "_geo_key_place": "さいたま文学館",
-      "_geo_key_city": "桶川市",
-      "time_start": "13:30",
-      "time_end": "15:30"
     },
     {
       "id": "wp-e617247",
@@ -434,6 +434,38 @@
       "_geo_key_city": "さいたま市大宮区",
       "time_start": "12:00",
       "time_end": "17:30"
+    },
+    {
+      "id": "wp-e616717",
+      "title": "ママハピEXPO@イオンモール川口",
+      "date": "2026-11-06",
+      "date_end": "2026-11-06",
+      "venue": "イオンモール川口　1F センターコート/1F イーストコート（川口市）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e616717/",
+      "lat": 35.80782,
+      "lng": 139.72411,
+      "_geo_key_place": "イオンモール川口　1F センターコート/1F イーストコート",
+      "_geo_key_city": "川口市",
+      "time_start": "10:00",
+      "time_end": "16:00"
+    },
+    {
+      "id": "wp-e618827",
+      "title": "第17回路地裏シネマ『サティシュの学校』上映会",
+      "date": "2026-11-06",
+      "date_end": "2026-11-07",
+      "venue": "路地裏ガレージマーケット（さいたま市中央区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e618827/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "路地裏ガレージマーケット",
+      "_geo_key_city": "さいたま市中央区"
     }
   ]
 }
