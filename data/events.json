@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-24T07:43:16+09:00",
+  "updated_at": "2026-10-25T07:04:38+09:00",
   "events": [
     {
       "id": "wp-e613114",
       "title": "第28回コスモスフェスティバル",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "date_end": "2026-10-25",
       "venue": "コスモスアリーナふきあげ周辺（鴻巣市）",
       "category": "",
@@ -21,7 +21,7 @@
     {
       "id": "wp-e616576",
       "title": "太古のロマン！ミニはにわ作り",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "date_end": "2026-10-25",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -36,26 +36,9 @@
       "time_end": "16:00"
     },
     {
-      "id": "wp-e618620",
-      "title": "第5回春おか祭",
-      "date": "2026-10-24",
-      "date_end": "2026-10-24",
-      "venue": "春おか広場（さいたま市見沼区）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e618620/",
-      "lat": 35.94409,
-      "lng": 139.6697,
-      "_geo_key_place": "春おか広場",
-      "_geo_key_city": "さいたま市見沼区",
-      "time_start": "10:00",
-      "time_end": "15:00"
-    },
-    {
       "id": "wp-e618270",
       "title": "張り子deアレブリヘ作り",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "date_end": "2026-10-25",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -72,7 +55,7 @@
     {
       "id": "wp-e616081",
       "title": "未就学児歓迎・はじめての手びねり陶芸",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "date_end": "2026-10-25",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -89,7 +72,7 @@
     {
       "id": "wp-e355833",
       "title": "第52回 戸田ふるさと祭り",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "date_end": "2026-10-25",
       "venue": "戸田市役所周辺（戸田市）",
       "category": "",
@@ -106,7 +89,7 @@
     {
       "id": "wp-e619725",
       "title": "LIFE DESIGN CRAFTS vol.7",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "date_end": "2026-10-25",
       "venue": "大宮門街 1F広場（さいたま市大宮区）",
       "category": "",
@@ -119,38 +102,6 @@
       "_geo_key_city": "さいたま市大宮区",
       "time_start": "12:00",
       "time_end": "19:00"
-    },
-    {
-      "id": "wp-e615770",
-      "title": "歴史民俗講座「文人の推し活」",
-      "date": "2026-10-24",
-      "date_end": "2026-10-24",
-      "venue": "埼玉県立歴史と民俗の博物館（さいたま市大宮区）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e615770/",
-      "lat": 35.91709,
-      "lng": 139.63122,
-      "_geo_key_place": "埼玉県立歴史と民俗の博物館",
-      "_geo_key_city": "さいたま市大宮区",
-      "time_start": "14:00",
-      "time_end": "15:30"
-    },
-    {
-      "id": "wp-e609036",
-      "title": "ホフェッシュ・シェクター・カンパニー『Theatre of Dreams』",
-      "date": "2026-10-24",
-      "date_end": "2026-10-25",
-      "venue": "彩の国さいたま芸術劇場 大ホール（さいたま市中央区）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e609036/",
-      "lat": 35.89918,
-      "lng": 139.62231,
-      "_geo_key_place": "彩の国さいたま芸術劇場 大ホール",
-      "_geo_key_city": "さいたま市中央区"
     },
     {
       "id": "wp-e619023",
@@ -168,6 +119,21 @@
       "_geo_key_city": "さいたま市大宮区",
       "time_start": "14:00",
       "time_end": "16:00"
+    },
+    {
+      "id": "wp-e609036",
+      "title": "ホフェッシュ・シェクター・カンパニー『Theatre of Dreams』",
+      "date": "2026-10-25",
+      "date_end": "2026-10-25",
+      "venue": "彩の国さいたま芸術劇場 大ホール（さいたま市中央区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e609036/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "彩の国さいたま芸術劇場 大ホール",
+      "_geo_key_city": "さいたま市中央区"
     },
     {
       "id": "wp-e616447",
@@ -340,7 +306,7 @@
       "time_end": "20:00"
     },
     {
-      "id": "arena-58613776",
+      "id": "arena-16594529",
       "title": "エビカニフェス 2026",
       "date": "2026-10-31",
       "date_end": "2026-11-03",
@@ -517,6 +483,23 @@
       "_geo_key_city": "北本市",
       "time_start": "15:00",
       "time_end": "16:00"
+    },
+    {
+      "id": "wp-e609352",
+      "title": "北本まつり「産業まつり」",
+      "date": "2026-11-08",
+      "date_end": "2026-11-08",
+      "venue": "北本市役所（北本市）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e609352/",
+      "lat": 36.02683,
+      "lng": 139.53014,
+      "_geo_key_place": "北本市役所",
+      "_geo_key_city": "北本市",
+      "time_start": "09:30",
+      "time_end": "15:00"
     }
   ]
 }
