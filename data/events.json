@@ -1,27 +1,10 @@
 {
-  "updated_at": "2026-10-28T08:18:23+09:00",
+  "updated_at": "2026-10-29T08:41:54+09:00",
   "events": [
-    {
-      "id": "wp-e616447",
-      "title": "0歳からのコンサート　音育ランド　埼玉",
-      "date": "2026-10-28",
-      "date_end": "2026-10-28",
-      "venue": "NEEDSさいたま新都心 by T&G WEDDING（旧 ガーデンヒルズ迎賓館 大宮）（さいたま市大宮区）",
-      "category": "",
-      "demand_level": "high",
-      "demand_comment": "大規模イベント。終了時間帯に会場周辺で需要集中の可能性。早めの待機を推奨。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e616447/",
-      "lat": 35.91709,
-      "lng": 139.63122,
-      "_geo_key_place": "NEEDSさいたま新都心 by T&G WEDDING（旧 ガーデンヒルズ迎賓館 大宮）",
-      "_geo_key_city": "さいたま市大宮区",
-      "time_start": "10:00",
-      "time_end": "16:00"
-    },
     {
       "id": "wp-e621195",
       "title": "出張！魚津蟹騒動in大宮",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "date_end": "2026-10-29",
       "venue": "まるまるひがしにほん東日本連携センター（さいたま市大宮区）",
       "category": "",
@@ -85,6 +68,23 @@
       "_geo_key_city": "北足立郡伊奈町",
       "time_start": "10:00",
       "time_end": "15:00"
+    },
+    {
+      "id": "wp-e621240",
+      "title": "聖学院大学 パイプオルガンコンサート2026",
+      "date": "2026-10-31",
+      "date_end": "2026-10-31",
+      "venue": "聖学院大学チャペル（上尾市）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e621240/",
+      "lat": 35.97741,
+      "lng": 139.59305,
+      "_geo_key_place": "聖学院大学チャペル",
+      "_geo_key_city": "上尾市",
+      "time_start": "11:00",
+      "time_end": "11:45"
     },
     {
       "id": "wp-e607081",
@@ -172,7 +172,7 @@
       "time_end": "20:00"
     },
     {
-      "id": "arena-42914916",
+      "id": "arena-16263925",
       "title": "エビカニフェス 2026",
       "date": "2026-10-31",
       "date_end": "2026-11-03",
