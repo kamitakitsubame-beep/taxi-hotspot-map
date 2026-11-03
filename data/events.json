@@ -1,18 +1,21 @@
 {
-  "updated_at": "2026-11-02T08:14:16+09:00",
+  "updated_at": "2026-11-03T10:54:48+09:00",
   "events": [
     {
-      "id": "arena-69010626",
-      "title": "エビカニフェス 2026",
-      "date": "2026-11-02",
+      "id": "wp-e616238",
+      "title": "スポーツデポカップ フットサルフェスタ2026（FFC東川口・関東U-15）",
+      "date": "2026-11-03",
       "date_end": "2026-11-03",
-      "venue": "けやきひろば（さいたま市中央区）",
-      "category": "コンサート・スポーツ",
+      "venue": "FFC東川口（川口市）",
+      "category": "",
       "demand_level": "medium",
-      "demand_comment": "けやきひろば等での催し。来場者の行き帰りで新都心駅周辺に需要が見込まれます。",
-      "source_url": "https://www.saitama-arena.co.jp/schedule/",
-      "lat": 35.8966,
-      "lng": 139.631
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e616238/",
+      "lat": 35.80782,
+      "lng": 139.72411,
+      "_geo_key_place": "FFC東川口",
+      "_geo_key_city": "川口市",
+      "time_start": "09:00"
     },
     {
       "id": "wp-e617247",
@@ -83,6 +86,19 @@
       "time_end": "17:30"
     },
     {
+      "id": "arena-60823415",
+      "title": "エビカニフェス 2026",
+      "date": "2026-11-03",
+      "date_end": "2026-11-03",
+      "venue": "けやきひろば（さいたま市中央区）",
+      "category": "コンサート・スポーツ",
+      "demand_level": "medium",
+      "demand_comment": "けやきひろば等での催し。来場者の行き帰りで新都心駅周辺に需要が見込まれます。",
+      "source_url": "https://www.saitama-arena.co.jp/schedule/",
+      "lat": 35.8966,
+      "lng": 139.631
+    },
+    {
       "id": "wp-e616717",
       "title": "ママハピEXPO@イオンモール川口",
       "date": "2026-11-06",
@@ -98,23 +114,6 @@
       "_geo_key_city": "川口市",
       "time_start": "10:00",
       "time_end": "16:00"
-    },
-    {
-      "id": "wp-e620745",
-      "title": "レクチャー+出張相談（法律編）",
-      "date": "2026-11-06",
-      "date_end": "2026-11-06",
-      "venue": "RaiBoC Hall（市民会館おおみや）（さいたま市大宮区）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e620745/",
-      "lat": 35.91709,
-      "lng": 139.63122,
-      "_geo_key_place": "RaiBoC Hall（市民会館おおみや）",
-      "_geo_key_city": "さいたま市大宮区",
-      "time_start": "19:00",
-      "time_end": "20:30"
     },
     {
       "id": "wp-e618827",
