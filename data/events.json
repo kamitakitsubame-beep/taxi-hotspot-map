@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T09:15:36+09:00",
+  "updated_at": "2026-11-05T09:35:12+09:00",
   "events": [
     {
       "id": "wp-e616717",
@@ -338,6 +338,23 @@
       "_geo_key_city": "さいたま市北区",
       "time_start": "11:00",
       "time_end": "16:00"
+    },
+    {
+      "id": "wp-e619939",
+      "title": "脳をいきいき保つ香り習慣　アロマミスト講座",
+      "date": "2026-11-19",
+      "date_end": "2026-11-19",
+      "venue": "さいたま市産業文化センター3階会議室（さいたま市中央区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e619939/",
+      "lat": 35.89918,
+      "lng": 139.62231,
+      "_geo_key_place": "さいたま市産業文化センター3階会議室",
+      "_geo_key_city": "さいたま市中央区",
+      "time_start": "10:30",
+      "time_end": "14:30"
     }
   ]
 }
