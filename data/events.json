@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T10:43:27+09:00",
+  "updated_at": "2026-11-13T09:46:33+09:00",
   "events": [
     {
       "id": "wp-e621928",
@@ -206,6 +206,22 @@
       "time_end": "16:00"
     },
     {
+      "id": "wp-e623482",
+      "title": "はじめての陶芸・マグカップ作り",
+      "date": "2026-11-15",
+      "date_end": "2026-11-29",
+      "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e623482/",
+      "lat": 35.83903,
+      "lng": 139.64131,
+      "_geo_key_place": "体験工房クラフトカフェ浦和",
+      "_geo_key_city": "さいたま市南区",
+      "time_start": "13:00"
+    },
+    {
       "id": "wp-e623341",
       "title": "元北沢楽天顕彰会理事　スチュワート・ロナルドによるトークショー",
       "date": "2026-11-17",
@@ -359,23 +375,6 @@
       "time_end": "17:00"
     },
     {
-      "id": "wp-e623346",
-      "title": "漫画ライブペインティング",
-      "date": "2026-11-21",
-      "date_end": "2026-11-22",
-      "venue": "さいたま市プラザノース　多目的ルーム（さいたま市北区）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e623346/",
-      "lat": 35.92528,
-      "lng": 139.61097,
-      "_geo_key_place": "さいたま市プラザノース　多目的ルーム",
-      "_geo_key_city": "さいたま市北区",
-      "time_start": "11:00",
-      "time_end": "16:00"
-    },
-    {
       "id": "wp-e614654",
       "title": "53ニケーション（11月）",
       "date": "2026-11-22",
@@ -425,23 +424,6 @@
       "_geo_key_city": "戸田市",
       "time_start": "10:00",
       "time_end": "15:00"
-    },
-    {
-      "id": "wp-e623347",
-      "title": "テーマでつながるみんなのまんが",
-      "date": "2026-11-22",
-      "date_end": "2026-11-22",
-      "venue": "さいたま市プラザノース　多目的ルーム（さいたま市北区）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e623347/",
-      "lat": 35.92528,
-      "lng": 139.61097,
-      "_geo_key_place": "さいたま市プラザノース　多目的ルーム",
-      "_geo_key_city": "さいたま市北区",
-      "time_start": "11:00",
-      "time_end": "16:00"
     },
     {
       "id": "wp-e616968",
