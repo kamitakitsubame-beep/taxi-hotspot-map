@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T09:46:33+09:00",
+  "updated_at": "2026-11-14T09:31:47+09:00",
   "events": [
     {
       "id": "wp-e621928",
@@ -189,6 +189,22 @@
       "time_end": "13:00"
     },
     {
+      "id": "wp-e623481",
+      "title": "太古のロマン！ミニはにわ作り",
+      "date": "2026-11-15",
+      "date_end": "2026-11-29",
+      "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e623481/",
+      "lat": 35.83903,
+      "lng": 139.64131,
+      "_geo_key_place": "体験工房クラフトカフェ浦和",
+      "_geo_key_city": "さいたま市南区",
+      "time_start": "10:00"
+    },
+    {
       "id": "wp-e622408",
       "title": "minahan手作りマーケット in大宮北ハウジングステージ Vol.21",
       "date": "2026-11-15",
@@ -375,6 +391,23 @@
       "time_end": "17:00"
     },
     {
+      "id": "wp-e623346",
+      "title": "漫画ライブペインティング",
+      "date": "2026-11-21",
+      "date_end": "2026-11-22",
+      "venue": "さいたま市プラザノース　多目的ルーム（さいたま市北区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e623346/",
+      "lat": 35.92528,
+      "lng": 139.61097,
+      "_geo_key_place": "さいたま市プラザノース　多目的ルーム",
+      "_geo_key_city": "さいたま市北区",
+      "time_start": "11:00",
+      "time_end": "16:00"
+    },
+    {
       "id": "wp-e614654",
       "title": "53ニケーション（11月）",
       "date": "2026-11-22",
@@ -543,6 +576,23 @@
       "_geo_key_city": "さいたま市大宮区",
       "time_start": "10:00",
       "time_end": "15:00"
+    },
+    {
+      "id": "wp-e621842",
+      "title": "第77回むつめ祭",
+      "date": "2026-11-28",
+      "date_end": "2026-11-30",
+      "venue": "埼玉大学（さいたま市桜区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e621842/",
+      "lat": 35.86197,
+      "lng": 139.60759,
+      "_geo_key_place": "埼玉大学",
+      "_geo_key_city": "さいたま市桜区",
+      "time_start": "10:00",
+      "time_end": "19:00"
     }
   ]
 }
