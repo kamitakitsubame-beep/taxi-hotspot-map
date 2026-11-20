@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-19T10:33:37+09:00",
+  "updated_at": "2026-11-20T10:29:39+09:00",
   "events": [
     {
       "id": "wp-e600388",
       "title": "2026さいたま市 ユーモアフォトコンテスト",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "date_end": "2026-11-22",
       "venue": "プラザノース　ノースギャラリー1～7（さいたま市北区）",
       "category": "",
@@ -21,7 +21,7 @@
     {
       "id": "wp-e623481",
       "title": "太古のロマン！ミニはにわ作り",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "date_end": "2026-11-29",
       "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
       "category": "",
@@ -37,7 +37,7 @@
     {
       "id": "wp-e609347",
       "title": "山田はまち作品展",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "date_end": "2026-11-22",
       "venue": "ノースギャラリー1（さいたま市北区）",
       "category": "",
@@ -50,39 +50,6 @@
       "_geo_key_city": "さいたま市北区",
       "time_start": "10:00",
       "time_end": "17:00"
-    },
-    {
-      "id": "wp-e619939",
-      "title": "脳をいきいき保つ香り習慣　アロマミスト講座",
-      "date": "2026-11-19",
-      "date_end": "2026-11-19",
-      "venue": "さいたま市産業文化センター3階会議室（さいたま市中央区）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e619939/",
-      "lat": 35.89918,
-      "lng": 139.62231,
-      "_geo_key_place": "さいたま市産業文化センター3階会議室",
-      "_geo_key_city": "さいたま市中央区",
-      "time_start": "10:30",
-      "time_end": "14:30"
-    },
-    {
-      "id": "wp-e623482",
-      "title": "はじめての陶芸・マグカップ作り",
-      "date": "2026-11-19",
-      "date_end": "2026-11-29",
-      "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
-      "category": "",
-      "demand_level": "low",
-      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e623482/",
-      "lat": 35.83903,
-      "lng": 139.64131,
-      "_geo_key_place": "体験工房クラフトカフェ浦和",
-      "_geo_key_city": "さいたま市南区",
-      "time_start": "13:00"
     },
     {
       "id": "wp-e623340",
@@ -100,6 +67,22 @@
       "_geo_key_city": "さいたま市北区",
       "time_start": "11:00",
       "time_end": "17:00"
+    },
+    {
+      "id": "wp-e623482",
+      "title": "はじめての陶芸・マグカップ作り",
+      "date": "2026-11-20",
+      "date_end": "2026-11-29",
+      "venue": "体験工房クラフトカフェ浦和（さいたま市南区）",
+      "category": "",
+      "demand_level": "low",
+      "demand_comment": "小規模・長期開催など。需要は限定的。近くを通る際の参考に。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e623482/",
+      "lat": 35.83903,
+      "lng": 139.64131,
+      "_geo_key_place": "体験工房クラフトカフェ浦和",
+      "_geo_key_city": "さいたま市南区",
+      "time_start": "13:00"
     },
     {
       "id": "wp-e604200",
@@ -541,6 +524,38 @@
       "_geo_key_city": "さいたま市北区",
       "time_start": "19:00",
       "time_end": "20:45"
+    },
+    {
+      "id": "wp-e210630",
+      "title": "2026 埼大イルミネーション「ランタンフェスティバル」",
+      "date": "2026-12-04",
+      "date_end": "2026-12-25",
+      "venue": "埼玉大学（さいたま市桜区）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e210630/",
+      "lat": 35.86197,
+      "lng": 139.60759,
+      "_geo_key_place": "埼玉大学",
+      "_geo_key_city": "さいたま市桜区",
+      "time_start": "17:00",
+      "time_end": "19:30"
+    },
+    {
+      "id": "wp-e621711",
+      "title": "川口×絶品グルメ鍋祭り2026",
+      "date": "2026-12-04",
+      "date_end": "2026-12-06",
+      "venue": "キュポ・ラ広場（川口駅東口公共広場）（川口市）",
+      "category": "",
+      "demand_level": "medium",
+      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
+      "source_url": "https://www.walkerplus.com/event/ar0311e621711/",
+      "lat": 35.80782,
+      "lng": 139.72411,
+      "_geo_key_place": "キュポ・ラ広場（川口駅東口公共広場）",
+      "_geo_key_city": "川口市"
     }
   ]
 }
