@@ -1,21 +1,6 @@
 {
-  "updated_at": "2026-11-25T12:14:32+09:00",
+  "updated_at": "2026-11-26T11:32:00+09:00",
   "events": [
-    {
-      "id": "wp-e611587",
-      "title": "KONOSU MUSIC FESTIVAL 2026",
-      "date": "2026-11-29",
-      "date_end": "2026-11-29",
-      "venue": "吹上総合運動場内 特設ステージ（鴻巣市）",
-      "category": "",
-      "demand_level": "medium",
-      "demand_comment": "中規模イベント。来場者の行き帰りで駅・会場周辺に需要が見込まれます。",
-      "source_url": "https://www.walkerplus.com/event/ar0311e611587/",
-      "lat": 36.06576,
-      "lng": 139.52211,
-      "_geo_key_place": "吹上総合運動場内 特設ステージ",
-      "_geo_key_city": "鴻巣市"
-    },
     {
       "id": "wp-e621711",
       "title": "川口×絶品グルメ鍋祭り2026",
